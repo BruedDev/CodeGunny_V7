@@ -30,3 +30,16 @@ obj/
 # Ignore system files
 Thumbs.db
 .DS_Store
+
+# Ignore image files in res folder
+Client/res/image/
+
+# Ignore logs folder in req (not the entire req folder)
+Client/req/logs/
+Server/*/logs/
+
+# Ignore entire res folder
+Client/res/
+
+# Ignore SQL files
+*.sql

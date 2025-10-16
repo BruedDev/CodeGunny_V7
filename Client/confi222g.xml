@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <config>
-    <FLASHSITE value="http://localhost:3000/flash03/" />
-    <BACKUP_FLASHSITE value="http://localhost:3000/flash03/" />
+    <FLASHSITE value="http://192.168.1.8:3000/flash03/" />
+    <BACKUP_FLASHSITE value="http://192.168.1.8:3000/flash03/" />
     <USE_MD5 value="False" />
-    <SITE value="http://localhost:3000/res/" />
-    <FIRSTPAGE value="http://localhost:3000/" />
-    <REGISTER value="http://localhost:3000/" />
-    <REQUEST_PATH value="http://localhost:3000/req/" />
-    <LOGIN_PATH value="http://localhost:3000/index.htm" siteName="星辰彈彈堂" />
-    <FILL_PATH value="http://localhost:3000/launcher/payinfo.html?pid=49&amp;acc={user}&amp;serid=1" />
+    <SITE value="http://192.168.1.8:3000/res/" />
+    <FIRSTPAGE value="http://192.168.1.8:3000/" />
+    <REGISTER value="http://192.168.1.8:3000/" />
+    <REQUEST_PATH value="http://192.168.1.8:3000/req/" />
+    <LOGIN_PATH value="http://192.168.1.8:3000/index.htm" siteName="星辰彈彈堂" />
+    <FILL_PATH value="http://192.168.1.8:3000/launcher/payinfo.html?pid=49&amp;acc={user}&amp;serid=1" />
     <POLICY_FILES>
-      <file value="http://localhost:3000/crossdomain.xml" />
+      <file value="http://192.168.1.8:3000/crossdomain.xml" />
     </POLICY_FILES>
     <GAME_BOXPIC value="7" />
     <FIGHTLIB value="true" />
