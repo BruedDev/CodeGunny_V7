@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+  <item id="1" name="Top Player" prestige="1000000" />
+  <item id="2" name="Second Player" prestige="900000" />
+  <item id="3" name="Third Player" prestige="800000" />
+  <item id="4" name="Fourth Player" prestige="700000" />
+  <item id="5" name="Fifth Player" prestige="600000" />
+</list>
