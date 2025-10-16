@@ -1,0 +1,1335 @@
+19:30:16,984 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 27.202.234.20:55741)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+19:30:17,010 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 02 26 00 62 00 00 4D FF 00 00 00 00   q....&.b..M.....
+0010: 00 00 00 00 01 00                                 ......          
+
+2015-08-30 19:34:45,285 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 123.97.121.18:58147)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 19:34:45,287 - [45] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 02 23 00 62 00 00 4D FC 00 00 00 00   q....#.b..M.....
+0010: 00 00 00 00 01 00                                 ......          
+
+2015-08-30 19:46:10,581 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:10,661 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:10,742 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:10,822 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:10,902 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:10,982 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:11,062 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:11,142 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:11,222 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:11,302 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:11,383 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:11,463 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:11,542 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:11,622 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:11,701 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:11,781 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:11,861 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:11,941 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:12,021 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:12,100 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:12,179 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:12,258 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:12,345 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:12,425 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:12,504 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:12,583 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:12,662 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:12,741 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:12,821 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:12,907 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:12,987 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:13,066 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:13,145 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:13,223 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:13,301 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:13,380 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:13,459 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:13,538 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:13,617 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:13,696 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:13,775 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:13,853 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:13,931 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:14,009 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:14,088 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:14,169 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:14,248 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:14,327 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:14,406 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:14,485 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:14,564 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:14,643 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:14,722 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:14,802 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:14,881 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:14,960 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:15,039 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:15,118 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:15,197 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:15,276 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:15,356 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:15,436 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:15,517 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:15,597 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:15,677 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:15,757 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:15,837 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:15,917 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:46:15,997 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:16,077 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:16,156 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:16,236 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:16,316 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:16,396 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:16,476 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:16,556 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:16,636 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:16,715 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:16,794 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:16,873 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:16,952 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:17,032 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:17,111 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:17,190 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:17,269 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:17,351 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-30 19:46:17,431 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1077
+   at Game.Logic.Phy.Object.Player.PrepareNewTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1285
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 770
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+19:52:15,468 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 113.85.238.195:64002)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+19:52:15,474 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 2D 02 06 00 7C 00 00 2D D3 00 00 00 00   q..-...|..-.....
+0010: 00 00 00 00 01 00 00 00 02 00 00 00 00 00 00 00   ................
+0020: 23 00 00 00 1F 00 00 00 2E 00 00 00 20            #...........    
+
+19:56:27,648 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 220.164.176.236:5431)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+19:56:27,650 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 29 00 62 00 00 4E 01 00 00 00 00   q....).b..N.....
+0010: 00 00 00 00 01 00                                 ......          
+
+19:56:41,330 - [98] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 220.164.176.236:5431)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+19:56:41,332 - [98] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 29 00 62 00 00 4E 01 00 00 00 00   q....).b..N.....
+0010: 00 00 00 00 01 00                                 ......          
+
+20:04:02,003 - [6] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Rooms.BaseRoom.RemovePlayerAtUnsafe(Int32 pos) in e:\5.5源码\Game.Server\Game.Server.Rooms\BaseRoom.cs:line 737
+   at Game.Server.Rooms.KickPlayerAction.Execute() in e:\5.5源码\Game.Server\Game.Server.Rooms\KickPlayerAction.cs:line 15
+   at Game.Server.Rooms.RoomMgr.ExecuteActions() in e:\5.5源码\Game.Server\Game.Server.Rooms\RoomMgr.cs:line 184
+20:04:58,234 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.144.127.114:43458)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:04:58,242 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 34 00 5E 00 00 3A 50 00 00 00 00   q..L.4.^..:P....
+0010: 00 00 00 00 00 00 00 02 00 00 00 03 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 03               ............    
+
+2015-08-30 20:09:51,506 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.144.127.114:43458)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 20:09:51,508 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 0B 00 5E 00 00 3A 50 00 00 00 00   q..L...^..:P....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 01 00 00 00 00 00 00 00 00 02               ............    
+
+20:12:04,015 - [6] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Rooms.BaseRoom.RemovePlayerAtUnsafe(Int32 pos) in e:\5.5源码\Game.Server\Game.Server.Rooms\BaseRoom.cs:line 737
+   at Game.Server.Rooms.KickPlayerAction.Execute() in e:\5.5源码\Game.Server\Game.Server.Rooms\KickPlayerAction.cs:line 15
+   at Game.Server.Rooms.RoomMgr.ExecuteActions() in e:\5.5源码\Game.Server\Game.Server.Rooms\RoomMgr.cs:line 184
+20:12:47,037 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.144.127.114:43458)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:12:47,039 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 0C 00 5E 00 00 3A 50 00 00 00 00   q..L...^..:P....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 02 00 00 00 00 00 00 00 00 02               ............    
+
+2015-08-30 20:15:45,156 - [98] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.230.81.231:1721)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 20:15:45,157 - [98] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 02 21 00 5E 00 00 41 F8 00 00 00 00   q....!.^..A.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+2015-08-30 20:15:49,701 - [200] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.230.81.231:1721)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 20:15:49,702 - [200] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 02 21 00 5E 00 00 41 F8 00 00 00 00   q....!.^..A.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+2015-08-30 20:19:44,891 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.230.81.231:1721)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 20:19:44,894 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 02 21 00 5E 00 00 41 F8 00 00 00 00   q....!.^..A.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+2015-08-30 20:19:44,948 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.230.81.231:1721)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 20:19:44,949 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 02 21 00 5E 00 00 41 F8 00 00 00 00   q....!.^..A.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+2015-08-30 20:24:47,436 - [7] - ERROR - Game.Logic.PVEGame - <log4net.Error>Exception during StringFormat: Index (zero based) must be greater than or equal to zero and less than the size of the argument list. <format>game ai script m_gameAI.OnShooted() error:{1}</format><args>{System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.DCT4303.OnShooted() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\Messions\DCT4303.cs:line 257
+   at Game.Logic.PVEGame.OnShooted() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1552}</args></log4net.Error>
+2015-08-30 20:24:55,849 - [95] - ERROR - Bussiness.BaseBussiness - RenameNick
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.RenameNick(String userName, String nickName, String newNickName)
+2015-08-30 20:25:13,261 - [200] - ERROR - Bussiness.BaseBussiness - RenameNick
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.RenameNick(String userName, String nickName, String newNickName)
+2015-08-30 20:25:29,603 - [28] - ERROR - Bussiness.BaseBussiness - RenameNick
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.RenameNick(String userName, String nickName, String newNickName)
+2015-08-30 20:27:01,561 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.ItemStrengthenHandler  client: 115.133.249.221:19084)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.ItemStrengthenHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\ItemStrengthenHandler.cs:line 22
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 20:27:01,565 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 79 00 3B 00 00 4D F9 00 00 00 00   q....y.;..M.....
+0010: 00 00 00 00 00 01                                 ......          
+
+2015-08-30 20:27:01,565 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.ItemStrengthenHandler  client: 115.133.249.221:19084)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.ItemStrengthenHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\ItemStrengthenHandler.cs:line 22
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 20:27:01,567 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 79 00 3B 00 00 4D F9 00 00 00 00   q....y.;..M.....
+0010: 00 00 00 00 00 01                                 ......          
+
+2015-08-30 20:31:41,516 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 117.92.6.124:27072)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 20:31:41,518 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 37 00 5E 00 00 4C 68 00 00 00 00   q..L.7.^..Lh....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 02               ............    
+
+2015-08-30 20:31:56,989 - [203] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 117.92.6.124:27072)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 20:31:56,991 - [203] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 37 00 5E 00 00 4C 68 00 00 00 00   q..L.7.^..Lh....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 02               ............    
+
+2015-08-30 20:32:05,709 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 117.92.6.124:27072)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 20:32:05,710 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 37 00 5E 00 00 4C 68 00 00 00 00   q..L.7.^..Lh....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 02               ............    
+
+20:32:13,794 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 117.92.6.124:27072)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:32:13,795 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 37 00 5E 00 00 4C 68 00 00 00 00   q..L.7.^..Lh....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 02               ............    
+
+2015-08-30 20:41:10,880 - [202] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 60.54.15.106:50022)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 20:41:10,882 - [202] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 3A 00 5E 00 00 4D BE 00 00 00 00   q..L.:.^..M.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 07               ............    
+
+2015-08-30 20:41:31,249 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+20:50:45,451 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.ItemAdvanceHandler  client: 122.228.96.99:40281)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.ItemAdvanceHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\ItemAdvanceHandler.cs:line 23
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:50:45,454 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 14 02 25 00 8A 00 00 4D D7 00 00 00 00   q....%....M.....
+0010: 00 00 00 00                                       ....            
+
+20:50:49,563 - [6] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Rooms.BaseRoom.RemovePlayerAtUnsafe(Int32 pos) in e:\5.5源码\Game.Server\Game.Server.Rooms\BaseRoom.cs:line 737
+   at Game.Server.Rooms.KickPlayerAction.Execute() in e:\5.5源码\Game.Server\Game.Server.Rooms\KickPlayerAction.cs:line 15
+   at Game.Server.Rooms.RoomMgr.ExecuteActions() in e:\5.5源码\Game.Server\Game.Server.Rooms\RoomMgr.cs:line 184
+20:54:40,000 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+2015-08-30 20:57:19,397 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 42.185.49.198:26388)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 20:57:19,399 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 2C 00 5E 00 00 4B 79 00 00 00 00   q....,.^..Ky....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+2015-08-30 21:02:51,201 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 27.158.169.177:1979)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 21:02:51,203 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 11 5F 00 5E 00 00 4B CB 00 00 00 00   q..H._.^..K.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 02                           ........        
+
+2015-08-30 21:23:54,851 - [47] - ERROR - Bussiness.BaseBussiness - RenameNick
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.RenameNick(String userName, String nickName, String newNickName)
+21:27:18,911 - [201] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.144.127.114:43458)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+21:27:18,911 - [201] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 2D 00 5E 00 00 3A 50 00 00 00 00   q..L.-.^..:P....
+0010: 00 00 00 00 00 00 00 02 00 00 00 01 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 01               ............    
+
+2015-08-30 21:28:54,669 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 123.5.111.46:10123)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 21:28:54,671 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 08 00 5E 00 00 4E 0C 00 00 00 00   q..L...^..N.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 05 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 05               ............    
+
+2015-08-30 21:33:33,854 - [200] - ERROR - Bussiness.BaseBussiness - RenameNick
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.RenameNick(String userName, String nickName, String newNickName)
+21:40:09,083 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 121.29.11.179:49314)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+21:40:09,085 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 25 02 0B 00 7C 00 00 2F 8F 00 00 00 00   q..%...|../.....
+0010: 00 00 00 00 01 00 00 00 01 00 00 00 15 00 00 00   ................
+0020: 23 00 00 00 20                                    #...            
+
+21:42:43,716 - [277] - ERROR - Game.Server.GameServer - AsynProcessPacket
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.UsePropItem(AbstractGame game, Int32 bag, Int32 place, Int32 templateId, Boolean isLiving) in e:\5.5源码\Game.Server\Game.Server.GameObjects\GamePlayer.cs:line 3686
+   at Game.Server.Battle.FightServerConnector.HandlePlayerOnUsingItem(GSPacketIn pkg) in e:\5.5源码\Game.Server\Game.Server.Battle\FightServerConnector.cs:line 398
+   at Game.Server.Battle.FightServerConnector.AsynProcessPacket(Object state) in e:\5.5源码\Game.Server\Game.Server.Battle\FightServerConnector.cs:line 66
+21:43:44,161 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.141.65.214:59826)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+21:43:44,163 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 64 00 5E 00 00 3D A4 00 00 00 00   q..L.d.^..=.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 02               ............    
+
+21:48:42,494 - [98] - ERROR - Bussiness.BaseBussiness - RenameNick
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.RenameNick(String userName, String nickName, String newNickName)
+21:49:13,554 - [95] - ERROR - Bussiness.BaseBussiness - RenameNick
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.RenameNick(String userName, String nickName, String newNickName)
+21:50:03,305 - [203] - ERROR - Bussiness.BaseBussiness - RenameNick
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.RenameNick(String userName, String nickName, String newNickName)
+2015-08-30 21:50:51,780 - [203] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.141.65.214:59826)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 21:50:51,782 - [203] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 78 00 5E 00 00 3D A4 00 00 00 00   q..L.x.^..=.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0C 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 0C               ............    
+
+21:51:54,424 - [199] - ERROR - Bussiness.BaseBussiness - RenameNick
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.RenameNick(String userName, String nickName, String newNickName)
+21:53:18,620 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.141.65.214:59826)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+21:53:18,622 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 11 3E 00 5E 00 00 3D A4 00 00 00 00   q..H.>.^..=.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0C 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 0C                           ........        
+
+21:54:04,296 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.141.65.214:59826)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+21:54:04,298 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 11 3E 00 5E 00 00 3D A4 00 00 00 00   q..H.>.^..=.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0C 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 0C                           ........        
+
+21:54:10,677 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 183.69.234.99:1633)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+21:54:10,679 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 70 00 5E 00 00 4B F3 00 00 00 00   q..L.p.^..K.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 07               ............    
+
+2015-08-30 22:03:52,352 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.91.69.49:24798)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 22:03:52,354 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 5D 00 5E 00 00 33 A4 00 00 00 00   q..L.].^..3.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 04 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 02 00 00 00 00 00 00 00 00 04               ............    
+
+2015-08-30 22:05:55,476 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.91.69.49:24798)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 22:05:55,477 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 5F 00 5E 00 00 33 A4 00 00 00 00   q..L._.^..3.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 06 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 06               ............    
+
+2015-08-30 22:12:24,967 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.91.69.49:24798)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 22:12:24,968 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 5B 00 5E 00 00 33 A4 00 00 00 00   q..L.[.^..3.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 03 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 02 00 00 00 00 00 00 00 00 03               ............    
+
+2015-08-30 22:14:42,869 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.91.69.49:24798)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 22:14:42,870 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 5E 00 5E 00 00 33 A4 00 00 00 00   q..L.^.^..3.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 04 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 04               ............    
+
+2015-08-30 22:18:08,577 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.91.69.49:24798)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 22:18:08,578 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 6C 00 5E 00 00 33 A4 00 00 00 00   q..L.l.^..3.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0C 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 01 00 00 00 00 00 00 00 00 0C               ............    
+
+22:22:56,412 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.91.69.49:24798)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:22:56,413 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 57 00 5E 00 00 33 A4 00 00 00 00   q..L.W.^..3.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 02               ............    
+
+2015-08-30 22:24:25,083 - [98] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.91.69.49:24798)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 22:24:25,085 - [98] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 58 00 5E 00 00 33 A4 00 00 00 00   q..L.X.^..3.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 01 00 00 00 00 00 00 00 00 02               ............    
+
+2015-08-30 22:25:52,378 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.91.69.49:24798)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 22:25:52,379 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 59 00 5E 00 00 33 A4 00 00 00 00   q..L.Y.^..3.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 02 00 00 00 00 00 00 00 00 02               ............    
+
+22:27:25,315 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 115.171.61.61:50749)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:27:25,317 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 65 00 62 00 00 4D 3E 00 00 00 00   q....e.b..M>....
+0010: 00 00 00 00 01 00                                 ......          
+
+22:28:22,849 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.91.69.49:24798)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:28:22,850 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 6B 00 5E 00 00 33 A4 00 00 00 00   q..L.k.^..3.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0C 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 0C               ............    
+
+22:30:05,827 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 115.171.61.61:50749)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:30:05,829 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 65 00 62 00 00 4D 3E 00 00 00 00   q....e.b..M>....
+0010: 00 00 00 00 01 00                                 ......          
+
+2015-08-30 22:30:09,934 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 115.171.61.61:50749)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 22:30:09,935 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 65 00 62 00 00 4D 3E 00 00 00 00   q....e.b..M>....
+0010: 00 00 00 00 01 00                                 ......          
+
+2015-08-30 22:32:54,307 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.91.69.49:24798)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 22:32:54,308 - [47] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 5D 00 5E 00 00 33 A4 00 00 00 00   q..L.].^..3.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 05 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 05               ............    
+
+22:34:14,334 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.91.69.49:24798)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:34:14,335 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 5E 00 5E 00 00 33 A4 00 00 00 00   q..L.^.^..3.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 05 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 01 00 00 00 00 00 00 00 00 05               ............    
+
+2015-08-30 22:35:32,249 - [98] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.91.69.49:24798)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 22:35:32,251 - [98] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 5F 00 5E 00 00 33 A4 00 00 00 00   q..L._.^..3.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 05 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 02 00 00 00 00 00 00 00 00 05               ............    
+
+22:37:25,951 - [98] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.91.69.49:24798)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:37:25,952 - [98] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 60 00 5E 00 00 33 A4 00 00 00 00   q..L.`.^..3.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 05 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 05               ............    
+
+22:50:06,665 - [98] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 223.247.198.187:26825)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:50:06,666 - [98] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 25 00 5E 00 00 4E 11 00 00 00 00   q..H.%.^..N.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 00 00   .....come on!...
+0040: 00 00 00 00 00 00 00 02                           ........        
+
+22:51:31,101 - [200] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 223.247.198.187:26825)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:51:31,102 - [200] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 04 00 5E 00 00 4E 11 00 00 00 00   q..L...^..N.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 02               ............    
+
+2015-08-30 23:00:45,429 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 115.217.196.200:64639)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 23:00:45,430 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 07 00 5E 00 00 4D 22 00 00 00 00   q..L...^..M"....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0D 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 02 00 00 00 00 00 00 00 00 0D               ............    
+
+23:08:39,390 - [6] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.Rooms.EnterRoomAction.Execute() in e:\5.5源码\Game.Server\Game.Server.Rooms\EnterRoomAction.cs:line 44
+   at Game.Server.Rooms.RoomMgr.ExecuteActions() in e:\5.5源码\Game.Server\Game.Server.Rooms\RoomMgr.cs:line 184
+2015-08-30 23:12:39,594 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+23:19:27,512 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 14.156.56.52:27987)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:19:27,513 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 57 00 62 00 00 49 34 00 00 00 00   q....W.b..I4....
+0010: 00 00 00 00 01 00                                 ......          
+
+23:24:53,241 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.117.92.131:2345)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:24:53,246 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 2A 00 D8 00 00 3E 6C 00 00 00 00   q.. .*....>l....
+0010: 00 00 00 00 00 00 00 00 00 00 00 30 00 00 00 01   ...........0....
+
+2015-08-30 23:24:54,432 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.117.92.131:2345)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 23:24:54,434 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 29 00 D8 00 00 3E 6C 00 00 00 00   q.. .)....>l....
+0010: 00 00 00 00 00 00 00 00 00 00 00 2F 00 00 00 01   .........../....
+
+23:24:55,918 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.117.92.131:2345)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:24:55,920 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 27 00 D8 00 00 3E 6C 00 00 00 00   q.. .'....>l....
+0010: 00 00 00 00 00 00 00 00 00 00 00 2D 00 00 00 01   ...........-....
+
+23:24:58,276 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.117.92.131:2345)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:24:58,277 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 20 00 D8 00 00 3E 6C 00 00 00 00   q.. . ....>l....
+0010: 00 00 00 00 00 00 00 00 00 00 00 27 00 00 00 00   ...........'....
+
+2015-08-30 23:25:00,992 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.117.92.131:2345)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 23:25:00,994 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 20 00 D8 00 00 3E 6C 00 00 00 00   q.. . ....>l....
+0010: 00 00 00 00 00 00 00 00 00 00 00 27 00 00 00 00   ...........'....
+
+2015-08-30 23:25:13,162 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.117.92.131:2345)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 23:25:13,163 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 0A 00 D8 00 00 3E 6C 00 00 00 00   q.. ......>l....
+0010: 00 00 00 00 00 00 00 00 00 00 00 10 00 00 00 01   ................
+
+23:25:15,490 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.117.92.131:2345)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:25:15,491 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 0B 00 D8 00 00 3E 6C 00 00 00 00   q.. ......>l....
+0010: 00 00 00 00 00 00 00 00 00 00 00 10 00 00 00 02   ................
+
+2015-08-30 23:25:23,902 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.117.92.131:2345)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 23:25:23,903 - [5] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 2D 00 D8 00 00 3E 6C 00 00 00 00   q.. .-....>l....
+0010: 00 00 00 00 00 00 00 00 00 00 00 30 00 00 00 04   ...........0....
+
+23:25:25,437 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.117.92.131:2345)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:25:25,438 - [28] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 2A 00 D8 00 00 3E 6C 00 00 00 00   q.. .*....>l....
+0010: 00 00 00 00 00 00 00 00 00 00 00 30 00 00 00 01   ...........0....
+
+2015-08-30 23:29:53,660 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 116.253.148.225:5728)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 23:29:53,662 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 2A 00 5E 00 00 32 90 00 00 00 00   q....*.^..2.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+2015-08-30 23:37:07,223 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 116.253.148.225:5728)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 23:37:07,224 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 2A 00 5E 00 00 32 90 00 00 00 00   q....*.^..2.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+2015-08-30 23:57:46,184 - [299] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.ItemStrengthenHandler  client: 1.9.159.250:12114)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.ItemStrengthenHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\ItemStrengthenHandler.cs:line 22
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-30 23:57:46,185 - [299] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 18 00 3B 00 00 4E 17 00 00 00 00   q......;..N.....
+0010: 00 00 00 00 00 01                                 ......          
+

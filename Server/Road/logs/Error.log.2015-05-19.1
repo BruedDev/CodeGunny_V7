@@ -1,0 +1,11 @@
+21:39:31,023 - [10] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.TypeInitializationException: “Game.Logic.PVPGame”的类型初始值设定项引发异常。 ---> System.ArgumentNullException: 值不能为 null。
+参数名: String
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 Game.Logic.PVPGame..cctor() 位置 e:\5.5源码\Game.Logic\Game.Logic\PVPGame.cs:行号 22
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Game.Logic.PVPGame..ctor(Int32 id, Int32 roomId, List`1 red, List`1 blue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType)
+   在 Game.Server.Games.GameMgr.StartPVPGame(Int32 roomId, List`1 red, List`1 blue, Int32 mapIndex, eRoomType roomType, eGameType gameType, Int32 timeType) 位置 e:\5.5源码\Game.Server\Game.Server.Games\GameMgr.cs:行号 170
+21:39:55,029 - [24] - ERROR - Game.Server.GameServer - Center Server Disconnect! Stopping Server
+21:39:55,030 - [24] - ERROR - Game.Server.GameServer - Start the game server again after 1 second,and left try times:3

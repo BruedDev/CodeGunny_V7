@@ -1,0 +1,75 @@
+00:18:25,699 - [69] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 110.52.156.6:15141)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+00:18:25,701 - [69] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 73 00 5E 00 00 7F 45 00 00 00 00   q..L.s.^..E....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 07               ............    
+
+00:23:50,291 - [314] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 110.52.156.6:15141)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+00:23:50,293 - [314] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 1E 00 62 00 00 7F 45 00 00 00 00   q......b..E....
+0010: 00 00 00 00 01 00                                 ......          
+
+01:06:56,003 - [539] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 122.228.10.34:42867)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+01:06:56,004 - [539] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 11 4B 00 5E 00 00 7E F0 00 00 00 00   q..H.K.^..~.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0C 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 0C                           ........        
+
+2015-11-11 06:35:50,360 - [333] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 106.91.155.249:1871)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-11-11 06:35:50,361 - [333] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 35 03 24 00 7C 00 00 30 E9 00 00 00 00   q..5.$.|..0.....
+0010: 00 00 00 00 01 00 00 00 03 00 00 00 15 00 00 00   ................
+0020: 51 00 00 00 20 00 00 00 25 00 00 00 21 00 00 00   Q... ...%...!...
+0030: 26 00 00 00 22                                    &..."           
+
+07:49:55,915 - [333] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:49:56,916 - [35] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:49:57,915 - [252] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:49:58,918 - [279] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:49:59,919 - [279] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:00,921 - [263] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:01,936 - [263] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:02,938 - [263] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:03,940 - [263] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:04,951 - [263] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:05,960 - [263] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:06,961 - [263] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:07,962 - [263] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:08,964 - [208] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:09,962 - [208] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:10,964 - [389] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:11,965 - [436] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:12,966 - [436] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:13,968 - [436] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:14,963 - [436] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:15,966 - [436] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:16,968 - [436] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:17,970 - [436] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:18,972 - [210] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:19,974 - [210] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:20,977 - [210] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:21,980 - [210] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+07:50:22,982 - [210] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!

@@ -1,0 +1,1198 @@
+00:11:21,406 - [257] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 1.48.197.97:52169)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+00:11:21,408 - [257] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 55 00 62 00 00 55 A6 00 00 00 00   q....U.b..U.....
+0010: 00 00 00 00 01 00                                 ......          
+
+00:25:02,833 - [188] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 119.247.75.212:57276)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+00:25:02,834 - [188] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 78 00 5E 00 00 54 45 00 00 00 00   q..H.x.^..TE....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0D 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 0D                           ........        
+
+2015-09-17 01:27:43,994 - [6] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Rooms.BaseRoom.RemovePlayerAtUnsafe(Int32 pos) in e:\5.5源码\Game.Server\Game.Server.Rooms\BaseRoom.cs:line 737
+   at Game.Server.Rooms.KickPlayerAction.Execute() in e:\5.5源码\Game.Server\Game.Server.Rooms\KickPlayerAction.cs:line 15
+   at Game.Server.Rooms.RoomMgr.ExecuteActions() in e:\5.5源码\Game.Server\Game.Server.Rooms\RoomMgr.cs:line 184
+01:39:42,179 - [137] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 118.100.240.250:62382)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+01:39:42,181 - [137] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 28 00 5E 00 00 3C E6 00 00 00 00   q..L.(.^..<.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 05 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 05               ............    
+
+01:39:58,123 - [283] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 118.100.240.250:62382)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+01:39:58,125 - [283] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 28 00 5E 00 00 3C E6 00 00 00 00   q..L.(.^..<.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 05 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 05               ............    
+
+02:19:17,982 - [69] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 119.247.75.212:59584)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+02:19:17,983 - [69] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 5D 06 1E 00 7C 00 00 54 45 00 00 00 00   q..]...|..TE....
+0010: 00 00 00 00 01 00 00 00 08 00 00 00 15 00 00 00   ................
+0020: 3B 00 00 00 20 00 00 00 A3 00 00 00 21 00 00 00   ;... .......!...
+0030: 65 00 00 00 22 00 00 00 3D 00 00 00 23 00 00 00   e..."...=...#...
+0040: 7F 00 00 00 24 00 00 00 7E 00 00 00 25 00 00 00   ...$...~...%...
+0050: 5F 00 00 00 26 00 00 00 7C 00 00 00 27            _...&...|...'   
+
+02:24:31,901 - [74] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 119.247.75.212:59584)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+02:24:31,902 - [74] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 45 04 66 00 7C 00 00 54 45 00 00 00 00   q..E.f.|..TE....
+0010: 00 00 00 00 01 00 00 00 05 00 00 00 15 00 00 00   ................
+0020: 59 00 00 00 20 00 00 00 86 00 00 00 21 00 00 00   Y... .......!...
+0030: 26 00 00 00 22 00 00 00 82 00 00 00 23 00 00 00   &...".......#...
+0040: 8E 00 00 00 24                                    ....$           
+
+03:27:27,684 - [75] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 112.235.207.58:28335)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+03:27:27,685 - [75] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 2F 00 D8 00 00 4D 8B 00 00 00 00   q.. ./....M.....
+0010: 00 00 00 00 00 00 00 00 00 00 00 08 00 00 00 00   ................
+
+03:27:31,522 - [75] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 112.235.207.58:28335)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+03:27:31,523 - [75] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 2F 00 D8 00 00 4D 8B 00 00 00 00   q.. ./....M.....
+0010: 00 00 00 00 00 00 00 00 00 00 00 08 00 00 00 00   ................
+
+03:27:33,465 - [154] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 112.235.207.58:28335)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+03:27:33,466 - [154] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 2F 00 D8 00 00 4D 8B 00 00 00 00   q.. ./....M.....
+0010: 00 00 00 00 00 00 00 00 00 00 00 08 00 00 00 00   ................
+
+03:27:34,266 - [284] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 112.235.207.58:28335)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+03:27:34,267 - [284] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 2F 00 D8 00 00 4D 8B 00 00 00 00   q.. ./....M.....
+0010: 00 00 00 00 00 00 00 00 00 00 00 08 00 00 00 00   ................
+
+2015-09-17 03:27:39,995 - [154] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 112.235.207.58:28335)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 03:27:39,997 - [154] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 2F 00 D8 00 00 4D 8B 00 00 00 00   q.. ./....M.....
+0010: 00 00 00 00 00 00 00 00 00 00 00 08 00 00 00 00   ................
+
+03:48:22,058 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Effects.ContinueReduceDamageEffect.OnRemoved(Living living) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Effects\ContinueReduceDamageEffect.cs:line 34
+   at Game.Logic.Effects.EffectList.Remove(AbstractEffect effect) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Effects\EffectList.cs:line 65
+   at Game.Logic.Effects.AbstractEffect.Stop() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Effects\AbstractEffect.cs:line 37
+   at Game.Logic.Phy.Object.SimpleBoss.PrepareSelfTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\SimpleBoss.cs:line 241
+   at Game.Logic.PVEGame.NextTurn() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 841
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 70
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+04:25:00,439 - [26] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 222.222.221.38:51084)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+04:25:00,440 - [26] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 25 02 05 00 7C 00 00 55 FC 00 00 00 00   q..%...|..U.....
+0010: 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00   ................
+0020: 21 00 00 00 1F                                    !....           
+
+04:58:19,337 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂9.15\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+05:07:01,949 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 183.247.178.235:1263)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+05:07:01,950 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 5A 00 5E 00 00 54 3B 00 00 00 00   q..H.Z.^..T;....
+0010: 00 00 00 00 00 00 00 02 00 00 00 03 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 03                           ........        
+
+07:47:29,353 - [283] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 106.226.16.208:9859)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+07:47:29,354 - [283] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 11 17 00 5E 00 00 29 8F 00 00 00 00   q..H...^..).....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0D 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 0D                           ........        
+
+07:47:52,136 - [283] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 106.226.16.208:9859)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+07:47:52,138 - [283] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 11 17 00 5E 00 00 29 8F 00 00 00 00   q..H...^..).....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0D 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 0D                           ........        
+
+07:50:22,603 - [208] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 106.226.16.208:9859)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+07:50:22,604 - [208] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 11 17 00 5E 00 00 29 8F 00 00 00 00   q..H...^..).....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0D 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 0D                           ........        
+
+08:00:05,071 - [52] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 106.226.16.208:9859)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+08:00:05,072 - [52] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 11 15 00 5E 00 00 29 8F 00 00 00 00   q..H...^..).....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0C 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 0C                           ........        
+
+08:33:48,758 - [7] - ERROR - Game.Logic.PVEGame - <log4net.Error>Exception during StringFormat: Index (zero based) must be greater than or equal to zero and less than the size of the argument list. <format>game ai script m_gameAI.DoOther() error:{1}</format><args>{System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.DLN5104.DoOther() in d:\偏爱弹弹堂9.15\Server\Road\scripts\AI\Messions\DLN5104.cs:line 192
+   at Game.Logic.PVEGame.DoOther() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1541}</args></log4net.Error>
+08:50:12,518 - [6] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Rooms.BaseRoom.RemovePlayerAtUnsafe(Int32 pos) in e:\5.5源码\Game.Server\Game.Server.Rooms\BaseRoom.cs:line 737
+   at Game.Server.Rooms.KickPlayerAction.Execute() in e:\5.5源码\Game.Server\Game.Server.Rooms\KickPlayerAction.cs:line 15
+   at Game.Server.Rooms.RoomMgr.ExecuteActions() in e:\5.5源码\Game.Server\Game.Server.Rooms\RoomMgr.cs:line 184
+08:50:13,878 - [6] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Rooms.BaseRoom.RemovePlayerAtUnsafe(Int32 pos) in e:\5.5源码\Game.Server\Game.Server.Rooms\BaseRoom.cs:line 737
+   at Game.Server.Rooms.KickPlayerAction.Execute() in e:\5.5源码\Game.Server\Game.Server.Rooms\KickPlayerAction.cs:line 15
+   at Game.Server.Rooms.RoomMgr.ExecuteActions() in e:\5.5源码\Game.Server\Game.Server.Rooms\RoomMgr.cs:line 184
+08:50:13,879 - [6] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Rooms.BaseRoom.RemovePlayerAtUnsafe(Int32 pos) in e:\5.5源码\Game.Server\Game.Server.Rooms\BaseRoom.cs:line 737
+   at Game.Server.Rooms.KickPlayerAction.Execute() in e:\5.5源码\Game.Server\Game.Server.Rooms\KickPlayerAction.cs:line 15
+   at Game.Server.Rooms.RoomMgr.ExecuteActions() in e:\5.5源码\Game.Server\Game.Server.Rooms\RoomMgr.cs:line 184
+08:50:13,880 - [6] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Rooms.BaseRoom.RemovePlayerAtUnsafe(Int32 pos) in e:\5.5源码\Game.Server\Game.Server.Rooms\BaseRoom.cs:line 737
+   at Game.Server.Rooms.KickPlayerAction.Execute() in e:\5.5源码\Game.Server\Game.Server.Rooms\KickPlayerAction.cs:line 15
+   at Game.Server.Rooms.RoomMgr.ExecuteActions() in e:\5.5源码\Game.Server\Game.Server.Rooms\RoomMgr.cs:line 184
+09:15:41,245 - [190] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 115.133.58.73:28026)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+09:15:41,246 - [190] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 30 00 62 00 00 56 00 00 00 00 00   q....0.b..V.....
+0010: 00 00 00 00 01 00                                 ......          
+
+09:39:20,574 - [13] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 221.14.238.120:49764)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+09:39:20,575 - [13] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 02 1C 00 62 00 00 55 ED 00 00 00 00   q......b..U.....
+0010: 00 00 00 00 01 00                                 ......          
+
+10:05:50,675 - [129] - ERROR - Game.Server.GameServer - AsynProcessPacket
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.UsePropItem(AbstractGame game, Int32 bag, Int32 place, Int32 templateId, Boolean isLiving) in e:\5.5源码\Game.Server\Game.Server.GameObjects\GamePlayer.cs:line 3686
+   at Game.Server.Battle.FightServerConnector.HandlePlayerOnUsingItem(GSPacketIn pkg) in e:\5.5源码\Game.Server\Game.Server.Battle\FightServerConnector.cs:line 398
+   at Game.Server.Battle.FightServerConnector.AsynProcessPacket(Object state) in e:\5.5源码\Game.Server\Game.Server.Battle\FightServerConnector.cs:line 66
+10:48:01,745 - [130] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 222.177.13.181:4341)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+10:48:01,747 - [130] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 79 00 62 00 00 55 CA 00 00 00 00   q....y.b..U.....
+0010: 00 00 00 00 01 00                                 ......          
+
+11:29:20,664 - [77] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 122.227.250.235:49778)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+11:29:20,665 - [77] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4D 05 10 00 7C 00 00 43 69 00 00 00 00   q..M...|..Ci....
+0010: 00 00 00 00 01 00 00 00 06 00 00 00 15 00 00 00   ................
+0020: 6B 00 00 00 20 00 00 00 93 00 00 00 21 00 00 00   k... .......!...
+0030: 79 00 00 00 22 00 00 00 7A 00 00 00 23 00 00 00   y..."...z...#...
+0040: 4D 00 00 00 24 00 00 00 48 00 00 00 25            M...$...H...%   
+
+11:33:27,166 - [275] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 110.246.167.128:64779)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+11:33:27,167 - [275] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 16 4D 00 5E 00 00 36 0D 00 00 00 00   q..L.M.^..6.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 07               ............    
+
+11:33:28,063 - [275] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 203.106.154.189:2049)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 186
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+11:33:28,064 - [275] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 51 00 5E 00 00 40 35 00 00 00 00   q....Q.^..@5....
+0010: 00 00 00 00 00 00 00 07                           ........        
+
+11:34:04,106 - [100] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 122.227.250.235:49778)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+11:34:04,107 - [100] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 6A 00 5E 00 00 43 69 00 00 00 00   q..L.j.^..Ci....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0D 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 0D               ............    
+
+11:57:09,911 - [277] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 115.133.88.147:13595)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+11:57:09,913 - [277] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 02 06 00 62 00 00 55 D7 00 00 00 00   q......b..U.....
+0010: 00 00 00 00 01 00                                 ......          
+
+12:14:30,023 - [136] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 203.106.156.47:2263)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+12:14:30,024 - [136] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 38 00 5E 00 00 54 5A 00 00 00 00   q..L.8.^..TZ....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 07               ............    
+
+12:22:32,380 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂9.15\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+12:24:52,216 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 101.254.212.254:26997)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+12:24:52,217 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 52 00 5E 00 00 55 78 00 00 00 00   q..L.R.^..Ux....
+0010: 00 00 00 00 00 00 00 02 00 00 00 03 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 03               ............    
+
+12:24:58,514 - [240] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 101.254.212.254:26997)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+12:24:58,515 - [240] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 52 00 5E 00 00 55 78 00 00 00 00   q..L.R.^..Ux....
+0010: 00 00 00 00 00 00 00 02 00 00 00 03 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 03               ............    
+
+12:27:47,621 - [240] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 101.254.212.254:26997)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+12:27:47,623 - [240] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 5A 00 5E 00 00 55 78 00 00 00 00   q..L.Z.^..Ux....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 07               ............    
+
+12:37:17,229 - [183] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 111.77.49.183:26690)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+12:37:17,231 - [183] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 2A 00 5E 00 00 49 3C 00 00 00 00   q..L.*.^..I<....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 02               ............    
+
+12:44:52,283 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂9.15\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+13:02:28,713 - [222] - ERROR - Game.Server.GameServer - AsynProcessPacket
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.UsePropItem(AbstractGame game, Int32 bag, Int32 place, Int32 templateId, Boolean isLiving) in e:\5.5源码\Game.Server\Game.Server.GameObjects\GamePlayer.cs:line 3686
+   at Game.Server.Battle.FightServerConnector.HandlePlayerOnUsingItem(GSPacketIn pkg) in e:\5.5源码\Game.Server\Game.Server.Battle\FightServerConnector.cs:line 398
+   at Game.Server.Battle.FightServerConnector.AsynProcessPacket(Object state) in e:\5.5源码\Game.Server\Game.Server.Battle\FightServerConnector.cs:line 66
+13:22:29,931 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 203.106.156.47:2182)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+13:22:29,932 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 72 00 5E 00 00 54 5A 00 00 00 00   q..H.r.^..TZ....
+0010: 00 00 00 00 00 00 00 02 00 00 00 01 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 00 00   .....come on!...
+0040: 00 00 00 00 00 00 00 01                           ........        
+
+13:23:08,473 - [192] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 203.106.156.47:2182)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+13:23:08,474 - [192] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 72 00 5E 00 00 54 5A 00 00 00 00   q..H.r.^..TZ....
+0010: 00 00 00 00 00 00 00 02 00 00 00 01 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 00 00   .....come on!...
+0040: 00 00 00 00 00 00 00 01                           ........        
+
+13:30:11,892 - [192] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 113.14.65.10:4818)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+13:30:11,893 - [192] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 3D 02 75 00 7C 00 00 56 05 00 00 00 00   q..=.u.|..V.....
+0010: 00 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00   ................
+0020: 29 00 00 00 1F 00 00 00 23 00 00 00 20 00 00 00   ).......#... ...
+0030: 2A 00 00 00 21 00 00 00 2B 00 00 00 22            *...!...+..."   
+
+13:43:46,591 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 113.14.65.10:4818)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+13:43:46,592 - [199] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 2D 01 52 00 7C 00 00 56 05 00 00 00 00   q..-.R.|..V.....
+0010: 00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00   ................
+0020: 21 00 00 00 1F 00 00 00 22 00 00 00 20            !......."...    
+
+14:02:07,413 - [20] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 171.36.206.212:9681)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+14:02:07,414 - [20] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 5A 00 5E 00 00 54 34 00 00 00 00   q..H.Z.^..T4....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 02 00   .....come on!...
+0040: 00 00 00 00 00 00 00 07                           ........        
+
+14:02:51,907 - [134] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 171.36.206.212:9681)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+14:02:51,908 - [134] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 50 00 5E 00 00 54 34 00 00 00 00   q..H.P.^..T4....
+0010: 00 00 00 00 00 00 00 02 00 00 00 03 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 00 00   .....come on!...
+0040: 00 00 00 00 00 00 00 03                           ........        
+
+14:31:06,567 - [134] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 123.234.60.103:52956)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+14:31:06,569 - [134] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 35 01 61 00 7C 00 00 3C 9B 00 00 00 00   q..5.a.|..<.....
+0010: 00 00 00 00 00 00 00 00 03 00 00 00 01 00 00 00   ................
+0020: 03 00 00 00 00 00 00 00 09 00 00 00 01 00 00 00   ................
+0030: 04 00 00 00 02                                    .....           
+
+2015-09-17 14:33:52,457 - [20] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 118.117.115.135:20000)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 14:33:52,458 - [20] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 45 04 65 00 7C 00 00 55 CF 00 00 00 00   q..E.e.|..U.....
+0010: 00 00 00 00 01 00 00 00 05 00 00 00 15 00 00 00   ................
+0020: 3A 00 00 00 20 00 00 00 76 00 00 00 21 00 00 00   :... ...v...!...
+0030: 54 00 00 00 22 00 00 00 83 00 00 00 23 00 00 00   T...".......#...
+0040: 82 00 00 00 24                                    ....$           
+
+14:50:11,101 - [134] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 118.117.115.135:20000)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+14:50:11,101 - [134] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 6D 08 55 00 7C 00 00 55 CF 00 00 00 00   q..m.U.|..U.....
+0010: 00 00 00 00 01 00 00 00 0A 00 00 00 15 00 00 00   ................
+0020: 60 00 00 00 20 00 00 00 3E 00 00 00 21 00 00 00   `... ...>...!...
+0030: 82 00 00 00 22 00 00 00 AB 00 00 00 23 00 00 00   ....".......#...
+0040: 6E 00 00 00 24 00 00 00 A5 00 00 00 25 00 00 00   n...$.......%...
+0050: A3 00 00 00 26 00 00 00 AE 00 00 00 27 00 00 00   ....&.......'...
+0060: 91 00 00 00 28 00 00 00 71 00 00 00 29            ....(...q...)   
+
+2015-09-17 14:53:57,569 - [122] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 118.117.115.135:20000)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 14:53:57,570 - [122] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 45 04 74 00 7C 00 00 55 CF 00 00 00 00   q..E.t.|..U.....
+0010: 00 00 00 00 01 00 00 00 05 00 00 00 15 00 00 00   ................
+0020: 9C 00 00 00 20 00 00 00 28 00 00 00 21 00 00 00   .... ...(...!...
+0030: 67 00 00 00 22 00 00 00 39 00 00 00 23 00 00 00   g..."...9...#...
+0040: 34 00 00 00 24                                    4...$           
+
+16:05:03,012 - [30] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 125.120.142.79:55204)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+16:05:03,013 - [30] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 2D 00 5E 00 00 32 53 00 00 00 00   q..L.-.^..2S....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 02               ............    
+
+16:07:29,967 - [214] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 125.120.142.79:55204)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+16:07:29,968 - [214] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 4B 00 5E 00 00 32 53 00 00 00 00   q..H.K.^..2S....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 00 00   .....come on!...
+0040: 00 00 00 00 00 00 00 02                           ........        
+
+16:07:51,491 - [214] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 125.120.142.79:55204)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+16:07:51,492 - [214] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 4B 00 5E 00 00 32 53 00 00 00 00   q..H.K.^..2S....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 00 00   .....come on!...
+0040: 00 00 00 00 00 00 00 02                           ........        
+
+16:07:58,946 - [84] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 125.120.142.79:55204)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+16:07:58,948 - [84] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 4B 00 5E 00 00 32 53 00 00 00 00   q..H.K.^..2S....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 00 00   .....come on!...
+0040: 00 00 00 00 00 00 00 02                           ........        
+
+16:08:05,118 - [288] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 125.120.142.79:55204)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+16:08:05,119 - [288] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 4C 00 5E 00 00 32 53 00 00 00 00   q..H.L.^..2S....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 01 00   .....come on!...
+0040: 00 00 00 00 00 00 00 02                           ........        
+
+16:08:10,733 - [288] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 125.120.142.79:55204)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+16:08:10,735 - [288] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 4E 00 5E 00 00 32 53 00 00 00 00   q..H.N.^..2S....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 02                           ........        
+
+16:16:20,194 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.NPC.FourHardHawkNpc.CreateFeather() in d:\偏爱弹弹堂9.15\Server\Road\scripts\AI\NPC\FourHardHawkNpc.cs:line 162
+   at Game.Logic.Actions.LivingCallFunctionAction.ExecuteImp(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\LivingCallFunctionAction.cs:line 18
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+16:20:39,793 - [77] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.234.60.103:55244)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+16:20:39,795 - [77] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 56 00 D8 00 00 46 AB 00 00 00 00   q.. .V....F.....
+0010: 00 00 00 00 00 00 00 00 00 00 00 15 00 00 00 01   ................
+
+16:20:43,527 - [77] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.234.60.103:55244)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+16:20:43,528 - [77] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 57 00 D8 00 00 46 AB 00 00 00 00   q.. .W....F.....
+0010: 00 00 00 00 00 00 00 00 00 00 00 15 00 00 00 02   ................
+
+16:20:50,541 - [214] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.234.60.103:55244)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+16:20:50,542 - [214] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 59 00 D8 00 00 46 AB 00 00 00 00   q.. .Y....F.....
+0010: 00 00 00 00 00 00 00 00 00 00 00 19 00 00 00 00   ................
+
+16:20:58,361 - [77] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.234.60.103:55244)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+16:20:58,363 - [77] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 6F 00 D8 00 00 46 AB 00 00 00 00   q.. .o....F.....
+0010: 00 00 00 00 00 00 00 00 00 00 00 2B 00 00 00 04   ...........+....
+
+16:21:04,928 - [100] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 123.234.60.103:55244)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+16:21:04,929 - [100] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 6B 00 D8 00 00 46 AB 00 00 00 00   q.. .k....F.....
+0010: 00 00 00 00 00 00 00 00 00 00 00 29 00 00 00 02   ...........)....
+
+16:25:46,445 - [65] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 125.120.142.79:55204)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+16:25:46,447 - [65] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 2A 00 5E 00 00 32 53 00 00 00 00   q..L.*.^..2S....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 02               ............    
+
+17:22:53,153 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂9.15\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+2015-09-17 18:03:09,759 - [77] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.ItemAdvanceHandler  client: 115.133.88.205:8720)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.ItemAdvanceHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\ItemAdvanceHandler.cs:line 23
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 18:03:09,760 - [77] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 14 02 2D 00 8A 00 00 55 D7 00 00 00 00   q....-....U.....
+0010: 00 00 00 00                                       ....            
+
+18:03:10,318 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.ItemAdvanceHandler  client: 115.133.88.205:8720)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.ItemAdvanceHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\ItemAdvanceHandler.cs:line 23
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+18:03:10,319 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 14 02 2D 00 8A 00 00 55 D7 00 00 00 00   q....-....U.....
+0010: 00 00 00 00                                       ....            
+
+18:07:17,310 - [186] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 27.14.65.154:51323)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.set_Item(Int32 index, T value)
+   at Game.Server.GameUtils.PetAbstractInventory.SetSkillEquip(UsersPetinfo pet, Int32 place, String skill) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetAbstractInventory.cs:line 485
+   at Game.Server.GameUtils.PetAbstractInventory.EquipSkillPet(Int32 place, Int32 killId, Int32 killindex) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetAbstractInventory.cs:line 470
+   at Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\PetHandler.cs:line 238
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+18:07:17,316 - [186] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 01 38 00 44 00 00 50 09 00 00 00 00   q..!.8.D..P.....
+0010: 00 00 00 00 07 00 00 00 02 00 00 00 97 00 00 00   ................
+0020: 04                                                .               
+
+18:09:13,799 - [64] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 171.107.204.241:15490)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+18:09:13,801 - [64] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 45 04 2F 00 7C 00 00 32 90 00 00 00 00   q..E./.|..2.....
+0010: 00 00 00 00 01 00 00 00 05 00 00 00 15 00 00 00   ................
+0020: 87 00 00 00 20 00 00 00 6F 00 00 00 21 00 00 00   .... ...o...!...
+0030: 7E 00 00 00 22 00 00 00 4E 00 00 00 23 00 00 00   ~..."...N...#...
+0040: 73 00 00 00 24                                    s...$           
+
+18:14:01,121 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂9.15\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+18:25:59,300 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.NecklaceStrengthHandler  client: 183.185.41.239:26925)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.NecklaceStrengthHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\NecklaceStrengthHandler.cs:line 16
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+18:25:59,302 - [90] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1D 01 61 00 5F 00 00 54 36 00 00 00 00   q....a._..T6....
+0010: 00 00 00 00 01 00 00 00 00 00 00 00 00            .............   
+
+18:27:34,504 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.NecklaceStrengthHandler  client: 183.185.41.239:26925)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.NecklaceStrengthHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\NecklaceStrengthHandler.cs:line 16
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+18:27:34,505 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1D 01 61 00 5F 00 00 54 36 00 00 00 00   q....a._..T6....
+0010: 00 00 00 00 01 00 00 00 00 00 00 00 00            .............   
+
+18:44:57,862 - [257] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 171.107.204.241:14217)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+18:44:57,863 - [257] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 45 04 1F 00 7C 00 00 32 AB 00 00 00 00   q..E...|..2.....
+0010: 00 00 00 00 01 00 00 00 05 00 00 00 15 00 00 00   ................
+0020: 8A 00 00 00 20 00 00 00 3A 00 00 00 21 00 00 00   .... ...:...!...
+0030: 9A 00 00 00 22 00 00 00 69 00 00 00 23 00 00 00   ...."...i...#...
+0040: 43 00 00 00 24                                    C...$           
+
+18:45:26,649 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂9.15\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+2015-09-17 18:51:38,810 - [33] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 171.107.204.241:15490)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 18:51:38,811 - [33] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4D 04 69 00 7C 00 00 32 90 00 00 00 00   q..M.i.|..2.....
+0010: 00 00 00 00 01 00 00 00 06 00 00 00 15 00 00 00   ................
+0020: 34 00 00 00 20 00 00 00 2A 00 00 00 21 00 00 00   4... ...*...!...
+0030: A3 00 00 00 22 00 00 00 AB 00 00 00 23 00 00 00   ....".......#...
+0040: 49 00 00 00 24 00 00 00 54 00 00 00 25            I...$...T...%   
+
+18:58:50,869 - [17] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 115.133.88.205:28423)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+18:58:50,871 - [17] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 02 06 00 62 00 00 55 D7 00 00 00 00   q......b..U.....
+0010: 00 00 00 00 01 00                                 ......          
+
+19:06:45,517 - [33] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 115.202.86.248:2677)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.GameUtils.PetInventory.MoveEqFromBag(Int32 place, Int32 eqslot, ItemInfo item) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetInventory.cs:line 288
+   at Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\PetHandler.cs:line 423
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+19:06:45,520 - [33] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 01 71 00 44 00 00 37 A1 00 00 00 00   q..!.q.D..7.....
+0010: 00 00 00 00 14 00 00 00 00 00 00 00 49 00 00 00   ............I...
+0020: 01                                                .               
+
+19:06:48,187 - [33] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 115.202.86.248:2677)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.GameUtils.PetInventory.MoveEqFromBag(Int32 place, Int32 eqslot, ItemInfo item) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetInventory.cs:line 288
+   at Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\PetHandler.cs:line 423
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+19:06:48,189 - [33] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 01 71 00 44 00 00 37 A1 00 00 00 00   q..!.q.D..7.....
+0010: 00 00 00 00 14 00 00 00 00 00 00 00 49 00 00 00   ............I...
+0020: 01                                                .               
+
+19:06:49,665 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 115.202.86.248:2677)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.GameUtils.PetInventory.MoveEqFromBag(Int32 place, Int32 eqslot, ItemInfo item) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetInventory.cs:line 288
+   at Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\PetHandler.cs:line 423
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+19:06:49,666 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 01 71 00 44 00 00 37 A1 00 00 00 00   q..!.q.D..7.....
+0010: 00 00 00 00 14 00 00 00 00 00 00 00 49 00 00 00   ............I...
+0020: 01                                                .               
+
+19:16:17,987 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 112.132.24.133:28152)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+19:16:17,988 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 35 02 2D 00 7C 00 00 56 12 00 00 00 00   q..5.-.|..V.....
+0010: 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00   ................
+0020: 24 00 00 00 1F 00 00 00 26 00 00 00 20 00 00 00   $.......&... ...
+0030: 25 00 00 00 21                                    %...!           
+
+19:33:06,248 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.NecklaceStrengthHandler  client: 183.185.41.239:26788)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.NecklaceStrengthHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\NecklaceStrengthHandler.cs:line 16
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+19:33:06,249 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1D 01 43 00 5F 00 00 54 98 00 00 00 00   q....C._..T.....
+0010: 00 00 00 00 01 00 00 00 00 00 00 00 00            .............   
+
+19:56:32,248 - [96] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 101.254.212.254:10363)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+19:56:32,249 - [96] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 22 00 5E 00 00 54 35 00 00 00 00   q..L.".^..T5....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0D 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 0D               ............    
+
+2015-09-17 20:13:22,424 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 20:13:22,426 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:13:28,372 - [184] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:13:28,373 - [184] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:13:32,695 - [96] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:13:32,696 - [96] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:13:40,707 - [184] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:13:40,708 - [184] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:13:42,739 - [96] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:13:42,741 - [96] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:13:47,164 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:13:47,165 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:13:51,393 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:13:51,394 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:13:55,467 - [92] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:13:55,468 - [92] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:13:57,914 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:13:57,915 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:14:01,927 - [184] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:14:01,929 - [184] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:14:06,279 - [184] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:14:06,280 - [184] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:14:09,418 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:14:09,419 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:14:12,528 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:14:12,529 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:14:15,927 - [96] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:14:15,928 - [96] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+2015-09-17 20:14:19,414 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 20:14:19,415 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:14:23,482 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:14:23,483 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:14:27,526 - [92] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:14:27,527 - [92] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+2015-09-17 20:14:30,852 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 20:14:30,853 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:16:37,539 - [92] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:16:37,540 - [92] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:16:44,173 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:16:44,174 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:16:47,739 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:16:47,740 - [23] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:16:52,102 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:16:52,103 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:16:56,474 - [92] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:16:56,475 - [92] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:17:00,414 - [92] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 175.140.206.207:50274)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:17:00,415 - [92] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 6B 00 5E 00 00 3F C4 00 00 00 00   q....k.^..?.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+2015-09-17 20:37:19,744 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 219.157.248.249:2099)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 20:37:19,745 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 9D 08 21 00 7C 00 00 54 FD 00 00 00 00   q....!.|..T.....
+0010: 00 00 00 00 00 00 00 00 10 00 00 00 00 00 00 00   ................
+0020: 39 00 00 00 1F 00 00 00 45 00 00 00 20 00 00 00   9.......E... ...
+0030: 46 00 00 00 21 00 00 00 48 00 00 00 22 00 00 00   F...!...H..."...
+0040: 38 00 00 00 23 00 00 00 35 00 00 00 24 00 00 00   8...#...5...$...
+0050: 3A 00 00 00 25 00 00 00 4A 00 00 00 26 00 00 00   :...%...J...&...
+0060: 36 00 00 00 27 00 00 00 33 00 00 00 28 00 00 00   6...'...3...(...
+0070: 3E 00 00 00 29 00 00 00 3C 00 00 00 2A 00 00 00   >...)...<...*...
+0080: 43 00 00 00 2B 00 00 00 41 00 00 00 2C 00 00 00   C...+...A...,...
+0090: 42 00 00 00 2D 00 00 00 3F 00 00 00 2E            B...-...?....   
+
+2015-09-17 20:48:21,614 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 36.232.151.46:4142)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 20:48:21,615 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 30 00 5E 00 00 51 77 00 00 00 00   q....0.^..Qw....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+20:52:10,130 - [46] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 36.232.151.46:4142)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:52:10,131 - [46] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 30 00 5E 00 00 51 77 00 00 00 00   q....0.^..Qw....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+21:03:46,281 - [156] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 171.107.204.241:14362)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+21:03:46,282 - [156] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 45 04 65 00 7C 00 00 32 AB 00 00 00 00   q..E.e.|..2.....
+0010: 00 00 00 00 01 00 00 00 05 00 00 00 15 00 00 00   ................
+0020: 96 00 00 00 20 00 00 00 AA 00 00 00 21 00 00 00   .... .......!...
+0030: 59 00 00 00 22 00 00 00 6A 00 00 00 23 00 00 00   Y..."...j...#...
+0040: 4D 00 00 00 24                                    M...$           
+
+21:24:50,046 - [11] - ERROR - Game.Server.GameServer - AsynProcessPacket
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.UsePropItem(AbstractGame game, Int32 bag, Int32 place, Int32 templateId, Boolean isLiving) in e:\5.5源码\Game.Server\Game.Server.GameObjects\GamePlayer.cs:line 3686
+   at Game.Server.Battle.FightServerConnector.HandlePlayerOnUsingItem(GSPacketIn pkg) in e:\5.5源码\Game.Server\Game.Server.Battle\FightServerConnector.cs:line 398
+   at Game.Server.Battle.FightServerConnector.AsynProcessPacket(Object state) in e:\5.5源码\Game.Server\Game.Server.Battle\FightServerConnector.cs:line 66
+2015-09-17 22:12:32,363 - [106] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 59.37.144.96:15893)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 22:12:32,364 - [106] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 18 00 5E 00 00 56 1A 00 00 00 00   q..L...^..V.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 02               ............    
+
+22:13:57,901 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 179.179.94.82:54244)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:13:57,902 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 16 7C 00 5E 00 00 56 1C 00 00 00 00   q..L.|.^..V.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 07               ............    
+
+2015-09-17 22:18:07,176 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 179.179.94.82:54244)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 22:18:07,178 - [117] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 18 00 5E 00 00 56 1C 00 00 00 00   q..L...^..V.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 01 00 00 00 00 00 00 00 00 02               ............    
+
+22:20:48,721 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.NPC.NormalKingFirst.NextAttack() in d:\偏爱弹弹堂9.15\Server\Road\scripts\AI\NPC\NormalKingFirst.cs:line 151
+   at Game.Logic.Actions.LivingCallFunctionAction.ExecuteImp(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\LivingCallFunctionAction.cs:line 18
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-09-17 22:25:16,370 - [106] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 179.179.94.82:54244)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 22:25:16,371 - [106] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 15 00 5E 00 00 56 1C 00 00 00 00   q..L...^..V.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 01 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 01               ............    
+
+22:28:01,106 - [139] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 59.37.144.96:15893)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:28:01,108 - [139] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 16 7D 00 5E 00 00 56 1A 00 00 00 00   q..L.}.^..V.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 07               ............    
+
+2015-09-17 22:28:15,196 - [96] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 59.37.144.96:15893)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 22:28:15,197 - [96] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 16 7D 00 5E 00 00 56 1A 00 00 00 00   q..L.}.^..V.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 07               ............    
+
+2015-09-17 23:17:39,067 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 120.69.246.158:4040)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-09-17 23:17:39,068 - [95] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 14 00 5E 00 00 33 23 00 00 00 00   q..L...^..3#....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0D 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 0D               ............    
+
+23:46:55,902 - [237] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.ItemAdvanceHandler  client: 111.176.65.79:55695)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.ItemAdvanceHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\ItemAdvanceHandler.cs:line 23
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:46:55,903 - [237] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 14 01 0E 00 8A 00 00 41 4C 00 00 00 00   q.........AL....
+0010: 00 00 00 00                                       ....            
+
+23:56:15,885 - [107] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 175.140.206.207:52146)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:56:15,887 - [107] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 BD 0B 7B 00 7C 00 00 3E 10 00 00 00 00   q....{.|..>.....
+0010: 00 00 00 00 01 00 00 00 14 00 00 00 15 00 00 00   ................
+0020: 37 00 00 00 20 00 00 00 58 00 00 00 21 00 00 00   7... ...X...!...
+0030: 59 00 00 00 22 00 00 00 56 00 00 00 23 00 00 00   Y..."...V...#...
+0040: 5D 00 00 00 24 00 00 00 57 00 00 00 25 00 00 00   ]...$...W...%...
+0050: 5C 00 00 00 26 00 00 00 54 00 00 00 27 00 00 00   \...&...T...'...
+0060: 5A 00 00 00 28 00 00 00 60 00 00 00 29 00 00 00   Z...(...`...)...
+0070: 62 00 00 00 2A 00 00 00 5F 00 00 00 2B 00 00 00   b...*..._...+...
+0080: 61 00 00 00 2C 00 00 00 55 00 00 00 2D 00 00 00   a...,...U...-...
+0090: 5B 00 00 00 2E 00 00 00 5E 00 00 00 2F 00 00 00   [.......^.../...
+00A0: 52 00 00 00 30 00 00 00 51 00 00 00 31 00 00 00   R...0...Q...1...
+00B0: 50 00 00 00 32 00 00 00 53 00 00 00 33            P...2...S...3   
+
+23:59:45,042 - [96] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 175.140.206.207:52146)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:59:45,043 - [96] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 35 03 46 00 7C 00 00 3E 10 00 00 00 00   q..5.F.|..>.....
+0010: 00 00 00 00 01 00 00 00 03 00 00 00 15 00 00 00   ................
+0020: 84 00 00 00 20 00 00 00 83 00 00 00 21 00 00 00   .... .......!...
+0030: 82 00 00 00 22                                    ...."           
+

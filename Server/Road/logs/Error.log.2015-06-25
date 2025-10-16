@@ -1,0 +1,5 @@
+20:37:51,242 - [9] - ERROR - Game.Server.GameServer - QQTipScanTimerProc
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Bussiness.Managers.QQTipsMgr.GetQQtipsMessages()
+   at Game.Server.GameServer.QQTipScanTimerProc(Object sender) in e:\5.5ิดย๋\Game.Server\Game.Server\GameServer.cs:line 1146

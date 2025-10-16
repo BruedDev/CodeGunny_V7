@@ -1,0 +1,473 @@
+20:42:30,626 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+20:42:30,708 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,766 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property Edition,keep it default value!
+20:42:30,768 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,768 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property MustComposeGold,keep it default value!
+20:42:30,769 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,770 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property MustFusionGold,keep it default value!
+20:42:30,771 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,772 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property MustStrengthenGold,keep it default value!
+20:42:30,774 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,775 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property CheckRewardItem,keep it default value!
+20:42:30,777 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,778 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property CheckCount,keep it default value!
+20:42:30,779 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,780 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property HymenealMoney,keep it default value!
+20:42:30,782 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,783 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DivorcedMoney,keep it default value!
+20:42:30,784 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,785 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DivorcedDiscountMoney,keep it default value!
+20:42:30,787 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,788 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property MarryRoomCreateMoney,keep it default value!
+20:42:30,790 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,791 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property BoxAppearCondition,keep it default value!
+20:42:30,793 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,794 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DisableCommands,keep it default value!
+20:42:30,796 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,797 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property AssState,keep it default value!
+20:42:30,798 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,799 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DailyAwardState,keep it default value!
+20:42:30,801 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,802 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property Cess,keep it default value!
+20:42:30,804 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,805 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property BeginAuction,keep it default value!
+20:42:30,806 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,808 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property EndAuction,keep it default value!
+20:42:30,810 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,811 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property HotSpringExp,keep it default value!
+20:42:30,813 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,814 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property ConsortiaStrengthenEx,keep it default value!
+20:42:30,816 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,817 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property RuneLevelUpExp,keep it default value!
+20:42:30,819 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,820 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property VIPExpForEachLv,keep it default value!
+20:42:30,822 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,823 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property HoleLevelUpExpList,keep it default value!
+20:42:30,825 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,827 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property VIPStrengthenEx,keep it default value!
+20:42:30,829 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,831 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property CustomLimit,keep it default value!
+20:42:30,832 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,833 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property IsLimitCount,keep it default value!
+20:42:30,835 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,836 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LimitCount,keep it default value!
+20:42:30,837 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,838 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property IsLimitMoney,keep it default value!
+20:42:30,840 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,841 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LimitMoney,keep it default value!
+20:42:30,843 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,845 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property IsLimitAuction,keep it default value!
+20:42:30,846 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,847 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LimitAuction,keep it default value!
+20:42:30,849 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,850 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property IsLimitMail,keep it default value!
+20:42:30,852 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,853 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LimitMail,keep it default value!
+20:42:30,855 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,856 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property TestActive,keep it default value!
+20:42:30,858 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,859 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property WishBeadLimitLv,keep it default value!
+20:42:30,861 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,862 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property IsWishBeadLimit,keep it default value!
+20:42:30,864 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,865 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property BagMailEnable,keep it default value!
+20:42:30,867 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,868 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property FreeMoney,keep it default value!
+20:42:30,870 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,871 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property FreeExp,keep it default value!
+20:42:30,873 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,875 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property BigExp,keep it default value!
+20:42:30,876 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,878 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property PetExp,keep it default value!
+20:42:30,879 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,881 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property IsActiveMoney,keep it default value!
+20:42:30,882 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,884 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property IsDDTMoneyActive,keep it default value!
+20:42:30,886 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,887 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property NewChickenBeginTime,keep it default value!
+20:42:30,889 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,890 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property NewChickenEndTime,keep it default value!
+20:42:30,892 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,893 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property NewChickenEagleEyePrice,keep it default value!
+20:42:30,895 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,896 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property NewChickenOpenCardPrice,keep it default value!
+20:42:30,898 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,898 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property NewChickenFlushPrice,keep it default value!
+20:42:30,899 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,900 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DiceBeginTime,keep it default value!
+20:42:30,901 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,902 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DiceEndTime,keep it default value!
+20:42:30,903 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,903 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DiceRefreshPrice,keep it default value!
+20:42:30,905 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,906 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property CommonDicePrice,keep it default value!
+20:42:30,908 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,908 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DoubleDicePrice,keep it default value!
+20:42:30,910 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,910 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property BigDicePrice,keep it default value!
+20:42:30,911 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,912 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property SmallDicePrice,keep it default value!
+20:42:30,913 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,914 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property PyramidBeginTime,keep it default value!
+20:42:30,915 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,915 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property PyramidEndTime,keep it default value!
+20:42:30,917 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,917 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property PyramidRevivePrice,keep it default value!
+20:42:30,919 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,919 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property BoguAdventurePrice,keep it default value!
+20:42:30,921 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,922 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property PyramydTurnCardPrice,keep it default value!
+20:42:30,923 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,925 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatBeginDate,keep it default value!
+20:42:30,926 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,927 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatEndDate,keep it default value!
+20:42:30,928 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,929 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property FightFootballTime,keep it default value!
+20:42:30,930 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,930 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property KingBuffPrice,keep it default value!
+20:42:30,932 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,932 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property RunePackageID,keep it default value!
+20:42:30,933 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,934 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property OpenRunePackageMoney,keep it default value!
+20:42:30,935 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,936 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property OpenRunePackageRange,keep it default value!
+20:42:30,937 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,938 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property MagicPackageID,keep it default value!
+20:42:30,939 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,940 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property MagicStoneOpenPoint,keep it default value!
+20:42:30,942 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,943 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property OpenMagicStonePackageMoney,keep it default value!
+20:42:30,944 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,945 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LuckStarActivityBeginDate,keep it default value!
+20:42:30,946 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,946 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LuckStarActivityEndDate,keep it default value!
+20:42:30,947 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,948 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DDPlayActivityBeginDate,keep it default value!
+20:42:30,949 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,950 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DDPlayActivityEndDate,keep it default value!
+20:42:30,951 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,952 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DDPlayActivityMoney,keep it default value!
+20:42:30,953 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,954 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property MinUseNum,keep it default value!
+20:42:30,955 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,956 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterBeginDate,keep it default value!
+20:42:30,957 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,958 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterEndDate,keep it default value!
+20:42:30,960 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,960 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterBoxInfo,keep it default value!
+20:42:30,961 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,962 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterBuffMoney,keep it default value!
+20:42:30,964 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,964 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterFightNum,keep it default value!
+20:42:30,966 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,966 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterHP,keep it default value!
+20:42:30,968 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,969 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterOpenLevel,keep it default value!
+20:42:30,970 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,971 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DiceGameAwardAndCount,keep it default value!
+20:42:30,972 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,972 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleAnswerScore,keep it default value!
+20:42:30,973 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,975 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleBeginDate,keep it default value!
+20:42:30,976 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,977 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleEndDate,keep it default value!
+20:42:30,978 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,979 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleBeginTime,keep it default value!
+20:42:30,980 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,981 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleEndTime,keep it default value!
+20:42:30,982 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,982 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleFreeHitNum,keep it default value!
+20:42:30,984 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,984 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleFreeComboNum,keep it default value!
+20:42:30,986 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,986 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleComboMoney,keep it default value!
+20:42:30,987 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,988 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleHitMoney,keep it default value!
+20:42:30,990 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,990 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleAnswerTime,keep it default value!
+20:42:30,992 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,993 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleOpenLevel,keep it default value!
+20:42:30,994 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,995 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property WarriorFamRaidPricePerMin,keep it default value!
+20:42:30,996 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,997 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property WarriorFamRaidPriceSmall,keep it default value!
+20:42:30,998 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:30,998 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property WarriorFamRaidPriceBig,keep it default value!
+20:42:31,000 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,000 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property WarriorFamRaidDDTPrice,keep it default value!
+20:42:31,001 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,002 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property WarriorFamRaidTimeRemain,keep it default value!
+20:42:31,003 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,004 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasBeginDate,keep it default value!
+20:42:31,005 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,006 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasEndDate,keep it default value!
+20:42:31,007 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,008 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasGifts,keep it default value!
+20:42:31,010 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,010 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasGiftsMaxNum,keep it default value!
+20:42:31,011 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,012 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasBuildSnowmanDoubleMoney,keep it default value!
+20:42:31,013 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,014 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasBuyTimeMoney,keep it default value!
+20:42:31,015 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,015 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasMinute,keep it default value!
+20:42:31,017 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,018 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasBuyMinute,keep it default value!
+20:42:31,019 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,020 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatByMoney,keep it default value!
+20:42:31,021 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,021 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatByProps,keep it default value!
+20:42:31,023 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,023 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatMaxScore,keep it default value!
+20:42:31,025 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,026 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatMinScore,keep it default value!
+20:42:31,027 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,028 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatAreaMinScore,keep it default value!
+20:42:31,029 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,030 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatProp,keep it default value!
+20:42:31,031 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,032 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatConvertHours,keep it default value!
+20:42:31,033 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,034 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property PromotePackagePrice,keep it default value!
+20:42:31,035 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,036 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property IsPromotePackageOpen,keep it default value!
+20:42:31,037 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,038 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property SearchGoodsFreeLimit,keep it default value!
+20:42:31,039 - [MAIN] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.ServiceBussiness.GetServerPropertyByKey(String key) in d:\Gunny Project\BACTHAYTULUYEN\Workspce.Gunny.II\Bussiness\ServiceBussiness.cs:line 256
+20:42:31,040 - [MAIN] - ERROR - Bussiness.GameProperties - Cannot find server property SearchGoodsPayMoney,keep it

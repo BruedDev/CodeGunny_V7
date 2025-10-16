@@ -1,0 +1,15 @@
+06:44:58,430 - [36] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 123.193.145.251:1937)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5ิดย๋\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5ิดย๋\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+06:44:58,448 - [36] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 45 05 2A 00 7C 00 00 74 61 00 00 00 00   q..E.*.|..ta....
+0010: 00 00 00 00 01 00 00 00 05 00 00 00 15 00 00 00   ................
+0020: A8 00 00 00 20 00 00 00 56 00 00 00 21 00 00 00   .... ...V...!...
+0030: 8A 00 00 00 22 00 00 00 A6 00 00 00 23 00 00 00   ....".......#...
+0040: 6F 00 00 00 24                                    o...$           
+
+06:45:19,282 - [47] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!
+06:45:20,283 - [42] - ERROR - Game.Base.BaseConnector - Connect 222.187.227.159:9208 failed!

@@ -1,0 +1,3 @@
+22:25:57,182 - [340] - ERROR - Game.Server.GameServer - Center Server Disconnect! Stopping Server
+22:25:57,182 - [340] - ERROR - Game.Server.GameServer - Start the game server again after 1 second,and left try times:3
+22:25:57,197 - [330] - ERROR - Game.Base.BaseConnector - Connect 221.231.6.201:9208 failed!

@@ -1,0 +1,24 @@
+﻿<RootMenu>
+  <List Name="帽子" Script="loading_ItemIcon(1, 1, true)"/>
+  <List Name="眼镜" Script="loading_ItemIcon(2, 1, true)"/>
+  <List Name="头发" Script="loading_ItemIcon(3, 1, true)"/>
+  <List Name="脸颊" Script="loading_ItemIcon(4, 1, true)"/>
+  <List Name="衣服" Script="loading_ItemIcon(5, 1, true)"/>
+  <List Name="眼睛" Script="loading_ItemIcon(6, 1, true)"/>
+  <List Name="武器" Script="loading_ItemIcon(7, 1, true)"/>
+  <List Name="手链" Script="loading_ItemIcon(8, 1, true)"/>
+  <List Name="戒指" Script="loading_ItemIcon(9, 1, true)"/>
+  <List Name="套装" Script="loading_ItemIcon(13, 1, true)"/>
+  <List Name="翅膀" Script="loading_ItemIcon(15, 1, true)"/>
+  <List Name="副手" Script="loading_ItemIcon(17, 1, true)"/>
+  <List Name="项链" Script="loading_ItemIcon(14, 1, true)"/>
+  <List Name="卡牌" Script="loading_ItemIcon(18, 1, true)"/>
+  <List Name="道具" Script="loading_ItemIcon(11, 1, true)"/>
+	<List Name="宠物" Script="loading_ItemIcon(35, 1, true)"/>
+	<List Name="食物" Script="loading_ItemIcon(34, 1, true)"/>
+	<List Name="Nước tu luyện" Script="loading_ItemIcon(20, 1, true)"/>
+    
+	
+	
+    
+</RootMenu>

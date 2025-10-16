@@ -1,0 +1,33 @@
+<!--{subtemplate common/header}-->
+
+<div class="bm cl" id="pt">
+	<div class="z">
+		<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a> <em>&rsaquo;</em><a href="plugin.php?id=ddts">$navtitle</a> 
+	</div>
+</div>
+
+	<center>
+<iframe frameborder="0" scrolling="No" width="800" height="600" 
+src="http://localhost/forum/source/plugin/ddts/previewLoading.swf"> </iframe></center>
+
+<p style="margin:10px auto; ">
+<script language=javascript>
+    function MM_findObj(n, d) {
+    var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+    if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+    for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+    if(!x && document.getElementById) x=document.getElementById(n); return x;
+    }
+    function JM_cc(ob){
+    var obj=MM_findObj(ob); if (obj) {
+    obj.select();js=obj.createTextRange();js.execCommand("Copy");}
+    alert("{lang ddts:succm}");
+    }
+</script>
+<script language=javascript>
+document.write('<input class="px vm" value="'+window.location.href+'" size="80">');
+</script>
+<input type="button" class="pn vm" value="{lang ddts:invite}" onclick=JM_cc("page_url") />
+</p>
+{subtemplate common/footer}

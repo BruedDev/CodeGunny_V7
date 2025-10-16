@@ -1,0 +1,9 @@
+13:40:35,836 - [12] - ERROR - Game.Server.GameObjects.GamePlayer - Error Login!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.Equip.isDress(ItemTemplateInfo info)
+   at Game.Server.GameUtils.PlayerEquipInventory.AddItemTo(ItemInfo item, Int32 place) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerEquipInventory.cs:line 120
+   at Game.Server.GameUtils.PlayerInventory.LoadFromDatabase() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerInventory.cs:line 56
+   at Game.Server.GameUtils.PlayerEquipInventory.LoadFromDatabase() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerEquipInventory.cs:line 58
+   at Game.Server.GameObjects.GamePlayer.UpdateItemForUser(Object state) in e:\5.5源码\Game.Server\Game.Server.GameObjects\GamePlayer.cs:line 2859
+   at Game.Server.GameObjects.GamePlayer.LoadFromDatabase() in e:\5.5源码\Game.Server\Game.Server.GameObjects\GamePlayer.cs:line 2660
+   at Game.Server.GameObjects.GamePlayer.Login() in e:\5.5源码\Game.Server\Game.Server.GameObjects\GamePlayer.cs:line 2434

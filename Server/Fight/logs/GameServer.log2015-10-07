@@ -1,0 +1,38 @@
+03:24:02,289 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:18
+04:16:25,066 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:7
+08:26:14,396 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:4
+11:36:26,492 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:41
+13:22:07,326 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:1
+13:25:51,603 - [7] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 0  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+13:40:20,263 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:1
+14:04:26,432 - [7] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 0  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+14:42:45,439 - [7] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 0  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+16:15:07,644 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:7
+16:17:03,418 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:7
+17:11:42,983 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:10
+17:23:56,727 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:10
+17:39:58,595 - [7] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 0  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+18:54:34,768 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:27
+19:00:12,040 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:47
+19:18:21,280 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:27
+21:50:27,083 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:24
+22:03:56,039 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:24
+22:30:03,624 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:14
+22:37:40,562 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:14
+23:23:42,166 - [39] - WARN  - Fighting.Server.ServerClient - Room already exists:20

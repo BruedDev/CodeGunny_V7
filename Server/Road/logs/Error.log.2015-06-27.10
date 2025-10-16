@@ -1,0 +1,4 @@
+21:20:03,760 - [MAIN] - ERROR - Bussiness.BaseBussiness - Init
+System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Bussiness.ProduceBussiness.GetALllShop()

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>偏爱公告</title>
+        <meta name="description" content="Custom Login Form Styling with CSS3" />
+        <meta name="keywords" content="css3, login, form, custom, input, submit, button, html5, placeholder" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script type="text/javascript" src="script/jquery-1.7.2.min.js"></script>
+        <script src="script/modernizr.custom.63321.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/thickbox.css">
+        
+        <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+		<style>
+		html, body	{ height:100%; }
+			body {
+				 margin: 0px auto;
+            padding: 0px;
+            background-image:url(images/123.jpg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			}
+			li {
+			text-align: left;			
+			padding-left: 230px;
+			color:white;
+			}
+			#errorSummary {
+				text-align: center;
+				font-size: 18px;
+				color:Yellow;
+				padding-top: 80px;
+						}
+			
+		</style>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var url = $(location).attr('search');//substring(1);
+                url = url.substring(1);
+                //xmlhttpPost("../" + url + "/");
+            });
+            
+            function xmlhttpPost(strURL) {
+               
+                $.ajax({
+                    type: 'GET',
+                    url: strURL + 'createLogin.ashx',
+                    success: function (data_revert) {
+
+                        if (data_revert == "ok") {
+                            location.replace(strURL + "LoginGame.aspx");                            
+                        }
+                        else
+                            location.replace("login.htm?open=self");

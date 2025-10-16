@@ -1,0 +1,17 @@
+﻿<RootMenu>
+    <List Name="帽子" Script="loading_ItemIcon(21, 1, true)"/>
+    <List Name="Kính" Script="loading_ItemIcon(22, 1, true)"/>
+    <List Name="Tóc" Script="loading_ItemIcon(23, 1, true)"/>
+    <List Name="Mặt" Script="loading_ItemIcon(24, 1, true)"/>
+    <List Name="Áo" Script="loading_ItemIcon(25, 1, true)"/>
+    <List Name="Mắt" Script="loading_ItemIcon(26, 1, true)"/>
+    <List Name="Vũ Khí" Script="loading_ItemIcon(27, 1, true)"/>
+    <List Name="Vòng tay" Script="loading_ItemIcon(28, 1, true)"/>
+    <List Name="Nhẩn" Script="loading_ItemIcon(29, 1, true)"/>
+    <List Name="武器配件" Script="loading_ItemIcon(17, 1, true)"/>
+
+    
+	
+	
+    
+</RootMenu>

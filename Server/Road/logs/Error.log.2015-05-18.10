@@ -1,0 +1,492 @@
+20:04:11,525 - [69] - ERROR - Bussiness.BaseBussiness - UpdateBreakTimeWhereServerStop
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.PlayerBussiness.UpdateBreakTimeWhereServerStop()
+20:04:11,559 - [69] - ERROR - Game.Server.GameServer - Center Server Disconnect! Stopping Server
+20:04:11,560 - [69] - ERROR - Game.Server.GameServer - Start the game server again after 1 second,and left try times:3
+20:04:12,569 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,570 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property Edition,keep it default value!
+20:04:12,572 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,573 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property MustComposeGold,keep it default value!
+20:04:12,576 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,577 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property MustFusionGold,keep it default value!
+20:04:12,579 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,582 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property MustStrengthenGold,keep it default value!
+20:04:12,586 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,587 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property CheckRewardItem,keep it default value!
+20:04:12,588 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,589 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property CheckCount,keep it default value!
+20:04:12,590 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,591 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property HymenealMoney,keep it default value!
+20:04:12,593 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,593 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DivorcedMoney,keep it default value!
+20:04:12,595 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,596 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DivorcedDiscountMoney,keep it default value!
+20:04:12,598 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,598 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property MarryRoomCreateMoney,keep it default value!
+20:04:12,600 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,600 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property BoxAppearCondition,keep it default value!
+20:04:12,602 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,602 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DisableCommands,keep it default value!
+20:04:12,603 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,604 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property AssState,keep it default value!
+20:04:12,606 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,606 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DailyAwardState,keep it default value!
+20:04:12,608 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,609 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property Cess,keep it default value!
+20:04:12,611 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,613 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property BeginAuction,keep it default value!
+20:04:12,617 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,618 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property EndAuction,keep it default value!
+20:04:12,622 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,623 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property HotSpringExp,keep it default value!
+20:04:12,625 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,626 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property ConsortiaStrengthenEx,keep it default value!
+20:04:12,630 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,632 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property RuneLevelUpExp,keep it default value!
+20:04:12,637 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,637 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property VIPExpForEachLv,keep it default value!
+20:04:12,639 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,639 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property HoleLevelUpExpList,keep it default value!
+20:04:12,641 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,642 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property VIPStrengthenEx,keep it default value!
+20:04:12,643 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,643 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property CustomLimit,keep it default value!
+20:04:12,645 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,645 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property IsLimitCount,keep it default value!
+20:04:12,647 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,647 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LimitCount,keep it default value!
+20:04:12,648 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,649 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property IsLimitMoney,keep it default value!
+20:04:12,649 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,650 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LimitMoney,keep it default value!
+20:04:12,650 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,651 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property IsLimitAuction,keep it default value!
+20:04:12,652 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,652 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LimitAuction,keep it default value!
+20:04:12,653 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,653 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property IsLimitMail,keep it default value!
+20:04:12,655 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,655 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LimitMail,keep it default value!
+20:04:12,657 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,658 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property TestActive,keep it default value!
+20:04:12,659 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,660 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property WishBeadLimitLv,keep it default value!
+20:04:12,661 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,661 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property IsWishBeadLimit,keep it default value!
+20:04:12,662 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,662 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property BagMailEnable,keep it default value!
+20:04:12,664 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,664 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property FreeMoney,keep it default value!
+20:04:12,665 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,665 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property FreeExp,keep it default value!
+20:04:12,666 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,666 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property BigExp,keep it default value!
+20:04:12,667 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,668 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property PetExp,keep it default value!
+20:04:12,671 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,671 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property IsActiveMoney,keep it default value!
+20:04:12,674 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,686 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property IsDDTMoneyActive,keep it default value!
+20:04:12,689 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,689 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property NewChickenBeginTime,keep it default value!
+20:04:12,694 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,695 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property NewChickenEndTime,keep it default value!
+20:04:12,697 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,698 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property NewChickenEagleEyePrice,keep it default value!
+20:04:12,699 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,700 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property NewChickenOpenCardPrice,keep it default value!
+20:04:12,701 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,702 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property NewChickenFlushPrice,keep it default value!
+20:04:12,703 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,703 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DiceBeginTime,keep it default value!
+20:04:12,704 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,705 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DiceEndTime,keep it default value!
+20:04:12,706 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,707 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DiceRefreshPrice,keep it default value!
+20:04:12,708 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,709 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property CommonDicePrice,keep it default value!
+20:04:12,710 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,711 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DoubleDicePrice,keep it default value!
+20:04:12,712 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,712 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property BigDicePrice,keep it default value!
+20:04:12,713 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,713 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property SmallDicePrice,keep it default value!
+20:04:12,714 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,715 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property PyramidBeginTime,keep it default value!
+20:04:12,715 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,716 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property PyramidEndTime,keep it default value!
+20:04:12,717 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,717 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property PyramidRevivePrice,keep it default value!
+20:04:12,718 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,719 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property BoguAdventurePrice,keep it default value!
+20:04:12,720 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,720 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property PyramydTurnCardPrice,keep it default value!
+20:04:12,722 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,722 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatBeginDate,keep it default value!
+20:04:12,723 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,723 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatEndDate,keep it default value!
+20:04:12,724 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,724 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property FightFootballTime,keep it default value!
+20:04:12,725 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,725 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property KingBuffPrice,keep it default value!
+20:04:12,726 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,726 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property RunePackageID,keep it default value!
+20:04:12,726 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,727 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property OpenRunePackageMoney,keep it default value!
+20:04:12,727 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,727 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property OpenRunePackageRange,keep it default value!
+20:04:12,728 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,728 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property MagicPackageID,keep it default value!
+20:04:12,729 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,729 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property MagicStoneOpenPoint,keep it default value!
+20:04:12,730 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,730 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property OpenMagicStonePackageMoney,keep it default value!
+20:04:12,730 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,730 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LuckStarActivityBeginDate,keep it default value!
+20:04:12,731 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,731 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LuckStarActivityEndDate,keep it default value!
+20:04:12,732 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,732 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DDPlayActivityBeginDate,keep it default value!
+20:04:12,732 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,733 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DDPlayActivityEndDate,keep it default value!
+20:04:12,733 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,734 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DDPlayActivityMoney,keep it default value!
+20:04:12,735 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,735 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property MinUseNum,keep it default value!
+20:04:12,736 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,736 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterBeginDate,keep it default value!
+20:04:12,737 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,737 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterEndDate,keep it default value!
+20:04:12,738 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,738 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterBoxInfo,keep it default value!
+20:04:12,739 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,739 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterBuffMoney,keep it default value!
+20:04:12,739 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,740 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterFightNum,keep it default value!
+20:04:12,740 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,740 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterHP,keep it default value!
+20:04:12,741 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,741 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property YearMonsterOpenLevel,keep it default value!
+20:04:12,742 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,742 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DiceGameAwardAndCount,keep it default value!
+20:04:12,742 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,743 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleAnswerScore,keep it default value!
+20:04:12,743 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,743 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleBeginDate,keep it default value!
+20:04:12,744 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,744 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleEndDate,keep it default value!
+20:04:12,745 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,745 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleBeginTime,keep it default value!
+20:04:12,745 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,745 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleEndTime,keep it default value!
+20:04:12,746 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,746 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleFreeHitNum,keep it default value!
+20:04:12,747 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,747 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleFreeComboNum,keep it default value!
+20:04:12,747 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,747 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleComboMoney,keep it default value!
+20:04:12,748 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,748 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleHitMoney,keep it default value!
+20:04:12,749 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,750 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleAnswerTime,keep it default value!
+20:04:12,751 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,751 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property LightRiddleOpenLevel,keep it default value!
+20:04:12,752 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,752 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property WarriorFamRaidPricePerMin,keep it default value!
+20:04:12,752 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,753 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property WarriorFamRaidPriceSmall,keep it default value!
+20:04:12,753 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,753 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property WarriorFamRaidPriceBig,keep it default value!
+20:04:12,754 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,754 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property WarriorFamRaidDDTPrice,keep it default value!
+20:04:12,755 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,755 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property WarriorFamRaidTimeRemain,keep it default value!
+20:04:12,755 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,755 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasBeginDate,keep it default value!
+20:04:12,756 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,756 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasEndDate,keep it default value!
+20:04:12,757 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,757 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasGifts,keep it default value!
+20:04:12,757 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,758 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasGiftsMaxNum,keep it default value!
+20:04:12,758 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,758 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasBuildSnowmanDoubleMoney,keep it default value!
+20:04:12,759 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,759 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasBuyTimeMoney,keep it default value!
+20:04:12,759 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,760 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasMinute,keep it default value!
+20:04:12,760 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,760 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property ChristmasBuyMinute,keep it default value!
+20:04:12,761 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,761 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatByMoney,keep it default value!
+20:04:12,762 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,762 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatByProps,keep it default value!
+20:04:12,762 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,762 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatMaxScore,keep it default value!
+20:04:12,763 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,763 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatMinScore,keep it default value!
+20:04:12,764 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,764 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatAreaMinScore,keep it default value!
+20:04:12,765 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,765 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatProp,keep it default value!
+20:04:12,765 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,765 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property DragonBoatConvertHours,keep it default value!
+20:04:12,766 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,766 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property PromotePackagePrice,keep it default value!
+20:04:12,767 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,767 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property IsPromotePackageOpen,keep it default value!
+20:04:12,767 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,767 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property SearchGoodsFreeLimit,keep it default value!
+20:04:12,768 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,768 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property SearchGoodsPayMoney,keep it default value!
+20:04:12,769 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,769 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property SearchGoodsFreeCount,keep it default value!
+20:04:12,770 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,770 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property SearchGoodsTakeCardMoney,keep it default value!
+20:04:12,771 - [69] - ERROR - Bussiness.BaseBussiness - GetServerConfig
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServerPropertyByKey(String key)
+20:04:12,771 - [69] - ERROR - Bussiness.GameProperties - Cannot find server property MaxMissionEnergy,keep it default value!
+20:04:12,864 - [69] - ERROR - Bussiness.BaseBussiness - Init
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Bussiness.ServiceBussiness.GetServiceSingle(Int32 ID)

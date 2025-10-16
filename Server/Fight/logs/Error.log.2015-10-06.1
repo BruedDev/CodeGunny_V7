@@ -1,0 +1,24 @@
+08:10:31,890 - [8] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 0  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+18:37:53,315 - [8] - ERROR - Game.Logic.BaseGame - Map update error:
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Fighting.Server.ServerClient.SendPlayerConsortiaFight(Int32 playerId, Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth)
+   at Fighting.Server.GameObjects.ProxyPlayer.ConsortiaFight(Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth, Int32 count)
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 688
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 43
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+19:34:21,685 - [8] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 1  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+19:45:50,868 - [8] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 1  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29

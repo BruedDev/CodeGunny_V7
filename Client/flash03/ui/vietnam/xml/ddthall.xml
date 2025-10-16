@@ -1,0 +1,173 @@
+﻿<style name="ddthall" version="1.0.1" source="ui/vietnam/swf/ddthall.swf">
+	
+<sets>
+	<set type="flash.text.TextFormat" stylename="serverlist.ServerNameTextFormat" args="Arial,14,0xFE8504" align="center"/>
+	<set type="flash.text.TextFormat" stylename="serverlist.ServerNameTextFormatHover" args="Arial,14,0xFFFFFF" align="center"/>	
+	
+	<set stylename="hall.tip.title.TF" args="Arial,16,0xffd545,true"  type="flash.text.TextFormat"/>
+	<set stylename="hall.tip.title.GF" args="0x441300,1,2,2,10" type="flash.filters.GlowFilter"/>	
+	
+	<!-- 4.9.5新增 -->		
+	<set stylename="hall.kingBlessTip.commonTipText" args="Arial,12,0xffffff" leading="3" type="flash.text.TextFormat"/>
+	<set stylename="hall.kingBlessTip.title.TF" args="Arial,12,0xffd545,true" letterSpacing="0" type="flash.text.TextFormat"/>
+	<set stylename="hall.kingBlessTip.bottomTipText" args="Arial,12,0x00ff00" letterSpacing="0" type="flash.text.TextFormat"/>
+	
+</sets>
+<components>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="hall.tips.title" textFormatStyle="hall.tip.title.TF" filterString="hall.tip.title.GF" x="10" y="10"/>
+	<!--作战实验室-->
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="hall.battleSrollPanel"
+		parentStyle="core.ScrollPanel"  
+		width='515' height='370'  vUnitIncrement="5"
+	/>
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="hall.hotSpringAlertPanel"
+		parentStyle="core.ScrollPanel"  
+		width='515' height='370'  vUnitIncrement="5"
+		x="9" y="10"
+	/>
+	<component classname="com.pickgliss.ui.controls.Frame" stylename="hall.battleFrame"
+		backStyle="SimpleFrameBackgoundOne" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14" 
+		titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,6,5" 
+		containerX="20"	containerY="40" 
+		width="548" height="468" 
+		escEnable='true' 
+	/>
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="hall.battleBtn"
+		parentStyle='core.simplebt'
+		x='220' y='386' 
+	/>
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="hall.hotSpringBtn"
+		parentStyle='core.simplebt'
+		x='220' y='394' 
+	/>
+	
+	<!--保存文件-->
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="saveFile.okBtn" x="307"
+			y='385' parentStyle='core.simplebt'/>
+	<component classname="hall.SaveFileWidow" backStyle="SimpleFrameBackgoundOneIII" stylename="hall.SaveFileWidow"  closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="14,10,5" closeInnerRectString="44,12,6,30,14" width="702" height="439"/>
+
+	<component classname="com.pickgliss.ui.image.Image" stylename="hall.womenNPC" resourceLink="asset.trainer.welcome.girl2" x="550" y="70" scaleX="-0.5" scaleY="0.5" />
+	<component classname="hotSpring.view.HotSpringAlertFrame" backStyle="SimpleFrameBackgound" stylename="hall.hotSpringAlertFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,6,5" containerX="10" containerY="31" width="548" height="468" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+	<component stylename="serverlist.hall.DropListCombo"
+		classname="com.pickgliss.ui.controls.ComboBox"
+		parentStyle="core.Combox3" selctedPropName="text" 
+		x="-14" y="36"
+		listInnerRectString="5,33,10,100,18"
+		width="104" height="30" />
+			<component classname="com.pickgliss.ui.image.MovieImage" stylename="LittleGameNotes" resourceLink="asset.hall.LittleGameNote" x="25" y="88"></component>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="HallMain.auctionBtn"
+			backStyle="asset.hall.auctionbtn" x="741" y="30" height="170" tipStyle="ddt.view.tips.HallBuildTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="HallMain.roomBtn"
+			backStyle="asset.hall.auctionbtn"  height="170" width="220" x="480" y="76" tipStyle="ddt.view.tips.HallBuildTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="HallMain.churchBtn"
+			backStyle="asset.hall.auctionbtn"  height="179" x="355" y="239" tipStyle="ddt.view.tips.HallBuildTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="HallMain.framBtn"
+			backStyle="asset.hall.auctionbtn"  height="140" x="668" y="226" tipStyle="ddt.view.tips.HallBuildTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="HallMain.constrionBtn"
+			backStyle="asset.hall.auctionbtn"  height="155" x="212" y="200" tipStyle="ddt.view.tips.HallBuildTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="HallMain.dungeonBtn"
+			backStyle="asset.hall.auctionbtn"  height="170" x="798" y="352" tipStyle="ddt.view.tips.HallBuildTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="HallMain.storeBtn"
+			backStyle="asset.hall.auctionbtn"  height="140" x="125" y="82" tipStyle="ddt.view.tips.HallBuildTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="HallMain.shopBtn"
+			backStyle="asset.hall.auctionbtn"  height="170" x="531" y="347" tipStyle="ddt.view.tips.HallBuildTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="HallMain.tofflistbtn"
+			backStyle="asset.hall.auctionbtn"  height="170" x="310" tipStyle="ddt.view.tips.HallBuildTip" tipDirctions="0,1,2"/>
+	<!-- 界面大厅右侧vbox的滚动条 -->
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="HallMain.Labyrinthbtn"
+			backStyle="asset.hall.auctionbtn"  height="110" x="761" y="185" tipStyle="ddt.view.tips.HallBuildTip" tipDirctions="0,1,2"/>
+	<component stylename="ddt.view.mainbtnpanel"
+		classname="com.pickgliss.ui.controls.ScrollPanel" 
+		parentStyle="hall.ScrollPanel" 
+		x="900" y="150"
+		width="100" height="325" 
+		viewportInnerRectString="0,0,10,0,0"/>
+<!-- 	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="ddt.view.leftToolPanel" spacing="-60" x="0" y="232" width="100" height="400"/>  -->
+
+	<!-- 界面大厅右侧vbox的滚动条 -->
+	<component classname="com.pickgliss.ui.controls.ScrollPanel"
+	stylename="hall.ScrollPanel" vScrollbarStyle="hall.VScrollbar" hScrollbarStyle="core.HScrollbar"
+	hScrollbarInnerRectString="0,22,21,0,4"
+	vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0"
+	hScrollProxy='2' vScrollProxy='1' />
+
+	<component classname="com.pickgliss.ui.controls.Scrollbar"
+		stylename="hall.VScrollbar" thumbStyle="hall.scrollVThumb" trackStyle="hall.scrollTrackAsset"
+		decreaseButtonStyle="hall.scrollUpButton" increaseButtonStyle="hall.scrollDownButton"
+		thumbMinSize="14" decreaseButtonInnerRectString="72,25,-20,-47,9"
+		increaseButtonInnerRectString="72,25,-47,-30,10" trackInnerRectString="2,1,17,17,0"
+		orientation="0" thumbAreaInnerRectString="4,3,20,21,0" />
+
+	<component classname="com.pickgliss.ui.controls.BaseButton"
+		stylename="hall.scrollVThumb" backStyle="hall.scroll.thumbV"
+		filterString="null,lightFilter,null,grayFilter" displacement="false" />
+
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+		stylename="hall.scroll.thumbV" resourceLink="asset.hall.scroll.thumbV"
+		scaleGridString="6,6,8,40" width="12" height="50" />
+
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+		stylename="hall.scrollTrackAsset" resourceLink="asset.hall.scroll.track"
+		scaleGridString="4,1,12,2" />
+
+	<component classname="com.pickgliss.ui.controls.BaseButton"
+		stylename="hall.scrollUpButton" backStyle="asset.hall.scroll.arrowUp"
+		filterString="null,lightFilter,null,grayFilter" displacement="false" />
+
+	<component classname="com.pickgliss.ui.controls.BaseButton"
+		stylename="hall.scrollDownButton" backStyle="asset.hall.scroll.arrowDown"
+		filterString="null,lightFilter,null,grayFilter" displacement="false" />
+	
+	<!--精彩活动入口-->
+	<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.hall.wonderfulBtn" resourceLink="hall.wonderfulActivity.openIcon" x="12" y="264" />
+	<!-- 弹王盟约入口按钮 -->
+	<component classname="kingBless.view.KingBlessIconBtn" stylename="asset.hall.kingBlessIconBtn" tipStyle="ddt.view.tips.KingBlessTip" tipDirctions="0,1,2,3" x="5" y="0" /> 
+		
+		
+	<!-- 首充奖励入口按钮 -->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="hall.firstRecharge.btn" backStyle="hall.firstRecharge" x="17" y="0"
+			tipStyle="core.PayBuffTip" tipDirctions="7,6,5,1,6,4" />
+	<!-- 4.9.5新增 -->		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="hall.kingBlessTips.commonText" textFormatStyle="hall.kingBlessTip.commonTipText"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="hall.kingBlessTips.title" textFormatStyle="hall.kingBlessTip.title.TF" x="8" y="5"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="hall.kingBlessTips.bottomText" textFormatStyle="hall.kingBlessTip.bottomTipText"/>
+	<!-- 4.9.9新增 -->
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.hall.iconPanelBg" resourceLink="asset.hall.iconPanelBG" scaleGridString="10,10,13,40"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="hall.iconPanelOpenScollBtnBg" resourceLink="asset.hall.iconPanelScollOpenBtnBg,asset.hall.iconPanelScollCloseBtnBg" x="0" y="0"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="hall.iconPanelOpenScollBtn" backStyle="hall.iconPanelOpenScollBtnBg" filterString="null,lightFilter,null,grayFilter" x="0" y="0"/>
+	
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="HallMain.regressBtn" backStyle="asset.hall.auctionResgressbtn" x="687" y="352"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="hall.expblessed.icon" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="7,3,6" resourceLink="asset.hall.expblessed.icon" x="225" y="5"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="hall.getTicketButton" backStyle="asset.hall.getTicket" x="701" y="9"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="duoWanYYVip.entryBtn" backStyle="asset.duoWanYYVip.entryBtn" x="10" y="0"/>
+</components>
+<customs>
+	<custom classname="flash.geom.Point" stylename="LittleGameNotePos" x="919" y="240" />
+	
+	<custom stylename = "serverlist.hall.ServerDropList" classname="serverlist.view.ServerDropList" x="49" y="337" />
+	
+	<custom classname="flash.geom.Point" stylename="hall.tip.rule.pos" x="5" y="32"/>
+	<custom classname="flash.geom.Point" stylename="hall.tip.context.pos" x="10" y="35"/>
+    <custom classname="flash.geom.Point" stylename="worldBoss.entranceIcon.pos" x="55" y="0" />
+    <custom classname="flash.geom.Point" stylename="hall.newChickenBox.pos" x="200" y="200"/>
+    <custom classname="asset.ddt.hall.GameLoaingMc" stylename="ddt.hall.GameLoaingMc" x="441" y="319"/>
+    <custom classname="flash.geom.Point" stylename="fightFootballTime.iconPos" x="32" y="112"/>
+    
+    <custom classname="flash.geom.Point" stylename="hall.iconPanelOpenScollPos" x="912" y="150"/>
+    <custom classname="flash.geom.Point" stylename="hall.leftIconPanelOpenScollPos" x="-2" y="110"/>
+    
+    <custom classname="flash.geom.Point" stylename="hall.campBattleIconPos" x="15" y="3"/>
+</customs>
+<bitmaps>
+	<!--低图背景1~2-->
+	
+	
+	<!--保存文件-->
+	<bitmapData resourceLink="asset.hallSaveFile.noviceBG" x="66" y="82"/>
+
+	<bitmapData resourceLink="asset.serverlist.hallBG" x="-11" y="-2"/>
+	
+	<bitmapData resourceLink="asset.hall.iconPanelScollCloseBtnBg" x="-1" y="0"/>
+</bitmaps>
+</style>

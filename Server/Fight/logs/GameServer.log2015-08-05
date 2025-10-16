@@ -1,0 +1,141 @@
+18:31:10,358 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+18:31:10,791 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+18:31:10,839 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+18:31:10,839 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+18:31:10,839 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+18:31:10,839 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+18:31:11,220 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+18:31:11,778 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+18:31:11,911 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+18:31:12,086 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+18:31:12,119 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+18:31:12,227 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+18:31:12,306 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+18:31:12,439 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+18:31:12,460 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+18:31:12,474 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+18:31:12,509 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+18:31:12,509 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+18:31:12,577 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+18:31:18,125 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 60.172.246.6:54709
+20:15:35,584 - [6] - ERROR - Fighting.Server.Games.GameMgr - Create battle game error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player..ctor(IGamePlayer player, Int32 id, BaseGame game, Int32 team, Int32 maxBlood) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 272
+   at Game.Logic.PVPGame..ctor(Int32 id, Int32 roomId, List`1 red, List`1 blue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 64
+   at Fighting.Server.Games.BattleGame..ctor(Int32 id, List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType)
+   at Fighting.Server.Games.GameMgr.StartBattleGame(List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Int32 mapIndex, eRoomType roomType, eGameType gameType, Int32 timeType)
+20:15:35,650 - [6] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue)
+   at Fighting.Server.Rooms.ProxyRoomMgr.PickUpRooms(Int64 tick)
+   at Fighting.Server.Rooms.ProxyRoomMgr.RoomThread()
+20:15:45,506 - [6] - ERROR - Fighting.Server.Games.GameMgr - Create battle game error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player..ctor(IGamePlayer player, Int32 id, BaseGame game, Int32 team, Int32 maxBlood) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 272
+   at Game.Logic.PVPGame..ctor(Int32 id, Int32 roomId, List`1 red, List`1 blue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 78
+   at Fighting.Server.Games.BattleGame..ctor(Int32 id, List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType)
+   at Fighting.Server.Games.GameMgr.StartBattleGame(List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Int32 mapIndex, eRoomType roomType, eGameType gameType, Int32 timeType)
+20:15:45,507 - [6] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue)
+   at Fighting.Server.Rooms.ProxyRoomMgr.PickUpRooms(Int64 tick)
+   at Fighting.Server.Rooms.ProxyRoomMgr.RoomThread()
+20:15:55,509 - [6] - ERROR - Fighting.Server.Games.GameMgr - Create battle game error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player..ctor(IGamePlayer player, Int32 id, BaseGame game, Int32 team, Int32 maxBlood) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 272
+   at Game.Logic.PVPGame..ctor(Int32 id, Int32 roomId, List`1 red, List`1 blue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 78
+   at Fighting.Server.Games.BattleGame..ctor(Int32 id, List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType)
+   at Fighting.Server.Games.GameMgr.StartBattleGame(List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Int32 mapIndex, eRoomType roomType, eGameType gameType, Int32 timeType)
+20:15:55,512 - [6] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue)
+   at Fighting.Server.Rooms.ProxyRoomMgr.PickUpRooms(Int64 tick)
+   at Fighting.Server.Rooms.ProxyRoomMgr.RoomThread()
+20:16:05,532 - [6] - ERROR - Fighting.Server.Games.GameMgr - Create battle game error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player..ctor(IGamePlayer player, Int32 id, BaseGame game, Int32 team, Int32 maxBlood) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 272
+   at Game.Logic.PVPGame..ctor(Int32 id, Int32 roomId, List`1 red, List`1 blue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 78
+   at Fighting.Server.Games.BattleGame..ctor(Int32 id, List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType)
+   at Fighting.Server.Games.GameMgr.StartBattleGame(List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Int32 mapIndex, eRoomType roomType, eGameType gameType, Int32 timeType)
+20:16:05,533 - [6] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue)
+   at Fighting.Server.Rooms.ProxyRoomMgr.PickUpRooms(Int64 tick)
+   at Fighting.Server.Rooms.ProxyRoomMgr.RoomThread()
+20:16:15,448 - [6] - ERROR - Fighting.Server.Games.GameMgr - Create battle game error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player..ctor(IGamePlayer player, Int32 id, BaseGame game, Int32 team, Int32 maxBlood) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 272
+   at Game.Logic.PVPGame..ctor(Int32 id, Int32 roomId, List`1 red, List`1 blue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 64
+   at Fighting.Server.Games.BattleGame..ctor(Int32 id, List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType)
+   at Fighting.Server.Games.GameMgr.StartBattleGame(List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Int32 mapIndex, eRoomType roomType, eGameType gameType, Int32 timeType)
+20:16:15,450 - [6] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue)
+   at Fighting.Server.Rooms.ProxyRoomMgr.PickUpRooms(Int64 tick)
+   at Fighting.Server.Rooms.ProxyRoomMgr.RoomThread()
+20:16:25,417 - [6] - ERROR - Fighting.Server.Games.GameMgr - Create battle game error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player..ctor(IGamePlayer player, Int32 id, BaseGame game, Int32 team, Int32 maxBlood) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 272
+   at Game.Logic.PVPGame..ctor(Int32 id, Int32 roomId, List`1 red, List`1 blue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 64
+   at Fighting.Server.Games.BattleGame..ctor(Int32 id, List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType)
+   at Fighting.Server.Games.GameMgr.StartBattleGame(List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Int32 mapIndex, eRoomType roomType, eGameType gameType, Int32 timeType)
+20:16:25,418 - [6] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue)
+   at Fighting.Server.Rooms.ProxyRoomMgr.PickUpRooms(Int64 tick)
+   at Fighting.Server.Rooms.ProxyRoomMgr.RoomThread()
+20:16:35,434 - [6] - ERROR - Fighting.Server.Games.GameMgr - Create battle game error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player..ctor(IGamePlayer player, Int32 id, BaseGame game, Int32 team, Int32 maxBlood) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 272
+   at Game.Logic.PVPGame..ctor(Int32 id, Int32 roomId, List`1 red, List`1 blue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 64
+   at Fighting.Server.Games.BattleGame..ctor(Int32 id, List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType)
+   at Fighting.Server.Games.GameMgr.StartBattleGame(List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Int32 mapIndex, eRoomType roomType, eGameType gameType, Int32 timeType)
+20:16:35,435 - [6] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue)
+   at Fighting.Server.Rooms.ProxyRoomMgr.PickUpRooms(Int64 tick)
+   at Fighting.Server.Rooms.ProxyRoomMgr.RoomThread()
+20:16:45,416 - [6] - ERROR - Fighting.Server.Games.GameMgr - Create battle game error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player..ctor(IGamePlayer player, Int32 id, BaseGame game, Int32 team, Int32 maxBlood) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 272
+   at Game.Logic.PVPGame..ctor(Int32 id, Int32 roomId, List`1 red, List`1 blue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 64
+   at Fighting.Server.Games.BattleGame..ctor(Int32 id, List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType)
+   at Fighting.Server.Games.GameMgr.StartBattleGame(List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Int32 mapIndex, eRoomType roomType, eGameType gameType, Int32 timeType)
+20:16:45,417 - [6] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue)
+   at Fighting.Server.Rooms.ProxyRoomMgr.PickUpRooms(Int64 tick)
+   at Fighting.Server.Rooms.ProxyRoomMgr.RoomThread()
+20:16:55,359 - [6] - ERROR - Fighting.Server.Games.GameMgr - Create battle game error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player..ctor(IGamePlayer player, Int32 id, BaseGame game, Int32 team, Int32 maxBlood) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 272
+   at Game.Logic.PVPGame..ctor(Int32 id, Int32 roomId, List`1 red, List`1 blue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 64
+   at Fighting.Server.Games.BattleGame..ctor(Int32 id, List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType)
+   at Fighting.Server.Games.GameMgr.StartBattleGame(List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Int32 mapIndex, eRoomType roomType, eGameType gameType, Int32 timeType)
+20:16:55,361 - [6] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue)
+   at Fighting.Server.Rooms.ProxyRoomMgr.PickUpRooms(Int64 tick)
+   at Fighting.Server.Rooms.ProxyRoomMgr.RoomThread()
+20:17:15,383 - [6] - ERROR - Fighting.Server.Games.GameMgr - Create battle game error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player..ctor(IGamePlayer player, Int32 id, BaseGame game, Int32 team, Int32 maxBlood) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 272
+   at Game.Logic.PVPGame..ctor(Int32 id, Int32 roomId, List`1 red, List`1 blue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 78
+   at Fighting.Server.Games.BattleGame..ctor(Int32 id, List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType)
+   at Fighting.Server.Games.GameMgr.StartBattleGame(List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Int32 mapIndex, eRoomType roomType, eGameType gameType, Int32 timeType)
+20:17:15,384 - [6] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue)
+   at Fighting.Server.Rooms.ProxyRoomMgr.PickUpRooms(Int64 tick)
+   at Fighting.Server.Rooms.ProxyRoomMgr.RoomThread()
+20:17:25,387 - [6] - ERROR - Fighting.Server.Games.GameMgr - Create battle game error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player..ctor(IGamePlayer player, Int32 id, BaseGame game, Int32 team, Int32 maxBlood) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 272
+   at Game.Logic.PVPGame..ctor(Int32 id, Int32 roomId, List`1 red, List`1 blue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 78
+   at Fighting.Server.Games.BattleGame..ctor(Int32 id, List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Map map, eRoomType roomType, eGameType gameType, Int32 timeType)
+   at Fighting.Server.Games.GameMgr.StartBattleGame(List`1 red, ProxyRoom roomRed, List`1 blue, ProxyRoom roomBlue, Int32 mapIndex, eRoomType roomType, eGameType gameType, Int32 timeType)
+20:17:25,389 - [6] - ERROR - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr Thread Error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fighting.Server.Rooms.ProxyRoomMgr.StartMatchGame(ProxyRoom red, ProxyRoom blue)
+   at Fighting.Server.Rooms.ProxyRoomMgr.PickUpRooms(Int64 tick)
+   at Fighting.Server.Rooms.ProxyRoomMgr.RoomThread()

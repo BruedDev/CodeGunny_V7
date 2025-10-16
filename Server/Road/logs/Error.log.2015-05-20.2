@@ -1,0 +1,12 @@
+16:58:23,013 - [10] - ERROR - Game.Logic.PVEGame - Can't create game ai :GameServerScript.AI.Game.WorldCupHard
+16:58:23,056 - [11] - ERROR - Game.Logic.BaseGame - Map update error:
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 Game.Logic.PVEGame.PrepareNewSession() 位置 c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:行号 595
+   在 Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) 位置 c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:行号 30
+   在 Game.Logic.BaseGame.Update(Int64 tick) 位置 c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:行号 876
+16:58:23,128 - [11] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Game.Logic.BaseGame.SendStartLoading(Int32 maxTime) 位置 c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:行号 1347
+   在 Game.Logic.PVEGame.StartLoading() 位置 c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:行号 650
+   在 Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) 位置 c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:行号 87
+   在 Game.Logic.BaseGame.Update(Int64 tick) 位置 c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:行号 875

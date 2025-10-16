@@ -1,0 +1,46 @@
+18:11:56,092 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+18:11:56,382 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+18:11:56,401 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+18:11:56,401 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+18:11:56,403 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+18:11:56,403 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+18:11:56,678 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+18:11:56,870 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+18:11:56,879 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+18:11:56,903 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\13.bomb
+18:11:56,923 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\128.bomb
+18:11:56,924 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\129.bomb
+18:11:57,034 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\4201.bomb
+18:11:57,036 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\4301.bomb
+18:11:57,082 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\10022.bomb
+18:11:57,087 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11106.bomb
+18:11:57,088 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11107.bomb
+18:11:57,088 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11108.bomb
+18:11:57,088 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11109.bomb
+18:11:57,088 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11110.bomb
+18:11:57,089 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11116.bomb
+18:11:57,089 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11117.bomb
+18:11:57,090 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11118.bomb
+18:11:57,090 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11119.bomb
+18:11:57,091 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11120.bomb
+18:11:57,093 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11131.bomb
+18:11:57,094 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11132.bomb
+18:11:57,094 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11133.bomb
+18:11:57,095 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11134.bomb
+18:11:57,095 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11135.bomb
+18:11:57,096 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11136.bomb
+18:11:57,097 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11137.bomb
+18:11:57,098 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11138.bomb
+18:11:57,099 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11139.bomb
+18:11:57,099 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11140.bomb
+18:11:57,100 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11141.bomb
+18:11:57,100 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11142.bomb
+18:11:57,101 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11143.bomb
+18:11:57,101 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11144.bomb
+18:11:57,102 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11145.bomb
+18:11:57,102 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11146.bomb
+18:11:57,103 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11147.bomb
+18:11:57,104 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11148.bomb
+18:11:57,104 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11149.bomb
+18:11:57,105 - [MAIN] - ERROR - Game.Logic.BallMgr - can't find bomb file:bomb\11150.bomb
+18:11:57,112 - [MAIN] - ERROR - Game.Logic.Ball

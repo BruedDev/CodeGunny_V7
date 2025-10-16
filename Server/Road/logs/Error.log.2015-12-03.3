@@ -1,0 +1,28 @@
+17:20:14,456 - [48] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 110.156.165.219:4137)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+17:20:14,815 - [48] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 25 02 04 00 7C 00 00 82 C8 00 00 00 00   q..%...|........
+0010: 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00   ................
+0020: 27 00 00 00 1F                                    '....           
+
+17:33:20,354 - [70] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 58.58.196.33:55341)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+17:33:20,354 - [70] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 02 27 00 62 00 00 82 CB 00 00 00 00   q....'.b........
+0010: 00 00 00 00 01 00                                 ......          
+
+17:42:48,367 - [176] - ERROR - Game.Base.BaseConnector - Connect 221.231.6.201:9208 failed!
+17:42:49,397 - [87] - ERROR - Game.Base.BaseConnector - Connect 221.231.6.201:9208 failed!
+17:42:50,426 - [183] - ERROR - Game.Base.BaseConnector - Connect 221.231.6.201:9208 failed!
+17:42:51,456 - [133] - ERROR - Game.Base.BaseConnector - Connect 221.231.6.201:9208 failed!
+17:42:52,470 - [196] - ERROR - Game.Base.BaseConnector - Connect 221.231.6.201:9208 failed!
+17:42:53,484 - [150] - ERROR - Game.Base.BaseConnector - Connect 221.231.6.201:9208 failed!

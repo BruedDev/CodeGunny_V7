@@ -1,0 +1,25 @@
+﻿<RootMenu>
+  <List Name="全部" Script="loading_Data(0, 1, true)"/>
+  <List Name="帽子" Script="loading_Data(1, 1, true)"/>
+  <List Name="眼镜" Script="loading_Data(2, 1, true)"/>
+  <List Name="头发" Script="loading_Data(3, 1, true)"/>
+  <List Name="脸颊" Script="loading_Data(4, 1, true)"/>
+  <List Name="衣服" Script="loading_Data(5, 1, true)"/>
+  <List Name="眼睛" Script="loading_Data(6, 1, true)"/>
+  <List Name="武器" Script="loading_Data(7, 1, true)"/>
+  <List Name="手链" Script="loading_Data(8, 1, true)"/>
+  <List Name="戒指" Script="loading_Data(9, 1, true)"/>
+  <List Name="套装" Script="loading_Data(13, 1, true)"/>
+  <List Name="翅膀" Script="loading_Data(15, 1, true)"/>
+  <List Name="副手" Script="loading_Data(17, 1, true)"/>
+  <List Name="项链" Script="loading_Data(14, 1, true)"/>
+  <List Name="话语泡泡" Script="loading_Data(16, 1, true)"/>
+  <List Name="大卡牌" Script="loading_Data(18, 1, true)"/>
+  <List Name="小卡牌" Script="loading_Data(26, 1, true)"/>
+  <List Name="礼物" Script="loading_Data(25, 1, true)"/>
+  <List Name="任务物品" Script="loading_Data(12, 1, true)"/>
+  <List Name="道具" Script="loading_Data(11, 1, true)"/>
+  <List Name="血石" Script="loading_Data(19, 1, true)"/>
+  <List Name="精炼药水" Script="loading_Data(20, 1, true)"/>
+  <List Name="修炼之书" Script="loading_Data(23, 1, true)"/>
+</RootMenu>

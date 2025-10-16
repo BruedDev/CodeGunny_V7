@@ -1,0 +1,125 @@
+<style name="campbattle" version="1.0.1" source="ui/vietnam/swf/campbattle.swf">
+<sets>
+		<set stylename="ddtCampBattle.RankItemTF" args="Arial,14,0xffffff"
+			leading="8" type="flash.text.TextFormat" />
+		<set stylename="ddtCampBattle.RankItemGF" args="0xf1e2bd,1,2,2,10"
+			type="flash.filters.GlowFilter" />
+			
+			<set stylename="ddtCampBattle.headTF1" args="Arial,14,0xfffd37,true"
+			leading="8" type="flash.text.TextFormat" />
+		<set stylename="ddtCampBattle.headGF1" args="0x000000,1,4,4,10"
+			type="flash.filters.GlowFilter" />
+			<set stylename="ddtCampBattle.headTF2" args="Arial,12,0xfffed1,true"
+			leading="8" type="flash.text.TextFormat" />
+		<set stylename="ddtCampBattle.headGF2" args="0xf4c190f,1,4,4,10"
+			type="flash.filters.GlowFilter" />
+			<set stylename="ddtCampBattle.headTF3" args="Arial,12,0xff4e3c,true"
+			leading="8" type="flash.text.TextFormat" />
+		<set stylename="ddtCampBattle.headGF3" args="0x2a1111,1,4,4,10"
+			type="flash.filters.GlowFilter" />
+			
+		<set stylename="ddtCampBattle.headTF4" args="Arial,10,0xfff554,true"
+			leading="-1" type="flash.text.TextFormat" />
+		<set stylename="ddtCampBattle.headGF4" args="0x2a363636,1,4,4,10"
+			type="flash.filters.GlowFilter" />
+			
+			<set stylename="ddtCampBattle.headTF5" args="Arial,12,0xffffff,true"
+			leading="8" type="flash.text.TextFormat" />
+		<set stylename="ddtCampBattle.headGF5" args="0x2a363636,1,4,4,10"
+			type="flash.filters.GlowFilter" />
+			
+		<set stylename="ddtCampBattle.headTF6" args="Arial,12,0xfff554,true"
+			leading="-1" type="flash.text.TextFormat" />
+</sets>
+<components>
+
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddtCampBattle.headName"
+			textFormatStyle="ddtCampBattle.headTF1"
+			filterString="ddtCampBattle.headGF1"
+			x="97" y="9" 
+			/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddtCampBattle.headBlood"
+			textFormatStyle="ddtCampBattle.headTF2"
+			filterString="ddtCampBattle.headGF2"
+			x="188" y="32" 
+			/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddtCampBattle.headTeamInfo"
+			textFormatStyle="ddtCampBattle.headTF3"
+			filterString="ddtCampBattle.headGF3"
+			x="146" y="54" 
+			/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddtCampBattle.headSocre"
+			textFormatStyle="ddtCampBattle.headTF3"
+			filterString="ddtCampBattle.headGF3"
+			x="309" y="54" 
+			/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddtCampBattle.headAct"
+			textFormatStyle="ddtCampBattle.headTF3"
+			filterString="ddtCampBattle.headGF3"
+			x="212" y="75" 
+			/>
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddtCampBattle.titleTxt1"
+			textFormatStyle="ddtCampBattle.headTF6"
+			filterString="ddtCampBattle.headGF4"
+			x="25" y="4" width="100" height="50" isAutoFitLength="true"/>
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddtCampBattle.titleTxt5"
+			textFormatStyle="ddtCampBattle.headTF4"
+			filterString="ddtCampBattle.headGF4"
+			x="25" y="4" width="100" height="50" wordWrap="true"/>
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddtCampBattle.titleTxt2"
+			textFormatStyle="ddtCampBattle.headTF5"
+			filterString="ddtCampBattle.headGF5"
+			x="116" y="7" 
+			/>
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddtCampBattle.titleTxt3"
+			textFormatStyle="ddtCampBattle.headTF4"
+			filterString="ddtCampBattle.headGF4"
+			x="235" y="4" width="100" height="50" wordWrap="true"
+			/>
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddtCampBattle.titleTxt4"
+			textFormatStyle="ddtCampBattle.headTF5"
+			filterString="ddtCampBattle.headGF5"
+			x="337" y="7" 
+			/>
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="ddtCampBattle.rankItemTxt"
+			textFormatStyle="ddtCampBattle.RankItemTF"
+			x="0" y="0" 
+			/>
+			
+			
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="ddt.campbattle.core.simplebt"
+			backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle"
+			backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter" x="158" y="446"/>
+<component classname="ddtCampBattle.views.CampBattleHelpView" backStyle="SimpleFrameBackgoundOneIII" width="430"
+			height="480" stylename="ddtCampBattle.views.helpView" titleStyle="FrameTitleTextStyle" escEnable = "true" parentStyle="BaseFrame"  type="2" closestyle="core.closebt" closeInnerRectString="44,12,6,30,14" 
+			submitButtonStyle="" cancelButtonStyle="ddt.campbattle.core.simplebt" moveEnable="true" containerX="20" containerY="40" titleOuterRectPosString="12,11,5"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddtCampBattle.rankBtn" backStyle="camp.campBattle.rankBtn" x="56" y="166" />		
+
+<component classname="ddtCampBattle.views.CampRankView" backStyle="SimpleFrameBackgoundOne"
+			stylename="ddtCampBattle.views.CampRankView" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" x="-160" y="-40" closestyle="core.closebt" 
+			closeInnerRectString="44,19,6,30,14" width="460" height="555" />
+</components>
+
+<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtCampBattle.views.helpViewScroll" parentStyle="core.ScrollPanel" width="370" height="355" x="10" y="16"/>
+<bitmaps>
+	<bitmapData resourceLink="camp.battle.back" x="-5" width="400"/>
+</bitmaps>
+</style>

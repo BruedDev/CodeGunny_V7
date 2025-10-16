@@ -1,0 +1,1444 @@
+2015-08-23 18:19:51,658 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:19:54,780 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:19:54,782 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:19:54,783 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:19:55,751 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:19:55,754 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:19:56,187 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:19:57,294 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:19:57,297 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:19:57,299 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:19:58,497 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:19:58,500 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:19:58,501 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:19:58,886 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:19:59,272 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:00,465 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:00,468 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:00,470 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:00,471 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:00,842 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:01,202 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:01,562 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:01,778 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:02,105 - [76] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:02,441 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:03,120 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:07,671 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:07,832 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:08,217 - [76] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:08,438 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:08,802 - [76] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:09,189 - [76] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:09,576 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:09,928 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:11,087 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:11,089 - [76] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:12,486 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:12,488 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:12,490 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:12,866 - [76] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:13,246 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:13,636 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:14,026 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:14,329 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:14,656 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:15,079 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:15,333 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:15,719 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:16,055 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:16,442 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:16,713 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:17,103 - [76] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:17,869 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:18,248 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:18,629 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:19,014 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:19,789 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+18:20:20,184 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:171.7.47.248:3489, OnGameData is Error: System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer.Change(Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 130
+   at Game.Server.SceneMarryRooms.MarryRoom.RoomContinuation(Int32 time) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 359
+   at Game.Server.SceneMarryRooms.TankHandle.ContinuationCommand.HandleCommand(TankMarryLogicProcessor process, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\ContinuationCommand.cs:line 62
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 60
+2015-08-23 18:20:48,543 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 117.87.43.43:28585)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 18:20:48,545 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4D 05 3E 00 7C 00 00 45 91 00 00 00 00   q..M.>.|..E.....
+0010: 00 00 00 00 01 00 00 00 06 00 00 00 15 00 00 00   ................
+0020: 99 00 00 00 20 00 00 00 55 00 00 00 21 00 00 00   .... ...U...!...
+0030: 59 00 00 00 22 00 00 00 6F 00 00 00 23 00 00 00   Y..."...o...#...
+0040: A7 00 00 00 24 00 00 00 2D 00 00 00 25            ....$...-...%   
+
+18:21:09,187 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 116.95.57.141:52800)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+18:21:09,189 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 55 05 11 00 7C 00 00 3B B8 00 00 00 00   q..U...|..;.....
+0010: 00 00 00 00 01 00 00 00 07 00 00 00 15 00 00 00   ................
+0020: 4B 00 00 00 20 00 00 00 44 00 00 00 21 00 00 00   K... ...D...!...
+0030: 55 00 00 00 22 00 00 00 34 00 00 00 23 00 00 00   U..."...4...#...
+0040: AE 00 00 00 24 00 00 00 3B 00 00 00 25 00 00 00   ....$...;...%...
+0050: 98 00 00 00 26                                    ....&           
+
+18:22:45,554 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 659
+   at Game.Logic.PVEGame.StartGame() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 693
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 35
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+18:23:30,926 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 1.9.101.14:9078)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+18:23:30,928 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 76 00 62 00 00 49 53 00 00 00 00   q....v.b..IS....
+0010: 00 00 00 00 01 00                                 ......          
+
+18:24:16,112 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 116.95.57.141:52800)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+18:24:16,113 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 65 07 33 00 7C 00 00 3B B8 00 00 00 00   q..e.3.|..;.....
+0010: 00 00 00 00 01 00 00 00 09 00 00 00 15 00 00 00   ................
+0020: 89 00 00 00 20 00 00 00 AF 00 00 00 21 00 00 00   .... .......!...
+0030: 75 00 00 00 22 00 00 00 38 00 00 00 23 00 00 00   u..."...8...#...
+0040: 29 00 00 00 24 00 00 00 57 00 00 00 25 00 00 00   )...$...W...%...
+0050: A9 00 00 00 26 00 00 00 7B 00 00 00 27 00 00 00   ....&...{...'...
+0060: 61 00 00 00 28                                    a...(           
+
+2015-08-23 18:24:32,381 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 117.87.43.43:28585)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 18:24:32,383 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4D 05 62 00 7C 00 00 45 91 00 00 00 00   q..M.b.|..E.....
+0010: 00 00 00 00 01 00 00 00 06 00 00 00 15 00 00 00   ................
+0020: 57 00 00 00 20 00 00 00 80 00 00 00 21 00 00 00   W... .......!...
+0030: 84 00 00 00 22 00 00 00 86 00 00 00 23 00 00 00   ....".......#...
+0040: 26 00 00 00 24 00 00 00 A7 00 00 00 25            &...$.......%   
+
+2015-08-23 18:27:43,449 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 116.95.57.141:52800)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 18:27:43,451 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 35 03 02 00 7C 00 00 3B B8 00 00 00 00   q..5...|..;.....
+0010: 00 00 00 00 01 00 00 00 03 00 00 00 15 00 00 00   ................
+0020: A2 00 00 00 20 00 00 00 44 00 00 00 21 00 00 00   .... ...D...!...
+0030: 3A 00 00 00 22                                    :..."           
+
+18:29:54,530 - [6] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Rooms.BaseRoom.RemovePlayerAtUnsafe(Int32 pos) in e:\5.5源码\Game.Server\Game.Server.Rooms\BaseRoom.cs:line 737
+   at Game.Server.Rooms.KickPlayerAction.Execute() in e:\5.5源码\Game.Server\Game.Server.Rooms\KickPlayerAction.cs:line 15
+   at Game.Server.Rooms.RoomMgr.ExecuteActions() in e:\5.5源码\Game.Server\Game.Server.Rooms\RoomMgr.cs:line 184
+18:33:02,737 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 115.151.159.54:32894)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+18:33:02,739 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 7A 00 5E 00 00 46 CC 00 00 00 00   q....z.^..F.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+2015-08-23 18:33:05,469 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 115.151.159.54:32894)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 18:33:05,470 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 7A 00 5E 00 00 46 CC 00 00 00 00   q....z.^..F.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+18:33:23,282 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 113.238.205.245:3758)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+18:33:23,284 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 16 50 00 5E 00 00 35 05 00 00 00 00   q..L.P.^..5.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0D 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 0D               ............    
+
+2015-08-23 18:33:31,598 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 113.238.205.245:3758)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 18:33:31,600 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 16 3D 00 5E 00 00 35 05 00 00 00 00   q..L.=.^..5.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 02               ............    
+
+2015-08-23 18:37:36,916 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 118.100.227.150:58316)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 18:37:36,918 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 35 03 4F 00 7C 00 00 43 9F 00 00 00 00   q..5.O.|..C.....
+0010: 00 00 00 00 01 00 00 00 03 00 00 00 15 00 00 00   ................
+0020: 55 00 00 00 20 00 00 00 56 00 00 00 21 00 00 00   U... ...V...!...
+0030: 53 00 00 00 22                                    S..."           
+
+2015-08-23 18:37:54,977 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 203.106.152.215:9006)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 18:37:54,979 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 0A 00 62 00 00 3A 76 00 00 00 00   q......b..:v....
+0010: 00 00 00 00 01 00                                 ......          
+
+2015-08-23 18:38:24,411 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 203.106.152.215:9006)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 18:38:24,413 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 0A 00 62 00 00 3A 76 00 00 00 00   q......b..:v....
+0010: 00 00 00 00 01 00                                 ......          
+
+2015-08-23 18:40:24,656 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 112.98.39.252:1780)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 18:40:24,658 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 66 00 62 00 00 49 43 00 00 00 00   q....f.b..IC....
+0010: 00 00 00 00 01 00                                 ......          
+
+2015-08-23 18:42:03,443 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 112.98.39.252:1780)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 18:42:03,445 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 66 00 62 00 00 49 43 00 00 00 00   q....f.b..IC....
+0010: 00 00 00 00 01 00                                 ......          
+
+18:54:39,067 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 114.89.118.17:55380)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+18:54:39,068 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 3D 01 26 00 7C 00 00 30 53 00 00 00 00   q..=.&.|..0S....
+0010: 00 00 00 00 01 00 00 00 04 00 00 00 01 00 00 00   ................
+0020: 06 00 00 00 00 00 00 00 0B 00 00 00 01 00 00 00   ................
+0030: 09 00 00 00 02 00 00 00 0A 00 00 00 03            .............   
+
+19:01:27,027 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.NPC.FourHardHawkNpc.CreateFeather() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\NPC\FourHardHawkNpc.cs:line 162
+   at Game.Logic.Actions.LivingCallFunctionAction.ExecuteImp(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\LivingCallFunctionAction.cs:line 18
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-23 19:05:25,348 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:1.9.98.95:4097, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+19:05:36,060 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:1.9.98.95:4097, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+19:05:37,761 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:1.9.98.95:4097, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+19:05:38,289 - [76] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:1.9.98.95:4097, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+19:08:50,209 - [7] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 1  cmd:0x20
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.UsePropItem(AbstractGame game, Int32 bag, Int32 place, Int32 templateId, Boolean isLiving) in e:\5.5源码\Game.Server\Game.Server.GameObjects\GamePlayer.cs:line 3686
+   at Game.Logic.Cmd.PropUseCommand.HandleCommand(BaseGame game, Player player, GSPacketIn packet) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Cmd\PropUseCommand.cs:line 25
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+2015-08-23 19:10:11,673 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 659
+   at Game.Logic.PVEGame.StartGame() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 693
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 35
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+19:19:35,168 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 659
+   at Game.Logic.PVEGame.StartGame() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 693
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 35
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+2015-08-23 19:21:08,277 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 117.87.43.43:28585)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 19:21:08,278 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 45 05 2D 00 7C 00 00 45 91 00 00 00 00   q..E.-.|..E.....
+0010: 00 00 00 00 01 00 00 00 05 00 00 00 15 00 00 00   ................
+0020: 8A 00 00 00 20 00 00 00 90 00 00 00 21 00 00 00   .... .......!...
+0030: 74 00 00 00 22 00 00 00 A2 00 00 00 23 00 00 00   t...".......#...
+0040: 6F 00 00 00 24                                    o...$           
+
+2015-08-23 19:25:37,641 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.ItemStrengthenHandler  client: 210.195.211.85:49360)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.ItemStrengthenHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\ItemStrengthenHandler.cs:line 22
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 19:25:37,643 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 28 00 3B 00 00 48 2D 00 00 00 00   q....(.;..H-....
+0010: 00 00 00 00 00 01                                 ......          
+
+2015-08-23 19:29:33,422 - [40] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.ItemAdvanceHandler  client: 211.100.46.157:60353)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.ItemAdvanceHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\ItemAdvanceHandler.cs:line 23
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 19:29:33,424 - [40] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 14 02 0F 00 8A 00 00 37 D7 00 00 00 00   q.........7.....
+0010: 00 00 00 00                                       ....            
+
+2015-08-23 19:32:46,843 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 125.104.228.167:9323)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 19:32:46,844 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 44 00 62 00 00 48 A2 00 00 00 00   q....D.b..H.....
+0010: 00 00 00 00 01 00                                 ......          
+
+19:35:25,400 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 101.27.118.218:788)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+19:35:25,401 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 09 00 62 00 00 47 68 00 00 00 00   q......b..Gh....
+0010: 00 00 00 00 01 00                                 ......          
+
+2015-08-23 19:35:42,755 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 101.27.118.218:788)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 19:35:42,757 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 09 00 62 00 00 47 68 00 00 00 00   q......b..Gh....
+0010: 00 00 00 00 01 00                                 ......          
+
+2015-08-23 19:41:42,558 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 106.115.114.126:11992)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 19:41:42,560 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 45 04 7A 00 7C 00 00 38 91 00 00 00 00   q..E.z.|..8.....
+0010: 00 00 00 00 01 00 00 00 05 00 00 00 15 00 00 00   ................
+0020: A1 00 00 00 20 00 00 00 8A 00 00 00 21 00 00 00   .... .......!...
+0030: 90 00 00 00 22 00 00 00 2D 00 00 00 23 00 00 00   ...."...-...#...
+0040: 91 00 00 00 24                                    ....$           
+
+2015-08-23 19:41:47,972 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 1.48.227.106:1450)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 19:41:47,974 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 1B 00 5E 00 00 3E B8 00 00 00 00   q..L...^..>.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 02               ............    
+
+2015-08-23 19:45:55,191 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 115.135.92.229:62460)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 19:45:55,192 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 01 21 00 5E 00 00 48 71 00 00 00 00   q....!.^..Hq....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+2015-08-23 19:46:54,741 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 59.38.98.146:8041)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 19:46:54,742 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 2D 02 24 00 7C 00 00 34 D4 00 00 00 00   q..-.$.|..4.....
+0010: 00 00 00 00 01 00 00 00 02 00 00 00 15 00 00 00   ................
+0020: 2E 00 00 00 20 00 00 00 22 00 00 00 21            .... ..."...!   
+
+2015-08-23 19:50:31,764 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:101.27.118.218:788, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+2015-08-23 19:50:35,237 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:101.27.118.218:788, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+2015-08-23 19:50:36,813 - [76] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:101.27.118.218:788, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+19:50:42,476 - [76] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:101.27.118.218:788, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+19:50:43,094 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 659
+   at Game.Logic.PVEGame.StartGame() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 693
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 35
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+2015-08-23 19:51:09,923 - [40] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:27.210.188.163:61460, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+2015-08-23 19:51:11,806 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:27.210.188.163:61460, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+2015-08-23 19:51:13,964 - [40] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:27.210.188.163:61460, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+2015-08-23 19:51:14,582 - [50] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:27.210.188.163:61460, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+19:51:15,134 - [191] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:27.210.188.163:61460, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+2015-08-23 19:58:24,200 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardSlotHandler  client: 123.112.19.4:9363)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.CardSlotHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardSlotHandler.cs:line 25
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 19:58:24,201 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 1E 00 AA 00 00 3E 6C 00 00 00 00   q.. ......>l....
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 1A 39   ...............9
+
+2015-08-23 19:58:27,361 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardSlotHandler  client: 123.112.19.4:9363)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.CardSlotHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardSlotHandler.cs:line 25
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 19:58:27,362 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 02 21 00 AA 00 00 3E 6C 00 00 00 00   q.. .!....>l....
+0010: 00 00 00 00 00 00 00 00 00 00 00 04 00 00 08 CA   ................
+
+2015-08-23 20:04:45,136 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 116.210.231.244:19250)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 20:04:45,138 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 34 00 62 00 00 45 15 00 00 00 00   q....4.b..E.....
+0010: 00 00 00 00 01 00                                 ......          
+
+20:07:33,063 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 106.115.114.126:12665)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:07:33,064 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 25 02 16 00 7C 00 00 38 91 00 00 00 00   q..%...|..8.....
+0010: 00 00 00 00 01 00 00 00 01 00 00 00 15 00 00 00   ................
+0020: 23 00 00 00 20                                    #...            
+
+20:11:41,259 - [53] - ERROR - Bussiness.BaseBussiness - RenameNick
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Bussiness.PlayerBussiness.RenameNick(String userName, String nickName, String newNickName)
+2015-08-23 20:12:26,348 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 659
+   at Game.Logic.PVEGame.StartGame() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 693
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 35
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+2015-08-23 20:12:31,036 - [7] - ERROR - Game.Logic.PVEGame - <log4net.Error>Exception during StringFormat: Index (zero based) must be greater than or equal to zero and less than the size of the argument list. <format>game ai script m_gameAI.OnShooted() error:{1}</format><args>{System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.DCT4303.OnShooted() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\Messions\DCT4303.cs:line 257
+   at Game.Logic.PVEGame.OnShooted() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1552}</args></log4net.Error>
+20:14:53,353 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 659
+   at Game.Logic.PVEGame.StartGame() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 693
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 35
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+2015-08-23 20:16:19,746 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 123.6.98.28:27472)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 20:16:19,747 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 10 00 5E 00 00 38 4E 00 00 00 00   q..L...^..8N....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 00 00 00 00 00 00 00 00 00 07               ............    
+
+20:16:45,200 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 114.111.167.10:3502)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:16:45,201 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 55 05 6E 00 7C 00 00 49 10 00 00 00 00   q..U.n.|..I.....
+0010: 00 00 00 00 01 00 00 00 07 00 00 00 15 00 00 00   ................
+0020: 8F 00 00 00 20 00 00 00 85 00 00 00 21 00 00 00   .... .......!...
+0030: 5E 00 00 00 22 00 00 00 60 00 00 00 23 00 00 00   ^..."...`...#...
+0040: 9C 00 00 00 24 00 00 00 39 00 00 00 25 00 00 00   ....$...9...%...
+0050: 69 00 00 00 26                                    i...&           
+
+20:17:48,508 - [7] - ERROR - Game.Logic.PVEGame - <log4net.Error>Exception during StringFormat: Index (zero based) must be greater than or equal to zero and less than the size of the argument list. <format>game ai script m_gameAI.OnShooted() error:{1}</format><args>{System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.DCT4303.OnShooted() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\Messions\DCT4303.cs:line 257
+   at Game.Logic.PVEGame.OnShooted() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1552}</args></log4net.Error>
+2015-08-23 20:20:01,108 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.134.42.150:2509)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 20:20:01,109 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 73 00 5E 00 00 48 6F 00 00 00 00   q..L.s.^..Ho....
+0010: 00 00 00 00 00 00 00 02 00 00 00 0C 04 01 00 00   ................
+0020: 00 1F 20 E5 9B A2 E9 98 9F E4 BD 9C E6 88 98 EF   .. .............
+0030: BC 8C E4 B9 90 E8 B6 A3 E6 97 A0 E9 99 90 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 0C               ............    
+
+2015-08-23 20:21:05,633 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 175.138.194.119:49541)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.set_Item(Int32 index, T value)
+   at Game.Server.GameUtils.PetAbstractInventory.SetSkillEquip(UsersPetinfo pet, Int32 place, String skill) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetAbstractInventory.cs:line 485
+   at Game.Server.GameUtils.PetAbstractInventory.EquipSkillPet(Int32 place, Int32 killId, Int32 killindex) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetAbstractInventory.cs:line 470
+   at Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\PetHandler.cs:line 238
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 20:21:05,635 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 02 12 00 44 00 00 3C F4 00 00 00 00   q..!...D..<.....
+0010: 00 00 00 00 07 00 00 00 01 00 00 00 9B 00 00 00   ................
+0020: 04                                                .               
+
+20:21:15,011 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 659
+   at Game.Logic.PVEGame.StartGame() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 693
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 35
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+2015-08-23 20:21:19,143 - [40] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 175.138.194.119:49541)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.set_Item(Int32 index, T value)
+   at Game.Server.GameUtils.PetAbstractInventory.SetSkillEquip(UsersPetinfo pet, Int32 place, String skill) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetAbstractInventory.cs:line 485
+   at Game.Server.GameUtils.PetAbstractInventory.EquipSkillPet(Int32 place, Int32 killId, Int32 killindex) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetAbstractInventory.cs:line 470
+   at Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\PetHandler.cs:line 238
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 20:21:19,145 - [40] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 02 13 00 44 00 00 3C F4 00 00 00 00   q..!...D..<.....
+0010: 00 00 00 00 07 00 00 00 01 00 00 00 9C 00 00 00   ................
+0020: 04                                                .               
+
+2015-08-23 20:21:19,455 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:49.68.103.31:4994, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+2015-08-23 20:21:21,190 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:49.68.103.31:4994, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+2015-08-23 20:21:21,191 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:49.68.103.31:4994, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+2015-08-23 20:21:21,192 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:49.68.103.31:4994, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+2015-08-23 20:22:06,805 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.NPC.FourHardHawkNpc.CreateFeather() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\NPC\FourHardHawkNpc.cs:line 162
+   at Game.Logic.Actions.LivingCallFunctionAction.ExecuteImp(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\LivingCallFunctionAction.cs:line 18
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+2015-08-23 20:37:19,732 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 119.166.201.62:1112)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 20:37:19,733 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 50 00 5E 00 00 49 7A 00 00 00 00   q..L.P.^..Iz....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 07               ............    
+
+2015-08-23 20:37:30,936 - [40] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 119.166.201.62:1112)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 20:37:30,938 - [40] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 50 00 5E 00 00 49 7A 00 00 00 00   q..L.P.^..Iz....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 07               ............    
+
+20:49:18,258 - [40] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 110.88.189.14:1528)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:49:18,259 - [40] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 35 04 02 00 7C 00 00 44 DC 00 00 00 00   q..5...|..D.....
+0010: 00 00 00 00 01 00 00 00 03 00 00 00 15 00 00 00   ................
+0020: 97 00 00 00 20 00 00 00 6B 00 00 00 21 00 00 00   .... ...k...!...
+0030: 71 00 00 00 22                                    q..."           
+
+2015-08-23 20:53:21,621 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+2015-08-23 20:58:13,891 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 113.107.200.7:14353)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 20:58:13,892 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 25 02 28 00 7C 00 00 43 E4 00 00 00 00   q..%.(.|..C.....
+0010: 00 00 00 00 01 00 00 00 01 00 00 00 15 00 00 00   ................
+0020: 57 00 00 00 20                                    W...            
+
+20:58:16,099 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 106.5.196.27:1716)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+20:58:16,101 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 23 00 5E 00 00 2C 2E 00 00 00 00   q..H.#.^..,.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 02 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 02                           ........        
+
+2015-08-23 20:58:56,510 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+2015-08-23 20:59:23,710 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 110.253.149.176:25196)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 20:59:23,711 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 35 02 65 00 7C 00 00 39 2D 00 00 00 00   q..5.e.|..9-....
+0010: 00 00 00 00 01 00 00 00 03 00 00 00 15 00 00 00   ................
+0020: 30 00 00 00 20 00 00 00 2F 00 00 00 21 00 00 00   0... .../...!...
+0030: 31 00 00 00 22                                    1..."           
+
+2015-08-23 20:59:49,708 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.NecklaceStrengthHandler  client: 115.132.119.69:49425)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.NecklaceStrengthHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\NecklaceStrengthHandler.cs:line 16
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 20:59:49,709 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1D 01 6A 00 5F 00 00 3D D6 00 00 00 00   q....j._..=.....
+0010: 00 00 00 00 01 00 00 00 00 00 00 00 00            .............   
+
+2015-08-23 21:02:28,807 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 106.5.196.27:1716)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 21:02:28,808 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 10 2C 00 5E 00 00 2C 2E 00 00 00 00   q..H.,.^..,.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 02 00   .....come on!...
+0040: 00 00 00 00 00 00 00 07                           ........        
+
+2015-08-23 21:04:08,287 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+2015-08-23 21:04:24,921 - [6] - ERROR - Game.Server.Rooms.RoomMgr - RoomMgr execute action error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Rooms.BaseRoom.RemovePlayerAtUnsafe(Int32 pos) in e:\5.5源码\Game.Server\Game.Server.Rooms\BaseRoom.cs:line 737
+   at Game.Server.Rooms.KickPlayerAction.Execute() in e:\5.5源码\Game.Server\Game.Server.Rooms\KickPlayerAction.cs:line 15
+   at Game.Server.Rooms.RoomMgr.ExecuteActions() in e:\5.5源码\Game.Server\Game.Server.Rooms\RoomMgr.cs:line 184
+2015-08-23 21:04:34,315 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 110.88.189.14:1528)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 21:04:34,317 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 25 02 73 00 7C 00 00 44 DC 00 00 00 00   q..%.s.|..D.....
+0010: 00 00 00 00 01 00 00 00 01 00 00 00 15 00 00 00   ................
+0020: 29 00 00 00 20                                    )...            
+
+21:15:53,302 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+2015-08-23 21:18:11,720 - [40] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 183.69.218.187:20256)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 21:18:11,721 - [40] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 02 1D 00 5E 00 00 3D F8 00 00 00 00   q......^..=.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+21:18:13,650 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 183.69.218.187:20256)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 402
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+21:18:13,650 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 18 02 1D 00 5E 00 00 3D F8 00 00 00 00   q......^..=.....
+0010: 00 00 00 00 00 00 00 13                           ........        
+
+21:18:35,626 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 1.175.157.117:51358)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\PetHandler.cs:line 49
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+21:18:35,628 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1D 01 1C 00 44 00 00 49 95 00 00 00 00   q......D..I.....
+0010: 00 00 00 00 02 00 00 00 00 00 00 00 01            .............   
+
+2015-08-23 21:19:34,507 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 659
+   at Game.Logic.PVEGame.StartGame() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 693
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 35
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+21:24:46,008 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 116.1.61.183:30561)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+21:24:46,009 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 45 04 53 00 7C 00 00 35 B4 00 00 00 00   q..E.S.|..5.....
+0010: 00 00 00 00 01 00 00 00 05 00 00 00 15 00 00 00   ................
+0020: 4E 00 00 00 20 00 00 00 6D 00 00 00 21 00 00 00   N... ...m...!...
+0030: 33 00 00 00 22 00 00 00 AD 00 00 00 23 00 00 00   3...".......#...
+0040: 97 00 00 00 24                                    ....$           
+
+2015-08-23 21:26:51,864 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 123.149.176.71:2002)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 21:26:51,866 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 11 50 00 5E 00 00 48 BB 00 00 00 00   q..H.P.^..H.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 04 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 04                           ........        
+
+21:36:24,308 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 124.116.241.83:2840)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+21:36:24,309 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 41 00 5E 00 00 41 78 00 00 00 00   q..L.A.^..Ax....
+0010: 00 00 00 00 00 00 00 02 00 00 00 05 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 02 00 00 00 00 00 00 00 00 05               ............    
+
+2015-08-23 21:40:42,582 - [152] - ERROR - Game.Server.GameServer - AsynProcessPacket
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameObjects.GamePlayer.UsePropItem(AbstractGame game, Int32 bag, Int32 place, Int32 templateId, Boolean isLiving) in e:\5.5源码\Game.Server\Game.Server.GameObjects\GamePlayer.cs:line 3686
+   at Game.Server.Battle.FightServerConnector.HandlePlayerOnUsingItem(GSPacketIn pkg) in e:\5.5源码\Game.Server\Game.Server.Battle\FightServerConnector.cs:line 398
+   at Game.Server.Battle.FightServerConnector.AsynProcessPacket(Object state) in e:\5.5源码\Game.Server\Game.Server.Battle\FightServerConnector.cs:line 66
+21:56:39,032 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+2015-08-23 22:02:02,097 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 123.112.19.4:13503)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 22:02:02,098 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 3D 03 11 00 7C 00 00 3E 6C 00 00 00 00   q..=...|..>l....
+0010: 00 00 00 00 01 00 00 00 04 00 00 00 15 00 00 00   ................
+0020: 5F 00 00 00 20 00 00 00 27 00 00 00 21 00 00 00   _... ...'...!...
+0030: 61 00 00 00 22 00 00 00 6D 00 00 00 23            a..."...m...#   
+
+22:12:07,523 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 203.106.151.226:8479)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:12:07,525 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 11 00 62 00 00 49 6E 00 00 00 00   q......b..In....
+0010: 00 00 00 00 01 00                                 ......          
+
+2015-08-23 22:12:51,656 - [37] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:119.166.194.249:56289, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+2015-08-23 22:12:53,353 - [76] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:119.166.194.249:56289, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+22:12:56,935 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:119.166.194.249:56289, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+22:13:02,366 - [53] - ERROR - Game.Server.SceneMarryRooms.TankMarryLogicProcessor - IP:119.166.194.249:56289, OnGameData is Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Game.Server.SceneMarryRooms.TankHandle.MarryCommandMgr.LoadCommandHandler(Int32 code) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms.TankHandle\MarryCommandMgr.cs:line 11
+   at Game.Server.SceneMarryRooms.TankMarryLogicProcessor.OnGameData(MarryRoom room, GamePlayer player, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\TankMarryLogicProcessor.cs:line 57
+2015-08-23 22:13:36,799 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 203.106.151.226:8479)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 22:13:36,800 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 11 00 62 00 00 49 6E 00 00 00 00   q......b..In....
+0010: 00 00 00 00 01 00                                 ......          
+
+22:23:09,746 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 60.178.7.206:21641)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.set_Item(Int32 index, T value)
+   at Game.Server.GameUtils.PetAbstractInventory.SetSkillEquip(UsersPetinfo pet, Int32 place, String skill) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetAbstractInventory.cs:line 485
+   at Game.Server.GameUtils.PetAbstractInventory.EquipSkillPet(Int32 place, Int32 killId, Int32 killindex) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetAbstractInventory.cs:line 470
+   at Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\PetHandler.cs:line 238
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:23:09,747 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 02 2B 00 44 00 00 2F 96 00 00 00 00   q..!.+.D../.....
+0010: 00 00 00 00 07 00 00 00 04 00 00 00 9C 00 00 00   ................
+0020: 04                                                .               
+
+22:26:26,426 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 223.148.95.39:55002)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:26:26,427 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 48 00 62 00 00 48 26 00 00 00 00   q....H.b..H&....
+0010: 00 00 00 00 01 00                                 ......          
+
+22:34:43,027 - [7] - ERROR - Game.Logic.PVEGame - game ai script GameOver error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GameServerScript.AI.Messions.TVS12004.OnGameOver() in d:\偏爱弹弹堂8.17\Server\Road\scripts\AI\Messions\TVS12004.cs:line 132
+   at Game.Logic.PVEGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 1222
+22:36:23,319 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 121.24.226.170:5767)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:36:23,320 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 02 07 00 62 00 00 47 E6 00 00 00 00   q......b..G.....
+0010: 00 00 00 00 01 00                                 ......          
+
+2015-08-23 22:37:31,864 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 121.24.226.170:5767)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 22:37:31,865 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 02 07 00 62 00 00 47 E6 00 00 00 00   q......b..G.....
+0010: 00 00 00 00 01 00                                 ......          
+
+2015-08-23 22:37:34,996 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 121.24.226.170:5767)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 22:37:34,998 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 02 07 00 62 00 00 47 E6 00 00 00 00   q......b..G.....
+0010: 00 00 00 00 01 00                                 ......          
+
+22:38:46,402 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 121.24.226.170:5767)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.PlayNowPosition(Int32 templateID) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 638
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 611
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:38:46,403 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 02 07 00 62 00 00 47 E6 00 00 00 00   q......b..G.....
+0010: 00 00 00 00 01 00                                 ......          
+
+22:58:56,997 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 180.120.9.145:1680)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+22:58:56,999 - [76] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 45 00 62 00 00 49 A2 00 00 00 00   q....E.b..I.....
+0010: 00 00 00 00 01 00                                 ......          
+
+23:03:08,940 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.CardDataHander  client: 14.147.173.56:6019)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.GameUtils.CardAbstractInventory.FindEquipCard(Int32 templateId) in e:\5.5源码\Game.Server\Game.Server.GameUtils\CardAbstractInventory.cs:line 379
+   at Game.Server.Packets.Client.CardDataHander.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\CardDataHander.cs:line 53
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:03:08,941 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 20 01 52 00 D8 00 00 45 1F 00 00 00 00   q.. .R....E.....
+0010: 00 00 00 00 00 00 00 00 00 00 00 1F 00 00 00 00   ................
+
+2015-08-23 23:08:23,844 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at Game.Logic.BaseGame.GetPlayerPoint(MapPoint mapPos, Int32 team) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 659
+   at Game.Logic.PVEGame.StartGame() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:line 693
+   at Game.Logic.Actions.CheckPVEGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVEGameStateAction.cs:line 35
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+2015-08-23 23:10:33,644 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 182.37.85.184:57080)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 23:10:33,646 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 50 00 62 00 00 49 AD 00 00 00 00   q....P.b..I.....
+0010: 00 00 00 00 01 00                                 ......          
+
+23:11:03,398 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 14.147.173.56:6019)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:11:03,399 - [50] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 25 01 2F 00 7C 00 00 45 1F 00 00 00 00   q..%./.|..E.....
+0010: 00 00 00 00 01 00 00 00 01 00 00 00 15 00 00 00   ................
+0020: 21 00 00 00 20                                    !...            
+
+2015-08-23 23:14:38,859 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 218.109.251.76:64530)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 23:14:38,860 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 4A 00 5E 00 00 43 FC 00 00 00 00   q..L.J.^..C.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 06 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 06               ............    
+
+23:27:33,147 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 163.204.112.177:1514)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:27:33,147 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 11 35 00 5E 00 00 49 99 00 00 00 00   q..H.5.^..I.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 07                           ........        
+
+23:27:44,089 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 163.204.112.177:1514)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:27:44,090 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 48 11 35 00 5E 00 00 49 99 00 00 00 00   q..H.5.^..I.....
+0010: 00 00 00 00 00 00 00 02 00 00 00 07 04 01 00 00   ................
+0020: 00 1B 20 E5 8B 87 E8 80 85 E5 A4 A7 E5 86 92 E9   .. .............
+0030: 99 A9 EF BC 81 63 6F 6D 65 20 6F 6E 21 01 03 00   .....come on!...
+0040: 00 00 00 00 00 00 00 07                           ........        
+
+2015-08-23 23:32:04,462 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.NecklaceStrengthHandler  client: 58.255.17.229:50197)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Server.Packets.Client.NecklaceStrengthHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\NecklaceStrengthHandler.cs:line 16
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 23:32:04,463 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 1D 01 41 00 5F 00 00 49 A1 00 00 00 00   q....A._..I.....
+0010: 00 00 00 00 01 00 00 00 00 00 00 00 00            .............   
+
+23:35:30,548 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.SearchGoodsHandler  client: 58.255.17.229:50197)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Game.Server.GameUtils.PlayerExtra.AddBuriedQuest() in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 684
+   at Game.Server.GameUtils.PlayerExtra.UpdateGoodItems(EventAwardInfo good) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 759
+   at Game.Server.GameUtils.PlayerExtra.RollDiceCallBack(Boolean isRemindRollBind) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PlayerExtra.cs:line 596
+   at Game.Server.Packets.Client.SearchGoodsHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\SearchGoodsHandler.cs:line 43
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:35:30,550 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 16 01 44 00 62 00 00 49 A1 00 00 00 00   q....D.b..I.....
+0010: 00 00 00 00 01 00                                 ......          
+
+2015-08-23 23:35:42,278 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 120.141.198.182:53524)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 23:35:42,280 - [37] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 3D 02 48 00 7C 00 00 44 0D 00 00 00 00   q..=.H.|..D.....
+0010: 00 00 00 00 01 00 00 00 04 00 00 00 15 00 00 00   ................
+0020: 2C 00 00 00 20 00 00 00 25 00 00 00 21 00 00 00   ,... ...%...!...
+0030: 48 00 00 00 22 00 00 00 4B 00 00 00 23            H..."...K...#   
+
+23:38:20,173 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 118.186.135.194:22656)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:38:20,174 - [53] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 35 03 2D 00 7C 00 00 49 7F 00 00 00 00   q..5.-.|..I....
+0010: 00 00 00 00 01 00 00 00 03 00 00 00 15 00 00 00   ................
+0020: 51 00 00 00 20 00 00 00 53 00 00 00 21 00 00 00   Q... ...S...!...
+0030: 52 00 00 00 22                                    R..."           
+
+23:46:07,529 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.GameRoomHandler  client: 183.61.155.16:9926)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SqlDataProvider.Data.PveInfo.getPrice(Int32 selectedLevel)
+   at Game.Server.Packets.Client.GameRoomHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\GameRoomHandler.cs:line 109
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:46:07,530 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 4C 17 18 00 5E 00 00 32 61 00 00 00 00   q..L...^..2a....
+0010: 00 00 00 00 00 00 00 02 00 00 00 03 04 01 00 00   ................
+0020: 00 1F 20 E6 8C 91 E6 88 98 E6 9E 81 E9 99 90 EF   .. .............
+0030: BC 8C E6 AC A2 E4 B9 90 E6 97 A0 E8 BE B9 EF BC   ................
+0040: 81 01 03 00 00 00 00 00 00 00 00 03               ............    
+
+2015-08-23 23:46:28,368 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.MoveGoodsAllHandler  client: 101.75.146.121:20854)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Game.Server.Packets.Client.MoveGoodsAllHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\MoveGoodsAllHandler.cs:line 34
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 23:46:28,369 - [31] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 2D 03 17 00 7C 00 00 46 F5 00 00 00 00   q..-...|..F.....
+0010: 00 00 00 00 01 00 00 00 02 00 00 00 15 00 00 00   ................
+0020: A2 00 00 00 20 00 00 00 6E 00 00 00 21            .... ...n...!   
+
+2015-08-23 23:53:55,175 - [40] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 115.132.19.17:52558)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.set_Item(Int32 index, T value)
+   at Game.Server.GameUtils.PetAbstractInventory.SetSkillEquip(UsersPetinfo pet, Int32 place, String skill) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetAbstractInventory.cs:line 485
+   at Game.Server.GameUtils.PetAbstractInventory.EquipSkillPet(Int32 place, Int32 killId, Int32 killindex) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetAbstractInventory.cs:line 470
+   at Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\PetHandler.cs:line 238
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+2015-08-23 23:53:55,177 - [40] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 02 39 00 44 00 00 3D A0 00 00 00 00   q..!.9.D..=.....
+0010: 00 00 00 00 07 00 00 00 03 00 00 00 93 00 00 00   ................
+0020: 04                                                .               
+
+23:53:58,230 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Error while processing packet (handler=Game.Server.Packets.Client.PetHandler  client: 115.132.19.17:52558)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.set_Item(Int32 index, T value)
+   at Game.Server.GameUtils.PetAbstractInventory.SetSkillEquip(UsersPetinfo pet, Int32 place, String skill) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetAbstractInventory.cs:line 485
+   at Game.Server.GameUtils.PetAbstractInventory.EquipSkillPet(Int32 place, Int32 killId, Int32 killindex) in e:\5.5源码\Game.Server\Game.Server.GameUtils\PetAbstractInventory.cs:line 470
+   at Game.Server.Packets.Client.PetHandler.HandlePacket(GameClient client, GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Server.Packets.Client\PetHandler.cs:line 238
+   at Game.Base.Packets.PacketProcessor.HandlePacket(GSPacketIn packet) in e:\5.5源码\Game.Server\Game.Base.Packets\PacketProcessor.cs:line 70
+23:53:58,231 - [191] - ERROR - Game.Base.Packets.PacketProcessor - Package Buffer:
+0000: 71 AB 00 21 02 39 00 44 00 00 3D A0 00 00 00 00   q..!.9.D..=.....
+0010: 00 00 00 00 07 00 00 00 03 00 00 00 93 00 00 00   ................
+0020: 04                                                .               
+

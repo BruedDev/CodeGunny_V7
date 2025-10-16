@@ -1,0 +1,9 @@
+00:20:19,371 - [MAIN] - ERROR - Game.Server.GameServer - Failed to start the server
+System.ArgumentOutOfRangeException: Number must be either non-negative and less than or equal to Int32.MaxValue or -1.
+Parameter name: dueTime
+   at System.Threading.Timer..ctor(TimerCallback callback, Object state, Int32 dueTime, Int32 period)
+   at Game.Server.SceneMarryRooms.MarryRoom.BeginTimer(Int32 interval) in e:\5.5源码\Game.Server\Game.Server.SceneMarryRooms\MarryRoom.cs:line 127
+   at Game.Server.Managers.MarryRoomMgr.CreateMarryRoomFromDB(MarryRoomInfo roomInfo, Int32 timeLeft) in e:\5.5源码\Game.Server\Game.Server.Managers\MarryRoomMgr.cs:line 141
+   at Game.Server.Managers.MarryRoomMgr.CheckRoomStatus() in e:\5.5源码\Game.Server\Game.Server.Managers\MarryRoomMgr.cs:line 40
+   at Game.Server.Managers.MarryRoomMgr.Init() in e:\5.5源码\Game.Server\Game.Server.Managers\MarryRoomMgr.cs:line 22
+   at Game.Server.GameServer.Start() in e:\5.5源码\Game.Server\Game.Server\GameServer.cs:line 451

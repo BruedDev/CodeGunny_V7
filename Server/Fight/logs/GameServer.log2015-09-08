@@ -1,0 +1,26 @@
+11:11:47,192 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+11:11:47,438 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+11:11:47,467 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+11:11:47,468 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+11:11:47,470 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+11:11:47,472 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+11:11:48,425 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+11:11:48,614 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+11:11:48,625 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+11:11:49,159 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+11:11:49,169 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+11:11:49,206 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+11:11:49,231 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+11:11:49,259 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+11:11:49,271 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+11:11:49,285 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+11:11:49,304 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+11:11:49,308 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+11:11:49,315 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+11:11:53,479 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 58.218.211.226:49262
+13:31:45,330 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:10
+16:02:25,050 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:15
+20:04:56,772 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:17
+20:13:31,065 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:35
+20:33:35,828 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:14
+21:40:10,999 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:34

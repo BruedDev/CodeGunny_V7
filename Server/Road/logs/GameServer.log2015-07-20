@@ -1,0 +1,888 @@
+00:00:34,568 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:00:34,568 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:00:34,589 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:00:34,601 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:00:34,676 - [14] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:00:34,676 - [14] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:00:34,676 - [14] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:01:34,441 - [10] - INFO  - Game.Server.GameServer - Saving database...
+00:01:34,441 - [11] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+00:01:34,443 - [10] - INFO  - Game.Server.GameServer - Saving New Item to database complete!
+00:01:34,443 - [10] - INFO  - Game.Server.GameServer - Saved all databases and 1 players in 0ms
+00:01:34,443 - [11] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+00:01:34,582 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:01:34,582 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:01:34,583 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:01:34,584 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:01:34,690 - [10] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:01:34,690 - [10] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:01:34,690 - [10] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:02:34,488 - [14] - INFO  - Game.Server.GameServer - Begin ping check....
+00:02:34,488 - [14] - INFO  - Game.Server.GameServer - End ping check....
+00:02:34,488 - [14] - INFO  - Game.Server.GameServer - Begin ping center check....
+00:02:34,488 - [14] - INFO  - Game.Server.GameServer - End ping center check....
+00:02:34,595 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:02:34,595 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:02:34,597 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:02:34,597 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:02:34,704 - [14] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:02:34,704 - [14] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:02:34,704 - [14] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:03:34,609 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:03:34,609 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:03:34,611 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:03:34,611 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:03:34,718 - [10] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:03:34,718 - [10] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:03:34,718 - [10] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:04:34,623 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:04:34,623 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:04:34,625 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:04:34,625 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:04:34,732 - [10] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:04:34,734 - [10] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:04:34,735 - [10] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:05:34,498 - [13] - INFO  - Game.Server.GameServer - Begin ping check....
+00:05:34,498 - [13] - INFO  - Game.Server.GameServer - End ping check....
+00:05:34,498 - [13] - INFO  - Game.Server.GameServer - Begin ping center check....
+00:05:34,498 - [13] - INFO  - Game.Server.GameServer - End ping center check....
+00:05:34,648 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:05:34,648 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:05:34,650 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:05:34,650 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:05:34,744 - [13] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:05:34,744 - [13] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:05:34,744 - [13] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:06:34,452 - [13] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+00:06:34,452 - [13] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+00:06:34,649 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:06:34,649 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:06:34,651 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:06:34,651 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:06:34,759 - [9] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:06:34,759 - [9] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:06:34,759 - [9] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:07:34,662 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:07:34,662 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:07:34,664 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:07:34,664 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:07:34,772 - [12] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:07:34,772 - [12] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:07:34,772 - [12] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:08:34,508 - [14] - INFO  - Game.Server.GameServer - Begin ping check....
+00:08:34,508 - [14] - INFO  - Game.Server.GameServer - End ping check....
+00:08:34,508 - [14] - INFO  - Game.Server.GameServer - Begin ping center check....
+00:08:34,508 - [14] - INFO  - Game.Server.GameServer - End ping center check....
+00:08:34,676 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:08:34,676 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:08:34,678 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:08:34,678 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:08:34,786 - [14] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:08:34,786 - [14] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:08:34,786 - [14] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:09:34,690 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:09:34,690 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:09:34,692 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:09:34,692 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:09:34,805 - [9] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:09:34,805 - [9] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:09:34,805 - [9] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:10:34,705 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:10:34,705 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:10:34,707 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:10:34,707 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:10:34,814 - [9] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:10:34,814 - [9] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:10:34,814 - [9] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:11:34,312 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem TimeCheck....
+00:11:34,317 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem TimeCheck....
+00:11:34,420 - [13] - INFO  - Game.Server.GameServer - BagMail Scaning ...
+00:11:34,420 - [13] - INFO  - Game.Server.GameServer - BagMail Scan complete!
+00:11:34,455 - [12] - INFO  - Game.Server.GameServer - Saving database...
+00:11:34,455 - [9] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+00:11:34,457 - [12] - INFO  - Game.Server.GameServer - Saving New Item to database complete!
+00:11:34,457 - [12] - INFO  - Game.Server.GameServer - Saved all databases and 1 players in 0ms
+00:11:34,457 - [9] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+00:11:34,514 - [11] - INFO  - Game.Server.GameServer - Begin ping check....
+00:11:34,514 - [11] - INFO  - Game.Server.GameServer - End ping check....
+00:11:34,514 - [11] - INFO  - Game.Server.GameServer - Begin ping center check....
+00:11:34,514 - [11] - INFO  - Game.Server.GameServer - End ping center check....
+00:11:34,718 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:11:34,718 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:11:34,720 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:11:34,720 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:11:34,826 - [11] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:11:34,826 - [11] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:11:34,826 - [11] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:12:34,731 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:12:34,731 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:12:34,733 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:12:34,733 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:12:34,840 - [11] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:12:34,840 - [11] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:12:34,840 - [11] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:13:34,745 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:13:34,745 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:13:34,747 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:13:34,747 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:13:34,853 - [9] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:13:34,853 - [9] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:13:34,853 - [9] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:14:25,087 - [5] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+00:14:25,102 - [5] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 183.131.83.165:9208
+00:14:25,746 - [15] - INFO  - Game.Base.BaseClient - Disconnecting client (not connected), received bytes=0
+00:14:26,106 - [5] - ERROR - Game.Base.BaseConnector - Connect 183.131.83.165:9208 failed!
+00:14:26,108 - [13] - WARN  - Game.Server.Battle.BattleMgr - Disconnect from battle server 183.131.83.165:9208
+00:14:26,108 - [5] - INFO  - Game.Base.BaseS00:14:32,159 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+00:14:33,801 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+00:14:33,804 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+00:14:33,897 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+00:14:33,897 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+00:14:33,897 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+00:14:33,902 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+00:14:34,053 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+00:14:34,063 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+00:14:34,070 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+00:14:34,286 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+00:14:34,440 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+00:14:34,623 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+00:14:34,734 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+00:14:34,742 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+00:14:34,748 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+00:14:34,756 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+00:14:34,764 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+00:14:34,776 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+00:14:34,797 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+00:14:34,826 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+00:14:34,839 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+00:14:34,844 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+00:14:34,860 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+00:14:34,881 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+00:14:34,888 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+00:14:34,896 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+00:14:34,918 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+00:14:34,925 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+00:14:35,175 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+00:14:35,208 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+00:14:35,220 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+00:14:35,221 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+00:14:35,235 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+00:14:35,245 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+00:14:35,253 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+00:14:35,257 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+00:14:35,300 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+00:14:35,322 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+00:14:35,367 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+00:14:35,383 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+00:14:35,402 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+00:14:35,406 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+00:14:35,406 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+00:14:35,422 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+00:14:35,422 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+00:14:35,437 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+00:14:35,440 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+00:14:35,445 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+00:14:35,461 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+00:14:35,484 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr Setup: True
+00:14:35,503 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr Setup: True
+00:14:35,504 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr Init: True
+00:14:35,504 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr Init: True
+00:14:35,528 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr Init: True
+00:14:35,544 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr Setup: True
+00:14:35,551 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelMgr Setup: True
+00:14:35,562 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr Setup: True
+00:14:35,576 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 183.131.83.165:9208 loaded...
+00:14:35,586 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+00:14:35,586 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr Setup: True
+00:14:35,594 - [MAIN] - INFO  - Game.Server.GameServer - ClothPropertyTemplateInfoMgr Setup: True
+00:14:35,601 - [MAIN] - INFO  - Game.Server.GameServer - ClothGroupTemplateInfoMgr Setup: True
+00:14:35,610 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneTemplateMgr Setup: True
+00:14:35,612 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+00:14:35,613 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Setup: True
+00:14:35,653 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 156 handlers from GameServer Assembly!
+00:14:35,672 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+00:14:35,672 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 183.131.83.165:9202
+00:14:35,672 - [MAIN] - INFO  - Game.Server.GameServer - Login To CenterServer: True
+00:14:35,687 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 183.131.83.165:9208
+00:14:35,687 - [MAIN] - INFO  - Game.Server.GameServer - base.Start(): True
+00:14:35,705 - [MAIN] - INFO  - Game.Server.GameServer - GameServer is now open for connections!
+00:15:29,445 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 171.83.45.47:42765
+00:15:29,514 - [5] - INFO  - Game.Base.BaseClient - Disconnecting client (171.83.45.47:42765), received bytes=0
+00:15:29,586 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 171.83.45.47:42766
+00:15:35,506 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:15:35,507 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:15:35,508 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:15:35,508 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:15:35,615 - [10] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:15:35,615 - [10] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:15:35,615 - [10] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:16:35,518 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:16:35,518 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:16:35,518 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:16:35,518 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:16:35,628 - [9] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:16:35,628 - [9] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:16:35,628 - [9] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:17:35,533 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:17:35,534 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:17:35,535 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:17:35,536 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod.00:18:40,643 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+00:18:42,314 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+00:18:42,318 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+00:18:42,413 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+00:18:42,414 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+00:18:42,414 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+00:18:42,418 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+00:18:42,555 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+00:18:42,563 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+00:18:42,569 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+00:18:42,773 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+00:18:42,928 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+00:18:43,109 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+00:18:43,206 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+00:18:43,213 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+00:18:43,217 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+00:18:43,224 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+00:18:43,231 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+00:18:43,241 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+00:18:43,257 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+00:18:43,279 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+00:18:43,293 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+00:18:43,299 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+00:18:43,315 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+00:18:43,335 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+00:18:43,342 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+00:18:43,350 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+00:18:43,372 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+00:18:43,379 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+00:18:43,623 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+00:18:43,658 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+00:18:43,670 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+00:18:43,671 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+00:18:43,684 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+00:18:43,695 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+00:18:43,702 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+00:18:43,706 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+00:18:43,750 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+00:18:43,768 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+00:18:43,814 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+00:18:43,822 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+00:18:43,833 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+00:18:43,839 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+00:18:43,843 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+00:18:43,849 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+00:18:43,854 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+00:18:43,859 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+00:18:43,861 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+00:18:43,877 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+00:18:43,884 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+00:18:43,901 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr Setup: True
+00:18:43,920 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr Setup: True
+00:18:43,927 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr Init: True
+00:18:43,935 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr Init: True
+00:18:43,944 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr Init: True
+00:18:43,957 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr Setup: True
+00:18:43,963 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelMgr Setup: True
+00:18:43,971 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr Setup: True
+00:18:43,983 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 183.131.83.165:9208 loaded...
+00:18:43,991 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+00:18:43,991 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr Setup: True
+00:18:43,997 - [MAIN] - INFO  - Game.Server.GameServer - ClothPropertyTemplateInfoMgr Setup: True
+00:18:44,003 - [MAIN] - INFO  - Game.Server.GameServer - ClothGroupTemplateInfoMgr Setup: True
+00:18:44,011 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneTemplateMgr Setup: True
+00:18:44,013 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+00:18:44,013 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Setup: True
+00:18:44,047 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 156 handlers from GameServer Assembly!
+00:18:44,065 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+00:18:44,077 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 183.131.83.165:9202
+00:18:44,081 - [MAIN] - INFO  - Game.Server.GameServer - Login To CenterServer: True
+00:18:44,084 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 183.131.83.165:9208
+00:18:44,090 - [MAIN] - INFO  - Game.Server.GameServer - base.Start(): True
+00:18:44,142 - [MAIN] - INFO  - Game.Server.GameServer - GameServer is now open for connections!
+00:19:11,564 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 171.83.45.47:42859
+00:19:11,633 - [5] - INFO  - Game.Base.BaseClient - Disconnecting client (171.83.45.47:42859), received bytes=0
+00:19:11,712 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 171.83.45.47:42860
+00:19:43,922 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:19:43,923 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:19:43,924 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:19:43,925 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:19:44,017 - [11] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:19:44,017 - [11] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:19:44,017 - [11] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:20:43,933 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:20:43,933 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:20:43,935 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:20:43,935 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:20:44,027 - [12] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:20:44,027 - [12] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:20:44,027 - [12] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:21:43,948 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:21:43,948 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:21:43,950 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:21:43,950 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:21:44,015 - [12] - INFO  - Game.Server.GameServer - Begin ping check....
+00:21:44,017 - [12] - INFO  - Game.Server.GameServer - End ping check....
+00:21:44,017 - [12] - INFO  - Game.Server.GameServer - Begin ping center check....
+00:21:44,019 - [12] - INFO  - Game.Server.GameServer - End ping center check....
+00:21:44,041 - [10] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:21:44,041 - [10] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:21:44,041 - [10] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:22:43,962 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:22:43,962 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:22:43,964 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:22:43,964 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:22:44,054 - [9] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:22:44,054 - [9] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:22:44,054 - [9] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:22:47,149 - [6] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,102ms!
+00:22:47,149 - [6] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 104 ms,count:1
+00:23:43,976 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:23:43,976 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:23:43,978 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:23:43,978 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:23:44,013 - [12] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+00:23:44,018 - [12] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+00:23:44,069 - [11] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:23:44,069 - [11] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:23:44,069 - [11] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:24:43,989 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:24:43,989 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:24:43,990 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:24:43,990 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:24:44,023 - [12] - INFO  - Game.Server.GameServer - Begin ping check....
+00:24:44,023 - [12] - INFO  - Game.Server.GameServer - End ping check....
+00:24:44,023 - [12] - INFO  - Game.Server.GameServer - Begin ping center check....
+00:24:44,024 - [12] - INFO  - Game.Server.GameServer - End ping center check....
+00:24:44,083 - [11] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:24:44,083 - [11] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:24:44,084 - [11] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:25:44,003 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:25:44,003 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:25:44,005 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:25:44,005 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:25:44,095 - [11] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:25:44,095 - [11] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:25:44,095 - [11] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:26:44,016 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:26:44,016 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:26:44,018 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:26:44,018 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:26:44,110 - [10] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:26:44,110 - [10] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:26:44,110 - [10] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:27:44,030 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:27:44,030 - [11] - INFO  - Game.Server.GameServer - Begin ping check....
+00:27:44,034 - [11] - INFO  - Game.Server.GameServer - End ping check....
+00:27:44,034 - [11] - INFO  - Game.Server.GameServer - Begin ping center check....
+00:27:44,034 - [11] - INFO  - Game.Server.GameServer - End ping center check....
+00:27:44,032 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:27:44,035 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:27:44,035 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:27:44,124 - [11] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:27:44,124 - [11] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:27:44,124 - [11] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:28:44,013 - [11] - INFO  - Game.Server.GameServer - Saving database...
+00:28:44,013 - [13] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+00:28:44,030 - [13] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+00:28:44,045 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:28:44,045 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:28:44,045 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:28:44,046 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:28:44,071 - [11] - INFO  - Game.Server.GameServer - Saving New Item to database complete!
+00:28:44,071 - [11] - INFO  - Game.Server.GameServer - Saved all databases and 1 players in 47ms
+00:28:44,137 - [13] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:28:44,137 - [13] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:28:44,137 - [13] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:29:44,057 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:29:44,057 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:29:44,059 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:29:44,059 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:29:44,151 - [9] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:29:44,151 - [9] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:29:44,151 - [9] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:30:44,041 - [12] - INFO  - Game.Server.GameServer - Begin ping check....
+00:30:44,041 - [12] - INFO  - Game.Server.GameServer - End ping check....
+00:30:44,041 - [12] - INFO  - Game.Server.GameServer - Begin ping center check....
+00:30:44,041 - [12] - INFO  - Game.Server.GameServer - End ping center check....
+00:30:44,071 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+00:30:44,071 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+00:30:44,073 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+00:30:44,073 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+00:30:44,163 - [13] - INFO  - Game.Server.GameServer - Buff Scaning ...
+00:30:44,163 - [13] - INFO  - Game.Server.GameServer - Buff Scan complete!
+00:30:44,163 - [13] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+00:31:44,083 - [9] - IN16:49:10,616 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+16:49:12,270 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+16:49:12,274 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+16:49:12,372 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+16:49:12,372 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+16:49:12,373 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+16:49:12,376 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+16:49:12,516 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+16:49:12,525 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+16:49:12,532 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+16:49:12,742 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+16:49:12,910 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+16:49:13,089 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+16:49:13,203 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+16:49:13,229 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+16:49:13,243 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+16:49:13,252 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+16:49:13,280 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+16:49:13,306 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+16:49:13,377 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+16:49:13,405 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+16:49:13,438 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+16:49:13,555 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+16:49:13,559 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+16:49:13,593 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+16:49:13,621 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+16:49:13,628 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+16:49:13,699 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+16:49:13,706 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+16:49:13,995 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+16:49:14,033 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+16:49:14,049 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+16:49:14,050 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+16:49:14,107 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+16:49:14,120 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+16:49:14,130 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+16:49:14,154 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+16:49:14,205 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+16:49:14,261 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+16:49:14,457 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+16:49:14,468 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+16:49:14,506 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+16:49:14,528 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+16:49:14,540 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+16:49:14,560 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+16:49:14,573 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+16:49:14,590 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+16:49:14,593 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+16:49:14,622 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+16:49:14,640 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+16:49:14,693 - [MAIN] - INF17:02:01,030 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+17:02:02,694 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+17:02:02,698 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+17:02:02,792 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+17:02:02,792 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+17:02:02,792 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+17:02:02,796 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+17:02:02,937 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+17:02:02,947 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+17:02:02,954 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+17:02:03,170 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+17:02:03,323 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+17:02:03,505 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+17:02:03,622 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+17:02:03,647 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+17:02:03,661 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+17:02:03,671 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+17:02:03,709 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+17:02:03,735 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+17:02:03,811 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+17:02:03,839 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+17:02:03,890 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+17:02:03,914 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+17:02:03,930 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+17:02:03,950 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+17:02:03,966 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+17:02:03,996 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+17:02:04,052 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+17:02:04,053 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+17:02:04,318 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+17:02:04,354 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+17:02:04,357 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+17:02:04,373 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+17:02:04,430 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+17:02:04,445 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+17:02:04,455 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+17:02:04,481 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+17:02:04,531 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+17:02:04,601 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+17:02:04,795 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+17:02:04,807 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+17:02:04,848 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+17:02:04,871 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+17:02:04,882 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+17:02:04,902 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+17:02:04,916 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+17:02:04,933 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+17:02:04,936 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+17:02:04,952 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+17:02:04,967 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+17:02:05,042 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr Setup: True
+17:02:05,094 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr Setup: True
+17:02:05,111 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr Init: True
+17:02:05,142 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr Init: True
+17:02:05,142 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr Init: True
+17:02:05,185 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr Setup: True
+17:02:05,202 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelMgr Setup: True
+17:02:05,240 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr Setup: True
+17:02:05,256 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 183.131.83.165:9208 loaded...
+17:02:05,266 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+17:02:05,267 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr Setup: True
+17:02:05,283 - [MAIN] - INFO  - Game.Server.GameServer - ClothPropertyTemplateInfoMgr Setup: True
+17:02:05,295 - [MAIN] - INFO  - Game.Server.GameServer - ClothGroupTemplateInfoMgr Setup: True
+17:02:05,318 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneTemplateMgr Setup: True
+17:02:05,321 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+17:02:05,322 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Setup: True
+17:02:05,364 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 156 handlers from GameServer Assembly!
+17:02:05,389 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+17:02:05,400 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 183.131.83.165:9202
+17:02:05,403 - [MAIN] - INFO  - Game.Server.GameServer - Login To CenterServer: True
+17:02:05,407 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 183.131.83.165:9208
+17:02:05,413 - [MAIN] - INFO  - Game.Server.GameServer - base.Start(): True
+17:02:05,419 - [MAIN] - INFO  - Game.Server.GameServer - GameServer is now open for connections!
+17:02:51,023 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 171.83.124.211:40503
+17:02:51,118 - [5] - INFO  - Game.Base.BaseClient - Disconnecting client (171.83.124.211:40503), received bytes=0
+17:02:51,230 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 171.83.124.211:40504
+17:03:05,066 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+17:03:05,068 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+17:03:05,068 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+17:03:05,068 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+17:03:05,333 - [11] - INFO  - Game.Server.GameServer - Buff Scaning ...
+17:03:05,334 - [11] - INFO  - Game.Server.GameServer - Buff Scan complete!
+17:03:05,335 - [11] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+17:03:08,175 - [6] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,94ms!
+17:03:08,177 - [6] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 97 ms,count:1
+17:03:40,709 - [7] - WARN  - Game.Server.Games.GameMgr - Game Mgr spent too much times: 112 ms, count:1
+17:04:05,079 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+17:04:05,079 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+17:04:05,082 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+17:04:05,083 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+17:04:05,345 - [12] - INFO  - Game.Server.GameServer - Buff Scaning ...
+17:04:05,345 - [12] - INFO  - Game.Server.GameServer - Buff Scan complete!
+17:04:05,347 - [12] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+17:04:48,933 - [5] - INFO  - Game.Base.BaseServer - Incoming 17:08:04,547 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+17:08:06,218 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+17:08:06,221 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+17:08:06,319 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+17:08:06,320 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+17:08:06,320 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+17:08:06,323 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+17:08:06,462 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+17:08:06,471 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+17:08:06,478 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+17:08:06,698 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+17:08:06,849 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+17:08:07,034 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+17:08:07,138 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+17:08:07,145 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+17:08:07,149 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+17:08:07,157 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+17:08:07,165 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+17:08:07,176 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+17:08:07,196 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+17:08:07,224 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+17:08:07,238 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+17:08:07,243 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+17:08:07,258 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+17:08:07,279 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+17:08:07,286 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+17:08:07,294 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+17:08:07,316 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+17:08:07,324 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+17:08:07,570 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+17:08:07,604 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+17:08:07,621 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+17:08:07,622 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+17:08:07,639 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+17:08:07,651 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+17:08:07,659 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+17:08:07,663 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+17:08:07,707 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+17:08:07,724 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+17:08:07,771 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+17:08:07,779 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+17:08:07,789 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+17:08:07,796 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+17:08:07,800 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+17:08:07,805 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+17:08:07,810 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+17:08:07,814 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+17:08:07,816 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+17:08:07,829 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+17:08:07,835 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+17:08:07,849 - [MAIN] - INF17:10:54,574 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+17:10:56,270 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+17:10:56,274 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+17:10:56,379 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+17:10:56,379 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+17:10:56,379 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+17:10:56,383 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+17:10:56,521 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+17:10:56,537 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+17:10:56,537 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+17:10:56,766 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+17:10:56,920 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+17:10:57,092 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+17:10:57,188 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+17:10:57,196 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+17:10:57,201 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+17:10:57,210 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+17:10:57,219 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+17:10:57,220 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+17:10:57,250 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+17:10:57,273 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+17:10:57,283 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+17:10:57,287 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+17:10:57,300 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+17:10:57,320 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+17:10:57,326 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+17:10:57,334 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+17:10:57,356 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+17:10:57,363 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+17:10:57,615 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+17:10:57,652 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+17:10:57,667 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+17:10:57,668 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+17:10:57,686 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+17:10:57,700 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+17:10:57,709 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+17:10:57,714 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+17:10:57,765 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+17:10:57,783 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+17:10:57,844 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+17:10:57,854 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+17:10:57,867 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+17:10:57,875 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+17:10:57,880 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+17:10:57,887 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+17:10:57,892 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+17:10:57,897 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+17:10:57,899 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+17:10:57,911 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+17:10:57,917 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+17:10:57,932 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr Setup: True
+17:10:57,947 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr Setup: True
+17:10:57,953 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr Init: True
+17:10:57,959 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr Init: True
+17:10:57,966 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr Init: True
+17:10:57,979 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr Setup: True
+17:10:57,985 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelMgr Setup: True
+17:10:57,993 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr Setup: True
+17:10:58,005 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 183.131.83.165:9208 loaded...
+17:10:58,013 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+17:10:58,013 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr Setup: True
+17:10:58,019 - [MAIN] - INFO  - Game.Server.GameServer - ClothPropertyTemplateInfoMgr Setup: True
+17:10:58,025 - [MAIN] - INFO  - Game.Server.GameServer - ClothGroupTemplateInfoMgr Setup: True
+17:10:58,033 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneTemplateMgr Setup: True
+17:10:58,035 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+17:10:58,035 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Setup: True
+17:10:58,069 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 156 handlers from GameServer Assembly!
+17:10:58,087 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+17:10:58,096 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 183.131.83.165:9202
+17:10:58,098 - [MAIN] - INFO  - Game.Server.GameServer - Login To CenterServer: True
+17:10:58,101 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 183.131.83.165:9208
+17:10:58,108 - [MAIN] - INFO  - Game.Server.GameServer - base.Start(): True
+17:10:58,111 - [MAIN] - INFO  - Game.Server.GameServer - GameServer is now open for connections!
+17:11:31,453 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 171.83.124.211:41122
+17:11:31,515 - [5] - INFO  - Game.Base.BaseClient - Disconnecting client (171.83.124.211:41122), received bytes=0
+17:11:31,579 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 171.83.124.211:41124
+17:11:36,934 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 171.83.124.211:41155
+17:11:37,040 - [5] - INFO  - Game.Base.BaseClient - Disconnecting client (171.83.124.211:41155), received bytes=0
+17:11:37,129 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 171.83.124.211:41156
+17:11:48,496 - [6] - WARN  - Game.Server.Rooms.RoomMgr - RoomMgr action spent too much times:Game.Server.Rooms.StartGameAction,102ms!
+17:11:48,497 - [6] - WARN  - Game.Server.Rooms.RoomMgr - Room Mgr is spent too much times: 103 ms,count:1
+17:11:57,951 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+17:11:57,952 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+17:11:57,953 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+17:11:57,953 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+17:11:58,046 - [9] - INFO  - Game.Server.GameServer - Buff Scaning ...
+17:11:58,046 - [9] - INFO  - Game.Server.GameServer - Buff Scan complete!
+17:11:58,046 - [9] - INFO  - Game.Server.GameServer - Buff all 2 players in 0ms
+17:12:20,603 - [7] - WARN  - Game.Server.Games.GameMgr - Game Mgr spent too much times: 145 ms, count:1
+17:12:57,964 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+17:12:57,964 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+17:12:57,967 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+17:12:57,967 - [10] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternrid19:51:42,456 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+19:51:44,127 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+19:51:44,130 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+19:51:44,228 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+19:51:44,229 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+19:51:44,229 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+19:51:44,233 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+19:51:44,386 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+19:51:44,395 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+19:51:44,402 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+19:51:44,618 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+19:51:44,773 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+19:51:44,942 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+19:51:45,041 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+19:51:45,073 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+19:51:45,086 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+19:51:45,090 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+19:51:45,127 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+19:51:45,153 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+19:51:45,224 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+19:51:45,246 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+19:51:45,305 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+19:51:45,321 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+19:51:45,350 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+19:51:45,376 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+19:51:45,401 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+19:51:45,421 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+19:51:45,481 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+19:51:45,490 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+19:51:45,756 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+19:51:45,794 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+19:51:45,809 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+19:51:45,810 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+19:51:45,851 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+19:51:45,866 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+19:51:45,884 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+19:51:45,900 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+19:51:45,959 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+19:51:46,013 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+19:51:46,187 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+19:51:46,202 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+19:51:46,235 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+19:51:46,269 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+19:51:46,269 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+19:51:46,302 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+19:51:46,302 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+19:51:46,319 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+19:51:46,335 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+19:51:46,353 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+19:51:46,383 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+19:51:46,530 - [MAIN] - INF21:12:20,140 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+21:12:28,920 - [MAIN] - INFO  - Game.Server.GameServer - Recompile Scripts: True
+21:12:28,923 - [MAIN] - INFO  - Game.Server.GameServer - Server rules: true
+21:12:29,040 - [MAIN] - INFO  - Game.Server.GameServer - Registering global event handlers: true
+21:12:29,040 - [MAIN] - INFO  - Game.Server.GameServer - Script components: True
+21:12:29,040 - [MAIN] - INFO  - Game.Server.GameServer - Edition: 5498628: True
+21:12:29,044 - [MAIN] - INFO  - Game.Server.GameServer - InitSocket Port: 9200: True
+21:12:29,284 - [MAIN] - INFO  - Game.Server.GameServer - AllocatePacketBuffers(): True
+21:12:29,393 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Init: True
+21:12:29,495 - [MAIN] - INFO  - Game.Server.GameServer - WorldMgr Init: True
+21:12:40,276 - [MAIN] - INFO  - Game.Server.GameServer - MapMgr Init: True
+21:12:40,448 - [MAIN] - INFO  - Game.Server.GameServer - ItemMgr Init: True
+21:12:40,631 - [MAIN] - INFO  - Game.Server.GameServer - ItemBox Init: True
+21:12:41,385 - [MAIN] - INFO  - Game.Server.GameServer - BallMgr Init: True
+21:12:41,494 - [MAIN] - INFO  - Game.Server.GameServer - ExerciseMgr Init: True
+21:12:41,512 - [MAIN] - INFO  - Game.Server.GameServer - levelMgr Init: True
+21:12:41,530 - [MAIN] - INFO  - Game.Server.GameServer - BallConfigMgr Init: True
+21:12:41,565 - [MAIN] - INFO  - Game.Server.GameServer - FusionMgr Init: True
+21:12:41,591 - [MAIN] - INFO  - Game.Server.GameServer - AwardMgr Init: True
+21:12:41,665 - [MAIN] - INFO  - Game.Server.GameServer - AchievementMgr Init: True
+21:12:41,695 - [MAIN] - INFO  - Game.Server.GameServer - NPCInfoMgr Init: True
+21:12:41,744 - [MAIN] - INFO  - Game.Server.GameServer - MissionInfoMgr Init: True
+21:12:41,759 - [MAIN] - INFO  - Game.Server.GameServer - MissionEnergyInfoMgr Init: True
+21:12:41,780 - [MAIN] - INFO  - Game.Server.GameServer - PveInfoMgr Init: True
+21:12:41,812 - [MAIN] - INFO  - Game.Server.GameServer - Drop Init: True
+21:12:41,851 - [MAIN] - INFO  - Game.Server.GameServer - FightRateMgr Init: True
+21:12:41,866 - [MAIN] - INFO  - Game.Server.GameServer - RefineryMgr Init: True
+21:12:41,954 - [MAIN] - INFO  - Game.Server.GameServer - StrengthenMgr Init: True
+21:12:41,958 - [MAIN] - INFO  - Game.Server.GameServer - PropItemMgr Init: True
+21:12:42,197 - [MAIN] - INFO  - Game.Server.GameServer - ShopMgr Init: True
+21:12:42,227 - [MAIN] - INFO  - Game.Server.GameServer - QuestMgr Init: True
+21:12:42,258 - [MAIN] - INFO  - Game.Server.GameServer - RoomMgr.Setup: True
+21:12:42,260 - [MAIN] - INFO  - Game.Server.GameServer - GameMgr.Start(): True
+21:12:42,292 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaMgr Init: True
+21:12:42,305 - [MAIN] - INFO  - Game.Server.GameServer - ConsortiaExtraMgr Init: True
+21:12:42,324 - [MAIN] - INFO  - Game.Server.GameServer - LanguageMgr Init: True
+21:12:42,352 - [MAIN] - INFO  - Game.Server.GameServer - ExperienceRateMgr Init: True
+21:12:42,404 - [MAIN] - INFO  - Game.Server.GameServer - WindMgr Init: True
+21:12:42,445 - [MAIN] - INFO  - Game.Server.GameServer - CardMgr Init: True
+21:12:42,646 - [MAIN] - INFO  - Game.Server.GameServer - PetMgr Init: True
+21:12:42,656 - [MAIN] - INFO  - Game.Server.GameServer - GoldEquipMgr Init: True
+21:12:42,695 - [MAIN] - INFO  - Game.Server.GameServer - RuneMgr Init: True
+21:12:42,713 - [MAIN] - INFO  - Game.Server.GameServer - TotemMgr Init: True
+21:12:42,724 - [MAIN] - INFO  - Game.Server.GameServer - TotemHonorMgr Init: True
+21:12:42,749 - [MAIN] - INFO  - Game.Server.GameServer - TreasureAwardMgr Init: True
+21:12:42,753 - [MAIN] - INFO  - Game.Server.GameServer - FairBattleRewardMgr Init: True
+21:12:42,769 - [MAIN] - INFO  - Game.Server.GameServer - FightSpiritTemplateMgr Init: True
+21:12:42,769 - [MAIN] - INFO  - Game.Server.GameServer - MacroDropMgr Init: True
+21:12:42,804 - [MAIN] - INFO  - Game.Server.GameServer - MarryRoomMgr Init: True
+21:12:42,829 - [MAIN] - INFO  - Game.Server.GameServer - RankMgr Init: True
+21:12:42,909 - [MAIN] - INFO  - Game.Server.GameServer - CommunalActiveMgr Setup: True
+21:12:42,960 - [MAIN] - INFO  - Game.Server.GameServer - ActiveSystemMgr Setup: True
+21:12:42,986 - [MAIN] - INFO  - Game.Server.GameServer - QQTipsMgr Init: True
+21:12:43,017 - [MAIN] - INFO  - Game.Server.GameServer - LightriddleQuestMgr Init: True
+21:12:43,027 - [MAIN] - INFO  - Game.Server.GameServer - WorldEventMgr Init: True
+21:12:43,059 - [MAIN] - INFO  - Game.Server.GameServer - SubActiveMgr Setup: True
+21:12:43,073 - [MAIN] - INFO  - Game.Server.GameServer - DiceLevelMgr Setup: True
+21:12:43,110 - [MAIN] - INFO  - Game.Server.GameServer - EventAwardMgr Setup: True
+21:12:43,133 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Battle server 183.131.83.165:9208 loaded...
+21:12:43,142 - [MAIN] - INFO  - Game.Server.Battle.BattleMgr - Total 1 battle server loaded.
+21:12:43,143 - [MAIN] - INFO  - Game.Server.GameServer - BattleMgr Setup: True
+21:12:43,162 - [MAIN] - INFO  - Game.Server.GameServer - ClothPropertyTemplateInfoMgr Setup: True
+21:12:43,174 - [MAIN] - INFO  - Game.Server.GameServer - ClothGroupTemplateInfoMgr Setup: True
+21:12:43,193 - [MAIN] - INFO  - Game.Server.GameServer - MagicStoneTemplateMgr Setup: True
+21:12:43,195 - [MAIN] - INFO  - Game.Server.GameServer - Init Global Timers: True
+21:12:43,195 - [MAIN] - INFO  - Game.Server.GameServer - LogMgr Setup: True
+21:12:43,234 - [MAIN] - INFO  - Game.Base.Packets.PacketProcessor - PacketProcessor: Loaded 156 handlers from GameServer Assembly!
+21:12:43,252 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+21:12:43,261 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 183.131.83.165:9202
+21:12:43,275 - [MAIN] - INFO  - Game.Server.GameServer - Login To CenterServer: True
+21:12:43,278 - [MAIN] - INFO  - Game.Base.BaseConnector - Connected to 183.131.83.165:9208
+21:12:43,283 - [MAIN] - INFO  - Game.Server.GameServer - base.Start(): True
+21:12:43,302 - [MAIN] - INFO  - Game.Server.GameServer - GameServer is now open for connections!
+21:13:01,890 - [4] - INFO  - Game.Base.BaseServer - Incoming connection from 171.83.124.211:37815
+21:13:01,947 - [4] - INFO  - Game.Base.BaseClient - Disconnecting client (171.83.124.211:37815), received bytes=0
+21:13:02,018 - [4] - INFO  - Game.Base.BaseServer - Incoming connection from 171.83.124.211:37817
+21:13:42,926 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+21:13:42,927 - [8] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+21:13:42,928 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+21:13:42,928 - [8] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+21:13:43,208 - [11] - INFO  - Game.Server.GameServer - Buff Scaning ...
+21:13:43,209 - [11] - INFO  - Game.Server.GameServer - Buff Scan complete!
+21:13:43,209 - [11] - INFO  - Game.Server.GameServer - Buff all 1 players in 0ms
+21:13:53,348 - [4] - INFO  - Game.Base.BaseClient - Disconnecting client (171.83.124.211:37817), received bytes=0
+21:14:42,938 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+21:14:42,938 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+21:14:42,940 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+21:14:42,941 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+21:14:43,219 - [9] - INFO  - Game.Server.GameServer - Buff Scaning ...
+21:14:43,219 - [9] - INFO  - Game.Server.GameServer - Buff Scan complete!
+21:14:43,219 - [9] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+21:15:42,952 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+21:15:42,952 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+21:15:42,954 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+21:15:42,954 - [11] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+21:15:43,206 - [13] - INFO  - Game.Server.GameServer - Begin ping check....
+21:15:43,207 - [13] - INFO  - Game.Server.GameServer - End ping check....
+21:15:43,207 - [13] - INFO  - Game.Server.GameServer - Begin ping center check....
+21:15:43,209 - [13] - INFO  - Game.Server.GameServer - End ping center check....
+21:15:43,232 - [14] - INFO  - Game.Server.GameServer - Buff Scaning ...
+21:15:43,232 - [14] - INFO  - Game.Server.GameServer - Buff Scan complete!
+21:15:43,232 - [14] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+21:16:42,966 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+21:16:42,966 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+21:16:42,968 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+21:16:42,968 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+21:16:43,246 - [9] - INFO  - Game.Server.GameServer - Buff Scaning ...
+21:16:43,246 - [9] - INFO  - Game.Server.GameServer - Buff Scan complete!
+21:16:43,246 - [9] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+21:17:42,979 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+21:17:42,979 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+21:17:42,981 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+21:17:42,981 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+21:17:43,203 - [13] - INFO  - Game.Server.GameServer - QQTips Scaning ...
+21:17:43,205 - [13] - INFO  - Game.Server.GameServer - QQTips Scan complete!
+21:17:43,259 - [11] - INFO  - Game.Server.GameServer - Buff Scaning ...
+21:17:43,259 - [11] - INFO  - Game.Server.GameServer - Buff Scan complete!
+21:17:43,259 - [11] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+21:18:42,992 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+21:18:42,992 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+21:18:42,994 - [13] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+21:18:42,995 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+21:18:43,213 - [12] - INFO  - Game.Server.GameServer - Begin ping check....
+21:18:43,213 - [12] - INFO  - Game.Server.GameServer - End ping check....
+21:18:43,213 - [12] - INFO  - Game.Server.GameServer - Begin ping center check....
+21:18:43,213 - [12] - INFO  - Game.Server.GameServer - End ping center check....
+21:18:43,279 - [11] - INFO  - Game.Server.GameServer - Buff Scaning ...
+21:18:43,279 - [11] - INFO  - Game.Server.GameServer - Buff Scan complete!
+21:18:43,279 - [11] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+21:19:43,007 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+21:19:43,007 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+21:19:43,009 - [12] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+21:19:43,009 - [9] - INFO  - Game.Server.Managers.ActiveSystemMgr - End Lanternriddles CheckPeriod....
+21:19:43,286 - [14] - INFO  - Game.Server.GameServer - Buff Scaning ...
+21:19:43,286 - [14] - INFO  - Game.Server.GameServer - Buff Scan complete!
+21:19:43,286 - [14] - INFO  - Game.Server.GameServer - Buff all 0 players in 0ms
+21:20:43,020 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin ActiveSystem CheckPeriod....
+21:20:43,020 - [8] - INFO  - Game.Server.Managers.ActiveSystemMgr - Begin Lanternriddles CheckPeriod....
+21:20:43,022 - [14] - INFO  - Game.Server.Managers.ActiveSystemMgr - End ActiveSystem CheckPeriod....
+21:20:43,022 - [8] - INFO  - Game.Server.Ma

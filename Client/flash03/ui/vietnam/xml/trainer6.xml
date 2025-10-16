@@ -1,0 +1,26 @@
+<style name="trainer6" version="1.0.1" source="ui/vietnam/swf/trainer6.swf">
+	<customDisplay>
+		<custom classname="trainer.view.ExplainThreeFourFive" stylename="trainer.ExplainThreeFourFive" width="1008" height="608"/>
+	</customDisplay>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="trainer.explain.posThreeUpBg" x="276" y="273"/>
+		<custom classname="flash.geom.Point" stylename="trainer.explain.posFourBg" x="424" y="273"/>
+		<custom classname="flash.geom.Point" stylename="trainer.explain.posFiveBg" x="569" y="273"/>
+	</customs>
+	
+	<components>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.explain.txtThreeFourFive" filterString="trainer.explain.glow1" textFormatStyle="trainer.explain.tfThree" x="298" y="356"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.explain.txtPsThreeFourFive" filterString="trainer.explain.glow2" textFormatStyle="trainer.explain.tfPs" x="268" y="413"/>
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.explain.nameBg1" width="146" height="31"/>
+		<bitmapData resourceLink="asset.explain.threeUp" width="65" height="65" x="315" y="189"/>
+		<bitmapData resourceLink="asset.explain.bmpThreeUp" x="277" y="276"/>
+		<bitmapData resourceLink="asset.explain.four" width="65" height="65" x="464" y="189"/>
+		<bitmapData resourceLink="asset.explain.bmpFour" x="423" y="276"/>
+		<bitmapData resourceLink="asset.explain.five" width="65" height="65" x="610" y="189"/>
+		<bitmapData resourceLink="asset.explain.bmpFive" x="564" y="276"/>
+	</bitmaps>
+</style>

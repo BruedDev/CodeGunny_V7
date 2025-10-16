@@ -1,0 +1,25 @@
+09:35:50,001 - [17] - WARN  - Fighting.Server.ServerClient - Room already exists:57
+09:54:22,684 - [17] - WARN  - Fighting.Server.ServerClient - Room already exists:57
+10:10:42,631 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:40
+11:13:12,334 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:36
+11:34:42,127 - [17] - WARN  - Fighting.Server.ServerClient - Room already exists:36
+11:42:05,831 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:42
+11:50:41,523 - [17] - WARN  - Fighting.Server.ServerClient - Room already exists:45
+11:51:36,592 - [17] - WARN  - Fighting.Server.ServerClient - Room already exists:26
+11:52:26,667 - [17] - WARN  - Fighting.Server.ServerClient - Room already exists:45
+11:54:34,803 - [17] - WARN  - Fighting.Server.ServerClient - Room already exists:45
+12:01:47,028 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:53
+12:16:03,328 - [17] - WARN  - Fighting.Server.ServerClient - Room already exists:58
+12:23:45,507 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:6
+12:30:05,738 - [17] - WARN  - Fighting.Server.ServerClient - Room already exists:18
+14:45:04,191 - [17] - WARN  - Fighting.Server.ServerClient - Room already exists:24
+16:29:23,595 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:36
+17:19:44,189 - [17] - WARN  - Fighting.Server.ServerClient - Room already exists:69
+17:22:15,372 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:34
+20:37:05,209 - [17] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)
+21:48:45,588 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:25

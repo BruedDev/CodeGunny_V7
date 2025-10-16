@@ -1,0 +1,78 @@
+2015-07-04 16:32:16,363 - [11] - ERROR - Bussiness.LanguageMgr - Language file : D:\DDTank\DDTankII\Req-xddtank-edip-by-mrtuan-hd-101-2014-gunnyx5\bin\Languages\Language-vn.txt not found !
+2015-07-04 16:33:35,056 - [15] - ERROR - Bussiness.LanguageMgr - Language file : D:\DDTank\DDTankII\Req-xddtank-edip-by-mrtuan-hd-101-2014-gunnyx5\bin\Languages\Language-vn.txt not found !
+2015-07-04 16:33:35,202 - [11] - ERROR - Bussiness.LanguageMgr - Language file : D:\DDTank\DDTankII\Req-xddtank-edip-by-mrtuan-hd-101-2014-gunnyx5\bin\Languages\Language-vn.txt not found !
+2015-07-04 16:33:35,740 - [13] - ERROR - Bussiness.LanguageMgr - Language file : D:\DDTank\DDTankII\Req-xddtank-edip-by-mrtuan-hd-101-2014-gunnyx5\bin\Languages\Language-vn.txt not found !
+2015-07-04 16:34:12,718 - [15] - ERROR - Bussiness.LanguageMgr - Language file : D:\DDTank\DDTankII\Req-xddtank-edip-by-mrtuan-hd-101-2014-gunnyx5\bin\Languages\Language-vn.txt not found !
+2015-07-04 16:35:38,667 - [17] - ERROR - Bussiness.LanguageMgr - Language file : D:\DDTank\DDTankII\Req-xddtank-edip-by-mrtuan-hd-101-2014-gunnyx5\bin\Languages\Language-vn.txt not found !
+2015-07-04 16:46:31,331 - [28] - ERROR - Tank.Request.csFunction - CreateCompressXml CelebForUsers.xml is fail!
+System.UnauthorizedAccessException: Access to the path 'D:\5.5\GunnyII\req\CelebForUsers.xml' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Tank.Request.csFunction.CreateCompressXml(String path, XElement result, String file, Boolean isCompress) in d:\Server_Gunny\request\csFunction.cs:line 103
+2015-07-04 16:46:31,404 - [28] - ERROR - Tank.Request.csFunction - CreateCompressXml CelebForUsersByDay.xml is fail!
+System.UnauthorizedAccessException: Access to the path 'D:\5.5\GunnyII\req\CelebForUsersByDay.xml' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Tank.Request.csFunction.CreateCompressXml(String path, XElement result, String file, Boolean isCompress) in d:\Server_Gunny\request\csFunction.cs:line 103
+2015-07-04 16:46:31,546 - [28] - ERROR - Tank.Request.csFunction - CreateCompressXml CelebByWeekOfferList_Out.xml is fail!
+System.UnauthorizedAccessException: Access to the path 'D:\5.5\GunnyII\req\CelebByWeekOfferList_Out.xml' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Tank.Request.csFunction.CreateCompressXml(String path, XElement result, String file, Boolean isCompress) in d:\Server_Gunny\request\csFunction.cs:line 103
+2015-07-04 16:46:31,732 - [28] - ERROR - Tank.Request.csFunction - CreateCompressXml CelebForConsortia.xml is fail!
+System.UnauthorizedAccessException: Access to the path 'D:\5.5\GunnyII\req\CelebForConsortia.xml' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Tank.Request.csFunction.CreateCompressXml(String path, XElement result, String file, Boolean isCompress) in d:\Server_Gunny\request\csFunction.cs:line 103
+2015-07-04 16:46:31,746 - [28] - ERROR - Tank.Request.csFunction - CreateCompressXml CelebForBestEquip.xml is fail!
+System.UnauthorizedAccessException: Access to the path 'D:\5.5\GunnyII\req\CelebForBestEquip.xml' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Tank.Request.csFunction.CreateCompressXml(String path, XElement result, String file, Boolean isCompress) in d:\Server_Gunny\request\csFunction.cs:line 103
+2015-07-04 16:48:06,114 - [15] - ERROR - Bussiness.LanguageMgr - Language file : D:\DDTank\DDTankII\Req-xddtank-edip-by-mrtuan-hd-101-2014-gunnyx5\bin\Languages\Language-vn.txt not found !
+2015-07-04 16:50:11,768 - [10] - ERROR - Tank.Request.csFunction - CreateCompressXml CelebForUsers.xml is fail!
+System.UnauthorizedAccessException: Access to the path 'D:\5.5\GunnyII\req\CelebForUsers.xml' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Tank.Request.csFunction.CreateCompressXml(String path, XElement result, String file, Boolean isCompress) in d:\Server_Gunny\request\csFunction.cs:line 103
+2015-07-04 16:50:11,774 - [10] - ERROR - Tank.Request.csFunction - CreateCompressXml CelebForUsersByDay.xml is fail!
+System.UnauthorizedAccessException: Access to the path 'D:\5.5\GunnyII\req\CelebForUsersByDay.xml' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Tank.Request.csFunction.CreateCompressXml(String path, XElement result, String file, Boolean isCompress) in d:\Server_Gunny\request\csFunction.cs:line 103
+2015-07-04 16:50:11,797 - [10] - ERROR - Tank.Request.csFunction - CreateCompressXml CelebByWeekOfferList_Out.xml is fail!
+System.UnauthorizedAccessException: Access to the path 'D:\5.5\GunnyII\req\CelebByWeekOfferList_Out.xml' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Tank.Request.csFunction.CreateCompressXml(String path, XElement result, String file, Boolean isCompress) in d:\Server_Gunny\request\csFunction.cs:line 103
+2015-07-04 16:50:11,833 - [10] - ERROR - Tank.Request.csFunction - CreateCompressXml CelebForConsortia.xml is fail!
+System.UnauthorizedAccessException: Access to the path 'D:\5.5\GunnyII\req\CelebForConsortia.xml' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Tank.Request.csFunction.CreateCompressXml(String path, XElement result, String file, Boolean isCompress) in d:\Server_Gunny\request\csFunction.cs:line 103
+2015-07-04 16:50:11,835 - [10] - ERROR - Tank.Request.csFunction - CreateCompressXml CelebForBestEquip.xml is fail!
+System.UnauthorizedAccessException: Access to the path 'D:\5.5\GunnyII\req\CelebForBestEquip.xml' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Tank.Request.csFunction.CreateCompressXml(String path, XElement result, String file, Boolean isCompress) in d:\Server_Gunny\request\csFunction.cs:line 103
+2015-07-04 16:50:53,401 - [10] - ERROR - Bussiness.LanguageMgr - Language file : D:\DDTank\DDTankII\Req-xddtank-edip-by-mrtuan-hd-101-2014-gunnyx5\bin\Languages\Language-vn.txt not found !

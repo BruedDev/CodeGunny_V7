@@ -1,0 +1,11 @@
+18:45:06,078 - [30] - WARN  - Fighting.Server.ServerClient - Room already exists:31
+19:19:27,768 - [112] - WARN  - Fighting.Server.ServerClient - Room already exists:29
+19:49:29,202 - [16] - WARN  - Fighting.Server.ServerClient - Room already exists:29
+20:16:21,444 - [103] - WARN  - Fighting.Server.ServerClient - Room already exists:35
+22:54:26,962 - [71] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)
+22:55:45,482 - [71] - WARN  - Fighting.Server.ServerClient - Room already exists:16

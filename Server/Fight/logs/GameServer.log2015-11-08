@@ -1,0 +1,40 @@
+06:45:31,313 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+06:45:31,415 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+06:45:31,438 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+06:45:31,439 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+06:45:31,440 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+06:45:31,441 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+06:45:31,603 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+06:45:31,749 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+06:45:31,756 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+06:45:31,841 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+06:45:31,849 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+06:45:31,876 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+06:45:31,897 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+06:45:31,919 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+06:45:31,928 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+06:45:31,938 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+06:45:31,953 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+06:45:31,957 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+06:45:31,963 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+06:45:35,333 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 222.187.227.159:56626
+08:27:40,183 - [3] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)
+09:45:49,012 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 681
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 42
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+11:12:51,947 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:10
+19:10:53,002 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 681
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 42
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+21:34:57,285 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:21

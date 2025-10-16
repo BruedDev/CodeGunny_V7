@@ -1,0 +1,20 @@
+23:54:02,634 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+23:54:02,790 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+23:54:02,836 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+23:54:02,836 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+23:54:02,836 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+23:54:02,836 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+23:54:03,148 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+23:54:03,382 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+23:54:03,398 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+23:54:03,632 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+23:54:03,648 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+23:54:03,679 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+23:54:03,710 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+23:54:03,726 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+23:54:03,741 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+23:54:03,757 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+23:54:03,772 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+23:54:03,772 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+23:54:03,788 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+23:54:07,345 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 221.231.6.201:50627

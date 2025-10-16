@@ -1,0 +1,26 @@
+07:30:27,636 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+07:30:27,750 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+07:30:27,776 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+07:30:27,776 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+07:30:27,777 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+07:30:27,778 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+07:30:27,946 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+07:30:28,096 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+07:30:28,103 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+07:30:28,190 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+07:30:28,198 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+07:30:28,228 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+07:30:28,249 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+07:30:28,268 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+07:30:28,268 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+07:30:28,287 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+07:30:28,302 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+07:30:28,306 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+07:30:28,312 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+07:30:31,763 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 222.187.227.159:56554
+12:22:52,172 - [3] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)

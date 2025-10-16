@@ -1,0 +1,32 @@
+# Ignore specific files
+开始运行.bat
+
+# Ignore all .txt files
+*.txt
+
+# Ignore common temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Ignore build outputs (but keep req folder)
+obj/
+*.dll
+*.pdb
+*.exe
+
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.sln
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore system files
+Thumbs.db
+.DS_Store

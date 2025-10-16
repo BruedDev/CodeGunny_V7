@@ -1,0 +1,658 @@
+@charset "utf-8";
+/* CSS Document */
+
+#WrapperNapThe{
+	background:url(../images/bg1.png) no-repeat top center;
+	height: 366px;
+    overflow: hidden;
+    padding: 12px 25px 0;
+    position: relative;
+    width: 702px;
+}
+#WrapperNapThe .CloseNapThe{
+	display: block;
+    height: 25px;
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    width: 42px;
+	text-indent:-9999px;
+}
+#WrapperNapThe p.User{
+	float:right;
+	color:#600;
+	font-weight:bold;
+}
+#WrapperNapThe p.User span{
+	color:#fff0bd;
+}
+#WrapperNapThe .TabNapThe{
+	overflow:hidden;
+	float:left;
+	margin:0 0 10px 0;
+}
+#WrapperNapThe .TabNapThe li{
+	float:left;
+	margin-right:1px;
+}
+#WrapperNapThe .TabNapThe li a{
+	background:url(../images/bg-tab.jpg) no-repeat;
+	display:block;
+	text-indent:-9999px;
+	height:32px;
+}
+#WrapperNapThe .TabNapThe li a.NapThe:link,#WrapperNapThe .TabNapThe li a.NapThe:visited{
+	background-position: 0 0;
+	width:100px;
+}
+#WrapperNapThe .TabNapThe li a.NapThe:hover,
+#WrapperNapThe .TabNapThe li.Active a.NapThe:link,
+#WrapperNapThe .TabNapThe li.Active a.NapThe:visited,
+#WrapperNapThe .TabNapThe li.Active a.NapThe:hover,
+#WrapperNapThe .TabNapThe li.Hilite a.NapThe:link,
+#WrapperNapThe .TabNapThe li.Hilite a.NapThe:visited,
+#WrapperNapThe .TabNapThe li.Hilite a.NapThe:hover{
+	background-position:0 -32px;
+}
+#WrapperNapThe .TabNapThe li a{
+	background:url(../images/bg-tab.jpg) no-repeat;
+	display:block;
+	text-indent:-9999px;
+	height:32px;
+}
+#WrapperNapThe .TabNapThe li a.DoiZing:link,#WrapperNapThe .TabNapThe li a.DoiZing:visited{
+	background-position: -101px 0;
+	width:100px;
+}
+#WrapperNapThe .TabNapThe li a.DoiZing:hover,
+#WrapperNapThe .TabNapThe li.Active a.DoiZing:link,
+#WrapperNapThe .TabNapThe li.Active a.DoiZing:visited,
+#WrapperNapThe .TabNapThe li.Active a.DoiZing:hover,
+#WrapperNapThe .TabNapThe li.Hilite a.DoiZing:link,
+#WrapperNapThe .TabNapThe li.Hilite a.DoiZing:visited,
+#WrapperNapThe .TabNapThe li.Hilite a.DoiZing:hover{
+	background-position:-101px -32px;
+}
+#WrapperNapThe .TabNapThe li a{
+	background:url(../images/bg-tab.jpg) no-repeat;
+	display:block;
+	text-indent:-9999px;
+	height:32px;
+}
+#WrapperNapThe .TabNapThe li a.KhuyenMai:link,#WrapperNapThe .TabNapThe li a.KhuyenMai:visited{
+	background-position: -202px 0;
+	width:100px;
+}
+#WrapperNapThe .TabNapThe li a.KhuyenMai:hover,
+#WrapperNapThe .TabNapThe li.Active a.KhuyenMai:link,
+#WrapperNapThe .TabNapThe li.Active a.KhuyenMai:visited,
+#WrapperNapThe .TabNapThe li.Active a.KhuyenMai:hover,
+#WrapperNapThe .TabNapThe li.Hilite a.KhuyenMai:link,
+#WrapperNapThe .TabNapThe li.Hilite a.KhuyenMai:visited,
+#WrapperNapThe .TabNapThe li.Hilite a.KhuyenMai:hover{
+	background-position:-202px -32px;
+}
+#MainContent{
+	clear:both;
+	width:702px;
+	overflow:hidden;
+	height:294px;
+	position:relative;
+}
+#MainContent.ConfirmPass{
+	background:url(../images/ga1.jpg) no-repeat 358px 85px;
+}
+#MainContent.Charge,.Charge{
+	background:url(../images/bg-xu.jpg) no-repeat 1px bottom;
+}
+#MainContent p.Title{
+	font-size:12px;
+	font-weight:bold;
+	color:#7f4100;
+	padding:10px 0 0 13px;
+	margin:0 0 15px 0;
+}
+#MainContent p.Confirm{
+	color:#7F4100;
+	font-weight:bold;
+	padding:25px;
+}
+#MainContent p.Confirm a:link,#MainContent p.Confirm a:visited{
+	color:#06c;
+}
+#MainContent p.Confirm a:hover{
+	text-decoration:underline;
+}
+#MainContent .News{
+	padding:0 10px;
+}
+#MainContent .News p{
+	background:url(../images/bg-head.jpg) repeat-x top center;
+	border:2px solid #ef9724;
+	height:27px;
+	float:left;
+	width:678px;
+}
+#MainContent .News p span.Title{
+	color:#7f4100;
+	font-weight:bold;
+	float:left;
+	padding:4px 0 0 10px;
+}
+#MainContent .News p span.Time{
+	color:#7f4100;
+	font-weight:bold;
+	float:right;
+	padding:4px 10px 0 0;
+}
+#MainContent .News ul{
+	overflow:hidden;
+	width:678px;
+	float:left;
+	border:2px solid #ef9724;
+	border-top:none;
+	background:#fff6e8;
+}
+#MainContent .News ul li{
+	float:left;
+	width:678px;
+	border-bottom:1px solid #ffe7c7;
+	background:url(../images/icon.jpg) no-repeat 3px 10px;
+	padding:7px 0;
+}
+#MainContent .News ul li a:link,#MainContent .News ul li a:visited{
+	float:left;
+	color:#7f4100;
+	padding:0 0 0 20px;
+	width:555px;
+}
+#MainContent .News ul li a:hover{
+	color:#ea0b14;
+	text-decoration:none;
+}
+#MainContent .News ul li span.Date{
+	float:right;
+	padding: 0 20px 0 0;
+	color:#7F4100;
+}
+
+#MainContent .BtnLichSu{
+	position:absolute;
+	overflow:hidden;
+	top:10px;
+	right:10px;
+}
+#MainContent .BtnLichSu li{
+	float:left;
+	margin-right:5px;
+}
+#MainContent .BtnLichSu li a{
+	background:url(../images/btn-lichsu.jpg) no-repeat;
+	width:92px;
+	height:26px;
+	display:block;
+	text-indent:-9999px;
+}
+
+#MainContent .BtnLichSu li a.NapTiep:link,#MainContent .BtnLichSu li a.NapTiep:visited{
+	background-position: 0 0;
+}
+#MainContent .BtnLichSu li a.NapTiep:hover{
+	background-position: 0 -26px;
+}
+#MainContent .BtnLichSu li a.CapNhat:link,#MainContent .BtnLichSu li a.CapNhat:visited{
+	background-position: -92px 0;
+}
+#MainContent .BtnLichSu li a.CapNhat:hover{
+	background-position: -92px -26px;
+}
+#MainContent .BtnLichSuDoi{
+	position:absolute;
+	overflow:hidden;
+	top:10px;
+	right:10px;
+}
+#MainContent .BtnLichSuDoi li{
+	float:left;
+	margin-right:5px;
+}
+#MainContent .BtnLichSuDoi li a{
+	background:url(../images/btn-lichsudoi.jpg) no-repeat;
+	width:92px;
+	height:26px;
+	display:block;
+	text-indent:-9999px;
+}
+#MainContent .BtnLichSuDoi li a.DoiTiep:link,#MainContent .BtnLichSuDoi li a.DoiTiep:visited{
+	background-position: 0 0;
+}
+#MainContent .BtnLichSuDoi li a.DoiTiep:hover{
+	background-position: 0 -26px;
+}
+#MainContent .BtnLichSuDoi li a.CapNhat:link,#MainContent .BtnLichSuDoi li a.CapNhat:visited{
+	background-position: -92px 0;
+}
+#MainContent .BtnLichSuDoi li a.CapNhat:hover{
+	background-position: -92px -26px;
+}
+/* All tiep */
+#MainContent .BtnLichSuAll{
+	position:absolute;
+	overflow:hidden;
+	top:10px;
+	right:10px;
+}
+#MainContent .BtnLichSuAll li{
+	float:left;
+	margin-right:5px;
+}
+#MainContent .BtnLichSuAll li a{
+	background:url(../images/btn-lichsuall.jpg) no-repeat;
+	width:91px;
+	height:26px;
+	display:block;
+	text-indent:-9999px;
+}
+#MainContent .BtnLichSuAll li a.NapTiep:link,#MainContent .BtnLichSuAll li a.NapTiep:visited{
+	background-position: 0 0;
+}
+#MainContent .BtnLichSuAll li a.NapTiep:hover{
+	background-position: 0 -26px;
+}
+#MainContent .BtnLichSuAll li a.DoiTiep:link,#MainContent .BtnLichSuAll li a.DoiTiep:visited{
+	background-position: -91px 0;
+}
+#MainContent .BtnLichSuAll li a.DoiTiep:hover{
+	background-position: -91px -26px;
+}
+#MainContent .BtnLichSuAll li a.CapNhat:link,#MainContent .BtnLichSuAll li a.CapNhat:visited{
+	background-position: -183px 0;
+}
+#MainContent .BtnLichSuAll li a.CapNhat:hover{
+	background-position: -183px -26px;
+}
+
+/* end All tiep*/
+
+#MainContent h3{
+	height:22px;
+	width:660px;
+	font-size:15px;
+	color:#5a1905;
+	margin:0 21px;
+	border-bottom:1px solid #c1ab8a;
+	padding:13px 0 4px 0;
+}
+table.HistoryPay{
+	background:#ffe7c7;
+	border:2px solid #ef9724;
+	margin:0 15px;
+	width:672px;
+}
+table.HistoryPay thead th{
+	background:url(../images/bg-head.jpg) repeat-x;
+	height:31px;
+	color:#7f4100;
+	font-weight:bold;
+}
+table.HistoryPay td{
+	text-align:center;
+	background:#FFF6E8;
+	color:#7f4100;
+	padding:5px 2px;
+}
+table.HistoryPay td.Xu{
+	font-weight:bold;
+	color:#ea0b14;
+}
+.ConfirmPass form{
+	padding:0 25px;
+}
+.ConfirmPass form label{
+	font-weight:bold;
+	color:#7f4100;
+	display:block;
+	width:auto;
+	height:25px;
+	float:left;
+	padding:4px 0 0 0;
+	margin: 0 5px 20px 0;
+}
+.ConfirmPass form input.Pass{
+	background:url(../images/bg-pas.gif) no-repeat;
+	border:none;
+	font-weight:normal;
+	width:214px;
+	height:21px;
+	float:left;
+	padding:4px 10px;
+}
+.ConfirmPass form a.SubMit:link,.ConfirmPass form a.SubMit:visited{
+	clear:both;
+	background:url(../images/btn-sub.jpg) no-repeat;
+	display:block;
+	width:92px;
+	height:26px;
+	text-indent:-9999px;
+	margin:5px 0;
+}
+.ConfirmPass form a.SubMit:hover{
+	background-position:0 -26px;
+}
+
+.ConfirmPass form .btn,.ConfirmPass form .btn:visited{
+	clear:both;
+	background:url(../images/btn-sub.jpg) no-repeat;
+	display:block;
+	width:92px;
+	height:26px;
+	text-indent:-9999px;
+	margin:5px 0;
+	border:0;
+}
+.ConfirmPass form .btn:hover{
+	background-position:0 -26px;
+}
+
+.ConfirmPass .Cons:link,.ConfirmPass .Cons:visited{
+	background:url(../images/btn-cons.jpg) no-repeat;
+	height:26px;
+	width:92px;
+	display:block;
+	text-indent:-9999px;
+	margin:0 5px 0 20px;
+	float:left;
+}
+.ConfirmPass .Cons:hover{
+	background-position:0 -26px;
+}
+.ConfirmPass .Conv:link,.ConfirmPass .Conv:visited{
+	background:url(../images/btn-doitiep.jpg) no-repeat;
+	height:26px;
+	width:92px;
+	display:block;
+	text-indent:-9999px;
+	margin:0 5px 0 20px;
+	float:left;
+}
+.ConfirmPass .Conv:hover{
+	background-position:0 -26px;
+}
+.HistoryItemCode1:link,.HistoryItemCode1:visited{
+	width:152px;
+	background:url(../images/btn-itemcode.jpg) no-repeat;
+	text-indent:-9999px;
+	
+	float:left;
+	top:10px;
+	height:26px;
+}
+.HistoryItemCode1:hover{
+	background-position: 0 -26px;
+}
+.ConfirmPass .Status:link,.ConfirmPass .Status:visited{
+	background:url(../images/btn-status.jpg) no-repeat;
+	height:26px;
+	width:172px;
+	display:block;
+	text-indent:-9999px;
+	float:left;
+}
+.ConfirmPass .Status:hover{
+	background-position:0 -26px;
+}
+.Charge form{
+	width:335px;
+	overflow:hidden;
+	padding:45px 0 0 0;
+}
+.Charge form label{
+	float:left;
+	display:block;
+	height:25px;
+	width:130px;
+	text-align:right;
+	font-weight:bold;
+	color:#7f4100;
+	margin: 0 5px 10px 0;
+	padding:4px 0 0 0;
+}
+.Charge form input{
+	float:left;
+	background:url(../images/bg-input-nor.gif) no-repeat;
+	border:none;
+	width:174px;
+	height:21px;
+	padding:4px 10px;
+	margin:0 0 10px 0;
+}
+.Charge form input.capcha{
+	background:url(../images/bg-input-s.gif) no-repeat;
+	width:74px;
+	margin:0 10px 0 0;
+}
+.Charge form a.BtnCharge:link,.Charge form a.BtnCharge:visited{
+	clear:both;
+	display:block;
+	width:92px;
+	height:26px;
+	background:url(../images/btn-charge.jpg) no-repeat;
+	text-indent:-9999px;
+	margin:0 0 0 135px;
+}
+.Charge form a.BtnCharge:hover{
+	background-position: 0 -26px;
+}
+.Charge .History:link,.Charge .History:visited{
+	display:block;
+	height:26px;
+	width:92px;
+	background:url(../images/btn-history.jpg) no-repeat;
+	text-indent:-9999px;
+	position:absolute;
+	bottom:65px;
+	right:150px;
+}
+.Charge .History:hover{
+	background-position: 0 -26px;
+}
+.HistoryConvert:link,.HistoryConvert:visited{
+	width:152px;
+	background:url(../images/btn-lichsugiaodich.jpg) no-repeat;
+	text-indent:-9999px;
+	position:absolute;
+	float:left;
+	top:10px;
+	height:26px;
+}
+.HistoryConvert:hover{
+	background-position: 0 -26px;
+}
+.HistoryConvert1:link,.HistoryConvert1:visited{
+	width:152px;
+	background:url(../images/btn-lichsugiaodich.jpg) no-repeat;
+	text-indent:-9999px;
+	float:left;
+	height:26px;
+}
+.HistoryConvert1:hover{
+	background-position: 0 -26px;
+}
+.HistoryItemCode:link,.HistoryItemCode:visited{
+	width:152px;
+	background:url(../images/btn-itemcode.jpg) no-repeat;
+	text-indent:-9999px;
+	position:absolute;
+	float:left;
+	top:10px;
+	height:26px;
+}
+.HistoryItemCode:hover{
+	background-position: 0 -26px;
+}
+.Charge .HistoryItemCodeAll:link,.Charge .HistoryItemCodeAll:visited{
+	display:block;
+	height:26px;
+	width:152px;
+	background:url(../images/btn-itemcode.jpg) no-repeat;
+	text-indent:-9999px;
+	position:absolute;
+	bottom:65px;
+	right:125px;
+}
+.Charge .HistoryItemCodeAll:hover{
+	background-position: 0 -26px;
+}
+.Charge .HistoryAll:link,.Charge .HistoryAll:visited{
+	display:block;
+	height:26px;
+	width:152px;
+	background:url(../images/btn-lichsugiaodich.jpg) no-repeat;
+	text-indent:-9999px;
+	position:absolute;
+	bottom:65px;
+	right:125px;
+}
+.Charge .HistoryAll:hover{
+	background-position: 0 -26px;
+}
+
+/*****************/
+#frmNewsSearch{
+	width:194px;
+	height:28px;
+	float:left;	
+}
+.ContentSelect{
+	float:left;
+	position:relative;
+}
+select {
+    border: 1px solid #C6C6C6;
+    color: #777777;
+    height: 25px;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 194px;
+    z-index: 10;
+	 cursor: pointer;
+}
+ul.LuaChon{
+	padding:10px 21px 0 21px;
+	width:660px;
+}
+ul.LuaChon li{
+	background:url(../images/dotted.gif) no-repeat left 10px;
+	padding:0 0 26px 14px;	
+	overflow:hidden;
+}
+ul.LuaChon li span{
+	color:#7f4100;
+	font-weight:bold;
+	font-size:12px;
+	width:120px;
+	float:left;
+}
+ul.LuaChon li ul.MenhGia{
+	width:650px;
+	overflow:hidden;
+	margin:10px 0 0 0;
+}
+ul.LuaChon li ul.MenhGia li{
+	list-style-type:none;
+	height:52px;
+	width:152px;
+	margin:4px 8px 4px 0;
+	float:left;
+	background:none;
+	padding:0;
+}
+ul.LuaChon li ul.MenhGia li a:link,
+ul.LuaChon li ul.MenhGia li a:visited{
+	width:152px;
+	height:52px;	
+	display:block;
+}
+
+ul.LuaChon li ul.MenhGia li a.ZingXu1:link,
+ul.LuaChon li ul.MenhGia li a.ZingXu1:visited{
+	background:url(../images/200ZX.gif) no-repeat;	
+}
+
+ul.LuaChon li ul.MenhGia li.active a.ZingXu1:link,
+ul.LuaChon li ul.MenhGia li.active a.ZingXu1:visited,
+ul.LuaChon li ul.MenhGia li.active a.ZingXu1:hover{
+	background:url(../images/200ZX.gif) no-repeat 0 -52px;
+}
+ul.LuaChon li ul.MenhGia li a.ZingXu2:link,
+ul.LuaChon li ul.MenhGia li a.ZingXu2:visited{
+	background:url(../images/600ZX.gif) no-repeat;	
+}
+
+ul.LuaChon li ul.MenhGia li.active a.ZingXu2:link,
+ul.LuaChon li ul.MenhGia li.active a.ZingXu2:visited,
+ul.LuaChon li ul.MenhGia li.active a.ZingXu2:hover{
+	background:url(../images/600ZX.gif) no-repeat 0 -52px;
+}
+ul.LuaChon li ul.MenhGia li a.ZingXu3:link,
+ul.LuaChon li ul.MenhGia li a.ZingXu3:visited{
+	background:url(../images/1200ZX.gif) no-repeat;	
+}
+
+ul.LuaChon li ul.MenhGia li.active a.ZingXu3:link,
+ul.LuaChon li ul.MenhGia li.active a.ZingXu3:visited{
+	background:url(../images/1200ZX.gif) no-repeat 0 -52px;
+}
+ul.LuaChon li ul.MenhGia li a.ZingXu4:link,
+ul.LuaChon li ul.MenhGia li a.ZingXu4:visited{
+	background:url(../images/2400ZX.gif) no-repeat;	
+}
+
+ul.LuaChon li ul.MenhGia li.active a.ZingXu4:link,
+ul.LuaChon li ul.MenhGia li.active a.ZingXu4:visited{
+	background:url(../images/2400ZX.gif) no-repeat 0 -52px;
+}
+ul.LuaChon li ul.MenhGia li a.ZingXu5:link,
+ul.LuaChon li ul.MenhGia li a.ZingXu5:visited{
+	background:url(../images/3600ZX.gif) no-repeat;	
+}
+
+ul.LuaChon li ul.MenhGia li.active a.ZingXu5:link,
+ul.LuaChon li ul.MenhGia li.active a.ZingXu5:visited{
+	background:url(../images/3600ZX.gif) no-repeat 0 -52px;
+}
+ul.LuaChon li ul.MenhGia li a.ZingXu6:link,
+ul.LuaChon li ul.MenhGia li a.ZingXu6:visited{
+	background:url(../images/7200ZX.gif) no-repeat;	
+}
+
+ul.LuaChon li ul.MenhGia li.active a.ZingXu6:link,
+ul.LuaChon li ul.MenhGia li.active a.ZingXu6:visited{
+	background:url(../images/7200ZX.gif) no-repeat 0 -52px;
+}
+ul.LuaChon li ul.MenhGia li a.ZingXu7:link,
+ul.LuaChon li ul.MenhGia li a.ZingXu7:visited{
+	background:url(../images/10ZX.gif) no-repeat;	
+}
+
+ul.LuaChon li ul.MenhGia li.active a.ZingXu7:link,
+ul.LuaChon li ul.MenhGia li.active a.ZingXu7:visited,
+ul.LuaChon li ul.MenhGia li.active a.ZingXu7:hover{
+	background:url(../images/10ZX.gif) no-repeat 0 -52px;
+}
+.convertblackout { 
+	position: absolute;
+	background-color:transparent;
+	left: 0; 
+	top: 0; 
+	width: 100%; 
+	height: 294px; 
+	z-index: 1338; 
+	opacity: 0.1; 
+	display: block;
+	text-align:center;
+} 
+.text_cursor{
+	cursor:text;
+}
+/*ul.LuaChon li ul.MenhGia li a.ZingXu1:hover, #8bacd0*/

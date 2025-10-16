@@ -1,0 +1,55 @@
+00:03:38,041 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:31
+01:28:39,665 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:5
+01:29:08,625 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:15
+07:35:50,348 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:11
+07:57:02,084 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:30
+09:02:17,471 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:44
+10:13:13,414 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:39
+10:37:14,172 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:22
+10:39:36,576 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:17
+11:12:32,175 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:26
+12:02:27,634 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Fighting.Server.ServerClient.SendPlayerConsortiaFight(Int32 playerId, Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth)
+   at Fighting.Server.GameObjects.ProxyPlayer.ConsortiaFight(Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth, Int32 count)
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 688
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 43
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+12:14:11,785 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:65
+14:31:03,511 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+14:34:33,450 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+14:37:53,380 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+14:41:13,330 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+14:44:03,299 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+14:46:13,244 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+16:30:28,965 - [15] - WARN  - Fighting.Server.ServerClient - Room already exists:27
+17:16:23,559 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:90
+17:40:24,088 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:27
+18:35:05,253 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:74
+18:48:15,111 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:32
+19:44:07,454 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:61
+19:52:22,285 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:61
+20:00:03,488 - [3] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)
+20:32:35,208 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:23
+20:45:28,519 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:3
+21:20:11,884 - [13] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)
+21:33:03,858 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:21
+21:34:51,496 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:21
+22:56:00,231 - [3] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)

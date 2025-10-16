@@ -1,0 +1,41 @@
+02:33:58,596 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 681
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 42
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+08:03:09,573 - [50] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)
+09:09:19,408 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:7
+12:05:18,414 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:18
+12:21:27,639 - [50] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)
+12:44:03,981 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:36
+13:08:38,463 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:11
+13:26:55,151 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:11
+13:48:03,706 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:11
+13:51:31,562 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:20
+14:10:13,062 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:4
+14:14:51,165 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:4
+15:38:36,479 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 681
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 42
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+17:32:48,062 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:27
+18:25:50,124 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:39
+18:28:56,445 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:33
+18:42:14,127 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:54
+18:56:44,696 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:41
+19:33:46,485 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:37
+19:36:31,936 - [50] - WARN  - Fighting.Server.ServerClient - Room already exists:76
+20:01:19,383 - [50] - WARN  - Fight

@@ -1,0 +1,23 @@
+10:08:10,330 - [15] - WARN  - Fighting.Server.ServerClient - Room already exists:24
+10:28:57,957 - [15] - WARN  - Fighting.Server.ServerClient - Room already exists:13
+11:37:40,064 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 681
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 42
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+11:48:23,085 - [15] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)
+12:20:14,388 - [15] - WARN  - Fighting.Server.ServerClient - Room already exists:11
+14:00:16,687 - [10] - WARN  - Fighting.Server.ServerClient - Room already exists:14
+14:30:07,057 - [24] - WARN  - Fighting.Server.ServerClient - Room already exists:30
+15:58:25,260 - [10] - WARN  - Fighting.Server.ServerClient - Room already exists:27
+18:08:27,050 - [10] - WARN  - Fighting.Server.ServerClient - Room already exists:14
+18:52:10,443 - [28] - WARN  - Fighting.Server.ServerClient - Room already exists:21
+20:34:59,787 - [10] - WARN  - Fighting.Server.ServerClient - Room already exists:21
+20:36:07,185 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:21
+21:44:34,567 - [28] - WARN  - Fighting.Server.ServerClient - Room already exists:29

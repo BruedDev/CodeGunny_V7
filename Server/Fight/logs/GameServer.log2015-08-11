@@ -1,0 +1,35 @@
+01:56:45,329 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:4
+03:00:01,584 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:3
+03:23:21,545 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:11
+09:48:40,945 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:16
+10:16:46,248 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:16
+10:24:24,176 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:51
+11:09:23,358 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:1
+11:18:58,313 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:13
+12:43:22,333 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:54
+18:20:51,573 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:23
+20:25:12,134 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:41
+20:33:28,002 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:2
+20:45:51,841 - [13] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)
+20:53:45,496 - [31] - WARN  - Fighting.Server.ServerClient - Room already exists:36
+21:04:28,718 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:48
+21:13:37,041 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:48
+21:31:04,581 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:50
+22:07:22,863 - [6] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -12960 ms!
+22:07:22,863 - [6] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -11920 ms!
+22:07:22,863 - [6] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -10880 ms!
+22:07:22,863 - [6] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -9840 ms!
+22:07:22,863 - [6] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -8800 ms!
+22:07:22,863 - [6] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -7760 ms!
+22:07:22,863 - [6] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -6720 ms!
+22:07:22,863 - [6] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -5680 ms!
+22:07:22,863 - [6] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -4640 ms!
+22:07:22,863 - [6] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -3600 ms!
+22:07:22,863 - [6] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -2560 ms!
+22:07:22,863 - [6] - WARN  - Fighting.Server.Rooms.ProxyRoomMgr - Room Mgr is delay -1520 ms!
+22:48:54,923 - [32] - WARN  - Fighting.Server.ServerClient - Room already exists:32

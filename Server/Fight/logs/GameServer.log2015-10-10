@@ -1,0 +1,13 @@
+00:13:59,824 - [71] - WARN  - Fighting.Server.ServerClient - Room already exists:8
+00:47:50,476 - [71] - WARN  - Fighting.Server.ServerClient - Room already exists:18
+15:42:45,142 - [103] - WARN  - Fighting.Server.ServerClient - Room already exists:6
+17:40:00,975 - [103] - WARN  - Fighting.Server.ServerClient - Room already exists:33
+17:40:13,931 - [103] - WARN  - Fighting.Server.ServerClient - Room already exists:23
+19:27:58,972 - [7] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 0  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+19:56:01,718 - [103] - WARN  - Fighting.Server.ServerClient - Room already exists:23
+21:11:04,070 - [33] - WARN  - Fighting.Server.ServerClient - Room already exists:17
+23:33:58,174 - [103] - WARN  - Fighting.Server.ServerClient - Room already exists:27

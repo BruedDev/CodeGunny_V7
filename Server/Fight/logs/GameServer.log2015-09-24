@@ -1,0 +1,10 @@
+17:55:34,215 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 681
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 42
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+20:52:57,155 - [107] - INFO  - Game.Base.BaseServer - Incoming connection from 221.229.173.63:29581
+20:52:57,411 - [107] - INFO  - Game.Base.BaseClient - Disconnecting client (221.229.173.63:29581), received bytes=0
+20:53:56,936 - [107] - INFO  - Game.Base.BaseServer - Incoming connection from 221.229.173.63:32987
+20:53:57,099 - [107] - INFO  - Game.Base.BaseClient - Disconnecting client (221.229.173.63:32987), received bytes=0

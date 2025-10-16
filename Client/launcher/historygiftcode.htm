@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0107)https://quickpay.zing.vn/client/historyitem.html?pid=49&acc=vote4gunny&serid=303&uin=739666748&extraparams= -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>礼物记录</title>
+<link href="./css/global.css" rel="stylesheet">
+<link href="./css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/jselect.css">
+<link href="./css/jselect-theme.css" rel="stylesheet">
+<script type="text/javascript" async="" src="./lich su code_files/ga.js"></script><script type="text/javascript" src="./lich su code_files/jquery-core.js"></script>
+<script type="text/javascript" src="./lich su code_files/jquery.easing.js"></script>
+<script type="text/javascript" src="./lich su code_files/jquery-ui-1.8.5.custom.min.js"></script>
+<script type="text/javascript" src="./lich su code_files/jselectHome.js"></script>
+<script type="text/javascript" src="./lich su code_files/jselect.external.js"></script>
+<script type="text/javascript" src="./lich su code_files/general.js"></script>
+<script type="text/javascript" src="./lich su code_files/vgvn.js"></script>
+<!--[if IE 6]>
+<script src="https://imgquickpay.zing.vn/imgpaynew/theme2/launcher/zg/js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script>
+  DD_belatedPNG.fix(' img,#WrapperNapThe');
+</script>
+<![endif]-->
+</head>
+<body>
+<div id="WrapperNapThe">
+<ul class="TabNapThe">
+  <li><a href="../launcher/topup.htm?pid=49&acc=vote4gunny&serid=303&uin=739666748&extraparams=" title="充值" class="NapThe">充值</a></li>
+  <li class="Active"><a href="../launcher/changemoney.htm" title="面值" class="DoiZing">面值</a></li>
+  <li><a href="../launcher/event.htm?pid=49&acc=vote4gunny&serid=303&uin=739666748&extraparams=" title="促销" class="KhuyenMai">促销</a></li>
+</ul>
+<script type="text/javascript" src="./lich su code_files/general.js"></script>
+<script type="text/javascript" src="./lich su code_files/xframe-1.01.pack.js"></script>
+
+<script language="javascript">
+var balance_changed = false;
+function hideDialogKVTM(){
+	//local http://10.199.18.31/cgtest/statics/payment-proxy.html
+	if(balance_changed){
+		xframe.send('http://kvtm.apps.zing.vn/celestial/statics/payment-proxy.html', 'parent', 'hide_true');
+	}else{
+		xframe.send('http://kvtm.apps.zing.vn/celestial/statics/payment-proxy.html', 'parent', 'hide');
+	}
+}
+</script>
+<script type="text/javascript">  
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31344798-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<div id="MainContent">
+	<p class="Title">交易记录</p>
+	<ul class="BtnLichSuAll" style="right:165px;">
+		<li>
+			<a href="../launcher/topup.htm?pid=49&acc=vote4gunny&serid=303&uin=739666748&extraparams=" title="充值" class="NapTiep">充值</a>
+		</li>
+		<li>
+			<a title="点卷面值" href="../launcher/changemoney.htm?pid=49&acc=vote4gunny&serid=303&uin=739666748&extraparams=" class="DoiTiep">点卷面值</a>
+		</li>
+	</ul>
+	
+	<a href="../launcher/historytopup.htm?pid=49&acc=vote4gunny&serid=303&uin=739666748&extraparams=" title="检查交易" class="HistoryConvert" style="right:16px;">检查交易</a>
+		<p align="center" style="padding-top:20px;font-size:14px;color:#7F4100;;font-weight:bold">找不到项目代码</p>
+	</div>
+</div>
+
+<script language="javascript">
+var img_money = '<img src="https://imgquickpay.zing.vn/imgpaynew/theme2/launcher/zg/images/icon-dxu.gif">';
+var imgurl = 'https://imgquickpay.zing.vn/imgpaynew/theme2/launcher/common/images/';
+var captcha_url = '';
+var code_err = '';
+</script>
+
+
+<script>
+$(window).load(function() {
+	mCustomScrollbars();
+});
+
+function mCustomScrollbars(){
+	/* 
+	malihu custom scrollbar function parameters: 
+	1) scroll type (values: "vertical" or "horizontal")
+	2) scroll easing amount (0 for no easing) 
+	3) scroll easing type 
+	4) extra bottom scrolling space for vertical scroll type only (minimum value: 1)
+	5) scrollbar height/width adjustment (values: "auto" or "fixed")
+	6) mouse-wheel support (values: "yes" or "no")
+	7) scrolling via buttons support (values: "yes" or "no")
+	8) buttons scrolling speed (values: 1-20, 1 being the slowest)
+	*/
+	$("#mcs_container").mCustomScrollbar("vertical",0,"easeOutCirc",1.05,"auto","yes","yes",10); 
+}
+
+/* function to fix the -10000 pixel limit of jquery.animate */
+$.fx.prototype.cur = function(){
+    if ( this.elem[this.prop] != null && (!this.elem.style || this.elem.style[this.prop] == null) ) {
+      return this.elem[ this.prop ];
+    }
+    var r = parseFloat( jQuery.css( this.elem, this.prop ) );
+    return typeof r == 'undefined' ? 0 : r;
+}
+
+/* function to load new content dynamically */
+function LoadNewContent(id,file){
+	$("#"+id+" .customScrollBox .content").load(file,function(){
+		mCustomScrollbars();
+	});
+}
+</script>
+
+<script src="./lich su code_files/jquery.mCustomScrollbar.js"></script>
+
+</body></html>

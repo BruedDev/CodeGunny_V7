@@ -1,0 +1,25 @@
+08:53:08,486 - [33] - WARN  - Fighting.Server.ServerClient - Room already exists:31
+09:58:04,370 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:5
+10:31:24,370 - [33] - WARN  - Fighting.Server.ServerClient - Room already exists:14
+10:50:53,724 - [33] - WARN  - Fighting.Server.ServerClient - Room already exists:52
+10:55:22,605 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:22
+11:18:53,877 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:41
+11:19:19,420 - [33] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)
+11:26:27,284 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:49
+11:33:48,713 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:5
+13:19:11,894 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:3
+13:21:01,498 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:36
+14:38:59,899 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:40
+15:12:46,843 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:63
+17:12:33,650 - [33] - WARN  - Fighting.Server.ServerClient - Room already exists:22
+17:13:10,949 - [13] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)

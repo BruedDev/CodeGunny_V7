@@ -1,0 +1,9 @@
+14:39:24,505 - [10] - ERROR - Game.Server.Games.GameMgr - Create game error:
+System.ArgumentNullException: 值不能为 null。
+参数名: name
+   在 System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   在 Game.Server.Managers.ScriptMgr.CreateInstance(String name)
+   在 Game.Logic.PVEGame..ctor(Int32 id, Int32 roomId, PveInfo info, List`1 players, Map map, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 currentFloor) 位置 c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVEGame.cs:行号 183
+   在 Game.Server.Games.GameMgr.StartPVEGame(Int32 roomId, List`1 players, Int32 copyId, eRoomType roomType, eGameType gameType, Int32 timeType, eHardLevel hardLevel, Int32 levelLimits, Int32 currentFloor) 位置 e:\5.5源码\Game.Server\Game.Server.Games\GameMgr.cs:行号 212
+14:44:41,379 - [27] - ERROR - Game.Server.GameServer - Center Server Disconnect! Stopping Server
+14:44:41,379 - [27] - ERROR - Game.Server.GameServer - Start the game server again after 1 second,and left try times:3

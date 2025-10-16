@@ -1,0 +1,794 @@
+00:00:31,603 - [117] - INFO  - Center.Server.CenterServer - Saving database...
+00:00:31,606 - [117] - DEBUG - Center.Server.CenterServer - Save ThreadId=117
+00:00:31,606 - [116] - INFO  - Center.Server.CenterServer - Saving Record...
+00:00:31,606 - [116] - DEBUG - Center.Server.CenterServer - Save ThreadId=116
+00:00:31,606 - [118] - INFO  - Center.Server.CenterServer - Saving Record...
+00:00:31,606 - [118] - DEBUG - Center.Server.CenterServer - Save ThreadId=118
+00:00:31,606 - [119] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:00:31,606 - [119] - DEBUG - Center.Server.CenterServer - Scan ThreadId=119
+00:00:31,606 - [120] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:00:31,606 - [120] - DEBUG - Center.Server.CenterServer - Scan ThreadId=120
+00:00:31,606 - [116] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:00:31,606 - [118] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:00:31,606 - [119] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:00:31,606 - [120] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:00:31,622 - [117] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:00:31,622 - [117] - INFO  - Center.Server.CenterServer - Saved all databases 15ms
+00:01:31,463 - [122] - INFO  - Center.Server.CenterServer - System Notice ...
+00:01:31,463 - [122] - DEBUG - Center.Server.CenterServer - Save ThreadId=122
+00:01:31,464 - [122] - INFO  - Center.Server.CenterServer - System Notice complete!
+00:01:31,618 - [122] - INFO  - Center.Server.CenterServer - Saving database...
+00:01:31,618 - [122] - DEBUG - Center.Server.CenterServer - Save ThreadId=122
+00:01:31,618 - [123] - INFO  - Center.Server.CenterServer - Saving Record...
+00:01:31,618 - [123] - DEBUG - Center.Server.CenterServer - Save ThreadId=123
+00:01:31,618 - [124] - INFO  - Center.Server.CenterServer - Saving Record...
+00:01:31,619 - [124] - DEBUG - Center.Server.CenterServer - Save ThreadId=124
+00:01:31,619 - [125] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:01:31,619 - [125] - DEBUG - Center.Server.CenterServer - Scan ThreadId=125
+00:01:31,619 - [126] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:01:31,619 - [126] - DEBUG - Center.Server.CenterServer - Scan ThreadId=126
+00:01:31,620 - [123] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:01:31,621 - [124] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:01:31,621 - [125] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:01:31,622 - [126] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:01:31,633 - [122] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:01:31,634 - [122] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+00:02:31,630 - [128] - INFO  - Center.Server.CenterServer - Saving database...
+00:02:31,630 - [128] - DEBUG - Center.Server.CenterServer - Save ThreadId=128
+00:02:31,630 - [129] - INFO  - Center.Server.CenterServer - Saving Record...
+00:02:31,631 - [129] - DEBUG - Center.Server.CenterServer - Save ThreadId=129
+00:02:31,631 - [130] - INFO  - Center.Server.CenterServer - Saving Record...
+00:02:31,631 - [130] - DEBUG - Center.Server.CenterServer - Save ThreadId=130
+00:02:31,631 - [131] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:02:31,631 - [131] - DEBUG - Center.Server.CenterServer - Scan ThreadId=131
+00:02:31,631 - [132] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:02:31,632 - [132] - DEBUG - Center.Server.CenterServer - Scan ThreadId=132
+00:02:31,634 - [129] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:02:31,634 - [130] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:02:31,635 - [131] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:02:31,635 - [132] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:02:31,646 - [128] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:02:31,646 - [128] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+00:03:31,473 - [134] - INFO  - Center.Server.CenterServer - System Notice ...
+00:03:31,473 - [134] - DEBUG - Center.Server.CenterServer - Save ThreadId=134
+00:03:31,474 - [134] - INFO  - Center.Server.CenterServer - System Notice complete!
+00:03:31,645 - [134] - INFO  - Center.Server.CenterServer - Saving database...
+00:03:31,645 - [134] - DEBUG - Center.Server.CenterServer - Save ThreadId=134
+00:03:31,645 - [135] - INFO  - Center.Server.CenterServer - Saving Record...
+00:03:31,645 - [135] - DEBUG - Center.Server.CenterServer - Save ThreadId=135
+00:03:31,646 - [136] - INFO  - Center.Server.CenterServer - Saving Record...
+00:03:31,646 - [136] - DEBUG - Center.Server.CenterServer - Save ThreadId=136
+00:03:31,646 - [137] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:03:31,646 - [137] - DEBUG - Center.Server.CenterServer - Scan ThreadId=137
+00:03:31,646 - [138] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:03:31,646 - [138] - DEBUG - Center.Server.CenterServer - Scan ThreadId=138
+00:03:31,648 - [135] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:03:31,648 - [136] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:03:31,649 - [137] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:03:31,649 - [138] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:03:31,660 - [134] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:03:31,660 - [134] - INFO  - Center.Server.CenterServer - Saved all databases 15ms
+00:04:31,658 - [141] - INFO  - Center.Server.CenterServer - Saving database...
+00:04:31,658 - [141] - DEBUG - Center.Server.CenterServer - Save ThreadId=141
+00:04:31,658 - [142] - INFO  - Center.Server.CenterServer - Saving Record...
+00:04:31,658 - [142] - DEBUG - Center.Server.CenterServer - Save ThreadId=142
+00:04:31,659 - [143] - INFO  - Center.Server.CenterServer - Saving Record...
+00:04:31,659 - [143] - DEBUG - Center.Server.CenterServer - Save ThreadId=143
+00:04:31,659 - [144] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:04:31,659 - [144] - DEBUG - Center.Server.CenterServer - Scan ThreadId=144
+00:04:31,659 - [145] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:04:31,659 - [145] - DEBUG - Center.Server.CenterServer - Scan ThreadId=145
+00:04:31,661 - [142] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:04:31,661 - [143] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:04:31,661 - [144] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:04:31,662 - [145] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:04:31,673 - [141] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:04:31,673 - [141] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+00:05:31,487 - [147] - INFO  - Center.Server.CenterServer - System Notice ...
+00:05:31,487 - [147] - DEBUG - Center.Server.CenterServer - Save ThreadId=147
+00:05:31,487 - [147] - INFO  - Center.Server.CenterServer - System Notice complete!
+00:05:31,672 - [147] - INFO  - Center.Server.CenterServer - Saving database...
+00:05:31,672 - [147] - DEBUG - Center.Server.CenterServer - Save ThreadId=147
+00:05:31,672 - [151] - INFO  - Center.Server.CenterServer - Saving Record...
+00:05:31,672 - [148] - INFO  - Center.Server.CenterServer - Saving Record...
+00:05:31,672 - [153] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:05:31,675 - [153] - DEBUG - Center.Server.CenterServer - Scan ThreadId=153
+00:05:31,674 - [151] - DEBUG - Center.Server.CenterServer - Save ThreadId=151
+00:05:31,674 - [148] - DEBUG - Center.Server.CenterServer - Save ThreadId=148
+00:05:31,677 - [151] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:05:31,672 - [149] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:05:31,680 - [149] - DEBUG - Center.Server.CenterServer - Scan ThreadId=149
+00:05:31,680 - [149] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:05:31,680 - [148] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:05:31,677 - [153] - INFO  - Center.Server.CenterServer - Scan Consortiaboss award complete!
+00:05:31,680 - [153] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:05:31,691 - [147] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:05:31,691 - [147] - INFO  - Center.Server.CenterServer - Saved all databases 15ms
+00:06:31,685 - [150] - INFO  - Center.Server.CenterServer - Saving database...
+00:06:31,689 - [150] - DEBUG - Center.Server.CenterServer - Save ThreadId=150
+00:06:31,685 - [155] - INFO  - Center.Server.CenterServer - Saving Record...
+00:06:31,690 - [155] - DEBUG - Center.Server.CenterServer - Save ThreadId=155
+00:06:31,687 - [156] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:06:31,690 - [156] - DEBUG - Center.Server.CenterServer - Scan ThreadId=156
+00:06:31,687 - [157] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:06:31,691 - [157] - DEBUG - Center.Server.CenterServer - Scan ThreadId=157
+00:06:31,685 - [154] - INFO  - Center.Server.CenterServer - Saving Record...
+00:06:31,693 - [154] - DEBUG - Center.Server.CenterServer - Save ThreadId=154
+00:06:31,691 - [157] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:06:31,691 - [156] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:06:31,694 - [154] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:06:31,695 - [155] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:06:31,700 - [150] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:06:31,700 - [150] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+00:07:31,497 - [159] - INFO  - Center.Server.CenterServer - System Notice ...
+00:07:31,497 - [159] - DEBUG - Center.Server.CenterServer - Save ThreadId=159
+00:07:31,498 - [159] - INFO  - Center.Server.CenterServer - System Notice complete!
+00:07:31,698 - [159] - INFO  - Center.Server.CenterServer - Saving database...
+00:07:31,698 - [159] - DEBUG - Center.Server.CenterServer - Save ThreadId=159
+00:07:31,698 - [158] - INFO  - Center.Server.CenterServer - Saving Record...
+00:07:31,698 - [158] - DEBUG - Center.Server.CenterServer - Save ThreadId=158
+00:07:31,699 - [161] - INFO  - Center.Server.CenterServer - Saving Record...
+00:07:31,699 - [161] - DEBUG - Center.Server.CenterServer - Save ThreadId=161
+00:07:31,699 - [162] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:07:31,699 - [162] - DEBUG - Center.Server.CenterServer - Scan ThreadId=162
+00:07:31,699 - [163] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:07:31,700 - [163] - DEBUG - Center.Server.CenterServer - Scan ThreadId=163
+00:07:31,701 - [158] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:07:31,702 - [161] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:07:31,702 - [162] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:07:31,702 - [163] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:07:31,713 - [159] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:07:31,713 - [159] - INFO  - Center.Server.CenterServer - Saved all databases 0ms
+00:08:31,713 - [165] - INFO  - Center.Server.CenterServer - Saving database...
+00:08:31,715 - [165] - DEBUG - Center.Server.CenterServer - Save ThreadId=165
+00:08:31,715 - [167] - INFO  - Center.Server.CenterServer - Saving Record...
+00:08:31,715 - [167] - DEBUG - Center.Server.CenterServer - Save ThreadId=167
+00:08:31,715 - [168] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:08:31,716 - [168] - DEBUG - Center.Server.CenterServer - Scan ThreadId=168
+00:08:31,716 - [169] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:08:31,716 - [169] - DEBUG - Center.Server.CenterServer - Scan ThreadId=169
+00:08:31,713 - [166] - INFO  - Center.Server.CenterServer - Saving Record...
+00:08:31,716 - [166] - DEBUG - Center.Server.CenterServer - Save ThreadId=166
+00:08:31,716 - [167] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:08:31,716 - [168] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:08:31,716 - [169] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:08:31,716 - [166] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:08:31,716 - [165] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:08:31,716 - [165] - INFO  - Center.Server.CenterServer - Saved all databases 0ms
+00:09:31,507 - [171] - INFO  - Center.Server.CenterServer - System Notice ...
+00:09:31,507 - [171] - DEBUG - Center.Server.CenterServer - Save ThreadId=171
+00:09:31,508 - [171] - INFO  - Center.Server.CenterServer - System Notice complete!
+00:09:31,726 - [171] - INFO  - Center.Server.CenterServer - Saving database...
+00:09:31,726 - [171] - DEBUG - Center.Server.CenterServer - Save ThreadId=171
+00:09:31,726 - [172] - INFO  - Center.Server.CenterServer - Saving Record...
+00:09:31,726 - [172] - DEBUG - Center.Server.CenterServer - Save ThreadId=172
+00:09:31,727 - [173] - INFO  - Center.Server.CenterServer - Saving Record...
+00:09:31,727 - [173] - DEBUG - Center.Server.CenterServer - Save ThreadId=173
+00:09:31,727 - [174] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:09:31,727 - [174] - DEBUG - Center.Server.CenterServer - Scan ThreadId=174
+00:09:31,727 - [175] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:09:31,727 - [175] - DEBUG - Center.Server.CenterServer - Scan ThreadId=175
+00:09:31,729 - [172] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:09:31,729 - [173] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:09:31,730 - [174] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:09:31,730 - [175] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:09:31,739 - [171] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:09:31,739 - [171] - INFO  - Center.Server.CenterServer - Saved all databases 0ms
+00:10:31,739 - [177] - INFO  - Center.Server.CenterServer - Saving database...
+00:10:31,739 - [177] - DEBUG - Center.Server.CenterServer - Save ThreadId=177
+00:10:31,740 - [178] - INFO  - Center.Server.CenterServer - Saving Record...
+00:10:31,740 - [178] - DEBUG - Center.Server.CenterServer - Save ThreadId=178
+00:10:31,740 - [179] - INFO  - Center.Server.CenterServer - Saving Record...
+00:10:31,740 - [179] - DEBUG - Center.Server.CenterServer - Save ThreadId=179
+00:10:31,740 - [180] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:10:31,740 - [180] - DEBUG - Center.Server.CenterServer - Scan ThreadId=180
+00:10:31,741 - [181] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:10:31,741 - [181] - DEBUG - Center.Server.CenterServer - Scan ThreadId=181
+00:10:31,742 - [178] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:10:31,743 - [179] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:10:31,743 - [180] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:10:31,743 - [181] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:10:31,753 - [177] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:10:31,753 - [177] - INFO  - Center.Server.CenterServer - Saved all databases 0ms
+00:11:31,521 - [183] - INFO  - Center.Server.CenterServer - System Notice ...
+00:11:31,521 - [183] - DEBUG - Center.Server.CenterServer - Save ThreadId=183
+00:11:31,522 - [183] - INFO  - Center.Server.CenterServer - System Notice complete!
+00:11:31,754 - [183] - INFO  - Center.Server.CenterServer - Saving database...
+00:11:31,754 - [183] - DEBUG - Center.Server.CenterServer - Save ThreadId=183
+00:11:31,754 - [184] - INFO  - Center.Server.CenterServer - Saving Record...
+00:11:31,754 - [184] - DEBUG - Center.Server.CenterServer - Save ThreadId=184
+00:11:31,755 - [185] - INFO  - 00:14:32,043 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+00:14:32,163 - [MAIN] - INFO  - Center.Server.CenterServer - Recompile Scripts: True
+00:14:32,178 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+00:14:32,179 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+00:14:32,179 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+00:14:32,183 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:9202: True
+00:14:32,336 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+00:14:32,336 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+00:14:32,352 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+00:14:32,352 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+00:14:32,371 - [MAIN] - INFO  - Center.Server.CenterServer - Init ConsortiaLevelMgr: True
+00:14:32,383 - [MAIN] - INFO  - Center.Server.CenterServer - Init MacroDropMgr: True
+00:14:32,394 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+00:14:32,408 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+00:14:32,427 - [MAIN] - INFO  - Center.Server.WorldMgr - Total 6 syterm notice loaded.
+00:14:32,436 - [MAIN] - INFO  - Center.Server.CenterServer - WorldMgr Init: True
+00:14:32,439 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+00:14:32,456 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+00:14:32,457 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+00:14:32,463 - [MAIN] - INFO  - Center.Server.CenterServer - GameServer is now open for connections!
+00:14:32,463 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+00:14:35,687 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 183.131.83.165:63781
+00:15:32,449 - [8] - INFO  - Center.Server.CenterServer - Saving database...
+00:15:32,450 - [8] - DEBUG - Center.Server.CenterServer - Save ThreadId=8
+00:15:32,450 - [9] - INFO  - Center.Server.CenterServer - Saving Record...
+00:15:32,450 - [9] - DEBUG - Center.Server.CenterServer - Save ThreadId=9
+00:15:32,450 - [10] - INFO  - Center.Server.CenterServer - Saving Record...
+00:15:32,450 - [10] - DEBUG - Center.Server.CenterServer - Save ThreadId=10
+00:15:32,450 - [11] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:15:32,450 - [11] - DEBUG - Center.Server.CenterServer - Scan ThreadId=11
+00:15:32,450 - [12] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:15:32,450 - [12] - DEBUG - Center.Server.CenterServer - Scan ThreadId=12
+00:15:32,470 - [8] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:15:32,471 - [8] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+00:15:32,471 - [9] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:15:32,472 - [11] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:15:32,473 - [12] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:15:32,474 - [10] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:16:32,449 - [14] - INFO  - Center.Server.CenterServer - System Notice ...
+00:16:32,449 - [14] - DEBUG - Center.Server.CenterServer - Save ThreadId=14
+00:16:32,453 - [14] - INFO  - Center.Server.CenterServer - System Notice complete!
+00:16:32,461 - [14] - INFO  - Center.Server.CenterServer - Saving database...
+00:16:32,461 - [14] - DEBUG - Center.Server.CenterServer - Save ThreadId=14
+00:16:32,461 - [13] - INFO  - Center.Server.CenterServer - Saving Record...
+00:16:32,462 - [13] - DEBUG - Center.Server.CenterServer - Save ThreadId=13
+00:16:32,462 - [15] - INFO  - Center.Server.CenterServer - Saving Record...
+00:16:32,462 - [15] - DEBUG - Center.Server.CenterServer - Save ThreadId=15
+00:16:32,462 - [16] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:16:32,462 - [16] - DEBUG - Center.Server.CenterSer00:18:40,543 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+00:18:40,649 - [MAIN] - INFO  - Center.Server.CenterServer - Recompile Scripts: True
+00:18:40,663 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+00:18:40,663 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+00:18:40,664 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+00:18:40,666 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:9202: True
+00:18:40,810 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+00:18:40,811 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+00:18:40,819 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+00:18:40,820 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+00:18:40,832 - [MAIN] - INFO  - Center.Server.CenterServer - Init ConsortiaLevelMgr: True
+00:18:40,842 - [MAIN] - INFO  - Center.Server.CenterServer - Init MacroDropMgr: True
+00:18:40,853 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+00:18:40,866 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+00:18:40,887 - [MAIN] - INFO  - Center.Server.WorldMgr - Total 6 syterm notice loaded.
+00:18:40,896 - [MAIN] - INFO  - Center.Server.CenterServer - WorldMgr Init: True
+00:18:40,899 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+00:18:40,917 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+00:18:40,917 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+00:18:40,924 - [MAIN] - INFO  - Center.Server.CenterServer - GameServer is now open for connections!
+00:18:40,925 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+00:18:44,083 - [8] - INFO  - Game.Base.BaseServer - Incoming connection from 183.131.83.165:63858
+00:19:40,912 - [9] - INFO  - Center.Server.CenterServer - Saving database...
+00:19:40,912 - [9] - DEBUG - Center.Server.CenterServer - Save ThreadId=9
+00:19:40,915 - [10] - INFO  - Center.Server.CenterServer - Saving Record...
+00:19:40,915 - [10] - DEBUG - Center.Server.CenterServer - Save ThreadId=10
+00:19:40,918 - [11] - INFO  - Center.Server.CenterServer - Saving Record...
+00:19:40,918 - [11] - DEBUG - Center.Server.CenterServer - Save ThreadId=11
+00:19:40,920 - [12] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:19:40,920 - [12] - DEBUG - Center.Server.CenterServer - Scan ThreadId=12
+00:19:40,923 - [13] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:19:40,923 - [13] - DEBUG - Center.Server.CenterServer - Scan ThreadId=13
+00:19:40,923 - [13] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:19:40,923 - [12] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:19:40,923 - [10] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:19:40,923 - [11] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:19:40,941 - [9] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:19:40,941 - [9] - INFO  - Center.Server.CenterServer - Saved all databases 31ms
+00:20:40,911 - [14] - INFO  - Center.Server.CenterServer - System Notice ...
+00:20:40,911 - [14] - DEBUG - Center.Server.CenterServer - Save ThreadId=14
+00:20:40,914 - [14] - INFO  - Center.Server.CenterServer - System Notice complete!
+00:20:40,923 - [14] - INFO  - Center.Server.CenterServer - Saving database...
+00:20:40,923 - [14] - DEBUG - Center.Server.CenterServer - Save ThreadId=14
+00:20:40,923 - [15] - INFO  - Center.Server.CenterServer - Saving Record...
+00:20:40,924 - [15] - DEBUG - Center.Server.CenterServer - Save ThreadId=15
+00:20:40,924 - [16] - INFO  - Center.Server.CenterServer - Saving Record...
+00:20:40,924 - [16] - DEBUG - Center.Server.CenterServer - Save ThreadId=16
+00:20:40,924 - [17] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:20:40,924 - [17] - DEBUG - Center.Server.CenterServer - Scan ThreadId=17
+00:20:40,925 - [18] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:20:40,925 - [18] - DEBUG - Center.Server.CenterServer - Scan ThreadId=18
+00:20:40,926 - [15] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:20:40,927 - [16] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:20:40,927 - [17] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:20:40,928 - [18] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:20:40,939 - [14] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:20:40,939 - [14] - INFO  - Center.Server.CenterServer - Saved all databases 15ms
+00:21:40,938 - [20] - INFO  - Center.Server.CenterServer - Saving database...
+00:21:40,938 - [20] - DEBUG - Center.Server.CenterServer - Save ThreadId=20
+00:21:40,938 - [19] - INFO  - Center.Server.CenterServer - Saving Record...
+00:21:40,938 - [19] - DEBUG - Center.Server.CenterServer - Save ThreadId=19
+00:21:40,939 - [23] - INFO  - Center.Server.CenterServer - Saving Record...
+00:21:40,939 - [23] - DEBUG - Center.Server.CenterServer - Save ThreadId=23
+00:21:40,939 - [24] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:21:40,940 - [24] - DEBUG - Center.Server.CenterServer - Scan ThreadId=24
+00:21:40,940 - [25] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:21:40,940 - [25] - DEBUG - Center.Server.CenterServer - Scan ThreadId=25
+00:21:40,941 - [19] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:21:40,942 - [23] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:21:40,943 - [24] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:21:40,943 - [25] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:21:40,952 - [20] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:21:40,952 - [20] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+00:22:40,926 - [26] - INFO  - Center.Server.CenterServer - System Notice ...
+00:22:40,926 - [26] - DEBUG - Center.Server.CenterServer - Save ThreadId=26
+00:22:40,926 - [26] - INFO  - Center.Server.CenterServer - System Notice complete!
+00:22:40,951 - [26] - INFO  - Center.Server.CenterServer - Saving database...
+00:22:40,951 - [26] - DEBUG - Center.Server.CenterServer - Save ThreadId=26
+00:22:40,952 - [28] - INFO  - Center.Server.CenterServer - Saving Record...
+00:22:40,952 - [28] - DEBUG - Center.Server.CenterServer - Save ThreadId=28
+00:22:40,952 - [29] - INFO  - Center.Server.CenterServer - Saving Record...
+00:22:40,952 - [29] - DEBUG - Center.Server.CenterServer - Save ThreadId=29
+00:22:40,952 - [30] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:22:40,953 - [30] - DEBUG - Center.Server.CenterServer - Scan ThreadId=30
+00:22:40,953 - [31] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:22:40,953 - [31] - DEBUG - Center.Server.CenterServer - Scan ThreadId=31
+00:22:40,954 - [28] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:22:40,955 - [29] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:22:40,956 - [30] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:22:40,956 - [31] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:22:40,966 - [26] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:22:40,966 - [26] - INFO  - Center.Server.CenterServer - Saved all databases 15ms
+00:23:40,964 - [33] - INFO  - Center.Server.CenterServer - Saving database...
+00:23:40,964 - [33] - DEBUG - Center.Server.CenterServer - Save ThreadId=33
+00:23:40,964 - [34] - INFO  - Center.Server.CenterServer - Saving Record...
+00:23:40,965 - [34] - DEBUG - Center.Server.CenterServer - Save ThreadId=34
+00:23:40,965 - [35] - INFO  - Center.Server.CenterServer - Saving Record...
+00:23:40,965 - [35] - DEBUG - Center.Server.CenterServer - Save ThreadId=35
+00:23:40,966 - [36] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:23:40,966 - [36] - DEBUG - Center.Server.CenterServer - Scan ThreadId=36
+00:23:40,966 - [37] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:23:40,966 - [37] - DEBUG - Center.Server.CenterServer - Scan ThreadId=37
+00:23:40,968 - [34] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:23:40,968 - [35] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:23:40,969 - [36] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:23:40,969 - [37] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:23:40,979 - [33] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:23:40,980 - [33] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+00:24:40,935 - [39] - INFO  - Center.Server.CenterServer - System Notice ...
+00:24:40,935 - [39] - DEBUG - Center.Server.CenterServer - Save ThreadId=39
+00:24:40,936 - [39] - INFO  - Center.Server.CenterServer - System Notice complete!
+00:24:40,979 - [39] - INFO  - Center.Server.CenterServer - Saving database...
+00:24:40,979 - [39] - DEBUG - Center.Server.CenterServer - Save ThreadId=39
+00:24:40,980 - [40] - INFO  - Center.Server.CenterServer - Saving Record...
+00:24:40,981 - [40] - DEBUG - Center.Server.CenterServer - Save ThreadId=40
+00:24:40,981 - [41] - INFO  - Center.Server.CenterServer - Saving Record...
+00:24:40,981 - [41] - DEBUG - Center.Server.CenterServer - Save ThreadId=41
+00:24:40,981 - [42] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:24:40,981 - [42] - DEBUG - Center.Server.CenterServer - Scan ThreadId=42
+00:24:40,981 - [43] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:24:40,981 - [43] - DEBUG - Center.Server.CenterServer - Scan ThreadId=43
+00:24:40,981 - [40] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:24:40,981 - [41] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:24:40,981 - [42] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:24:40,981 - [43] - INFO  - Center.Server.CenterServer - Scan Consortiaboss award complete!
+00:24:40,981 - [43] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:24:40,997 - [39] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:24:40,998 - [39] - INFO  - Center.Server.CenterServer - Saved all databases 15ms
+00:25:40,992 - [44] - INFO  - Center.Server.CenterServer - Saving database...
+00:25:40,992 - [44] - DEBUG - Center.Server.CenterServer - Save ThreadId=44
+00:25:40,993 - [46] - INFO  - Center.Server.CenterServer - Saving Record...
+00:25:40,993 - [46] - DEBUG - Center.Server.CenterServer - Save ThreadId=46
+00:25:40,993 - [47] - INFO  - Center.Server.CenterServer - Saving Record...
+00:25:40,993 - [47] - DEBUG - Center.Server.CenterServer - Save ThreadId=47
+00:25:40,994 - [48] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:25:40,994 - [48] - DEBUG - Center.Server.CenterServer - Scan ThreadId=48
+00:25:40,994 - [49] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:25:40,994 - [49] - DEBUG - Center.Server.CenterServer - Scan ThreadId=49
+00:25:40,996 - [46] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:25:40,996 - [47] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:25:40,997 - [48] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:25:40,997 - [49] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:25:41,008 - [44] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:25:41,008 - [44] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+00:26:40,942 - [51] - INFO  - Center.Server.CenterServer - System Notice ...
+00:26:40,942 - [51] - DEBUG - Center.Server.CenterServer - Save ThreadId=51
+00:26:40,943 - [51] - INFO  - Center.Server.CenterServer - System Notice complete!
+00:26:41,004 - [51] - INFO  - Center.Server.CenterServer - Saving database...
+00:26:41,004 - [51] - DEBUG - Center.Server.CenterServer - Save ThreadId=51
+00:26:41,004 - [52] - INFO  - Center.Server.CenterServer - Saving Record...
+00:26:41,005 - [52] - DEBUG - Center.Server.CenterServer - Save ThreadId=52
+00:26:41,005 - [53] - INFO  - Center.Server.CenterServer - Saving Record...
+00:26:41,005 - [53] - DEBUG - Center.Server.CenterServer - Save ThreadId=53
+00:26:41,006 - [54] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:26:41,006 - [54] - DEBUG - Center.Server.CenterServer - Scan ThreadId=54
+00:26:41,006 - [55] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:26:41,006 - [55] - DEBUG - Center.Server.CenterServer - Scan ThreadId=55
+00:26:41,007 - [52] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:26:41,008 - [53] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:26:41,009 - [54] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:26:41,009 - [55] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:26:41,021 - [51] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:26:41,021 - [51] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+00:27:41,018 - [58] - INFO  - Center.Server.CenterServer - Saving database...
+00:27:41,018 - [58] - DEBUG - Center.Server.CenterServer - Save ThreadId=58
+00:27:41,019 - [57] - INFO  - Center.Server.CenterServer - Saving Record...
+00:27:41,019 - [57] - DEBUG - Center.Server.CenterServer - Save ThreadId=57
+00:27:41,019 - [60] - INFO  - Center.Server.CenterServer - Saving Record...
+00:27:41,019 - [60] - DEBUG - Center.Server.CenterServer - Save ThreadId=60
+00:27:41,020 - [61] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:27:41,020 - [61] - DEBUG - Center.Server.CenterServer - Scan ThreadId=61
+00:27:41,020 - [62] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:27:41,020 - [62] - DEBUG - Center.Server.CenterServer - Scan ThreadId=62
+00:27:41,021 - [57] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:27:41,022 - [60] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:27:41,023 - [61] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:27:41,023 - [62] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:27:41,035 - [58] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:27:41,035 - [58] - INFO  - Center.Server.CenterServer - Saved all databases 15ms
+00:28:40,954 - [65] - INFO  - Center.Server.CenterServer - System Notice ...
+00:28:40,954 - [65] - DEBUG - Center.Server.CenterServer - Save ThreadId=65
+00:28:40,955 - [65] - INFO  - Center.Server.CenterServer - System Notice complete!
+00:28:41,031 - [65] - INFO  - Center.Server.CenterServer - Saving database...
+00:28:41,031 - [65] - DEBUG - Center.Server.CenterServer - Save ThreadId=65
+00:28:41,031 - [64] - INFO  - Center.Server.CenterServer - Saving Record...
+00:28:41,031 - [64] - DEBUG - Center.Server.CenterServer - Save ThreadId=64
+00:28:41,032 - [72] - INFO  - Center.Server.CenterServer - Saving Record...
+00:28:41,032 - [72] - DEBUG - Center.Server.CenterServer - Save ThreadId=72
+00:28:41,032 - [71] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:28:41,033 - [71] - DEBUG - Center.Server.CenterServer - Scan ThreadId=71
+00:28:41,033 - [70] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:28:41,033 - [70] - DEBUG - Center.Server.CenterServer - Scan ThreadId=70
+00:28:41,034 - [64] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:28:41,035 - [72] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:28:41,035 - [71] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:28:41,036 - [70] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:28:41,044 - [65] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:28:41,044 - [65] - INFO  - Center.Server.CenterServer - Saved all databases 0ms
+00:29:41,046 - [69] - INFO  - Center.Server.CenterServer - Saving database...
+00:29:41,046 - [69] - DEBUG - Center.Server.CenterServer - Save ThreadId=69
+00:29:41,047 - [68] - INFO  - Center.Server.CenterServer - Saving Record...
+00:29:41,047 - [68] - DEBUG - Center.Server.CenterServer - Save ThreadId=68
+00:29:41,047 - [76] - INFO  - Center.Server.CenterServer - Saving Record...
+00:29:41,047 - [76] - DEBUG - Center.Server.CenterServer - Save ThreadId=76
+00:29:41,047 - [77] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:29:41,048 - [77] - DEBUG - Center.Server.CenterServer - Scan ThreadId=77
+00:29:41,048 - [78] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:29:41,048 - [78] - DEBUG - Center.Server.CenterServer - Scan ThreadId=78
+00:29:41,049 - [68] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:29:41,050 - [76] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:29:41,054 - [77] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:29:41,054 - [78] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:29:41,063 - [69] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:29:41,063 - [69] - INFO  - Center.Server.CenterServer - Saved all databases 15ms
+00:30:40,966 - [80] - INFO  - Center.Server.CenterServer - System Notice ...
+00:30:40,966 - [80] - DEBUG - Center.Server.CenterServer - Save ThreadId=80
+00:30:40,967 - [80] - INFO  - Center.Server.CenterServer - System Notice complete!
+00:30:41,060 - [80] - INFO  - Center.Server.CenterServer - Saving database...
+00:30:41,060 - [80] - DEBUG - Center.Server.CenterServer - Save ThreadId=80
+00:30:41,060 - [81] - INFO  - Center.Server.CenterServer - Saving Record...
+00:30:41,060 - [81] - DEBUG - Center.Server.CenterServer - Save ThreadId=81
+00:30:41,061 - [82] - INFO  - Center.Server.CenterServer - Saving Record...
+00:30:41,061 - [82] - DEBUG - Center.Server.CenterServer - Save ThreadId=82
+00:30:41,061 - [84] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:30:41,061 - [84] - DEBUG - Center.Server.CenterServer - Scan ThreadId=84
+00:30:41,062 - [85] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:30:41,062 - [85] - DEBUG - Center.Server.CenterServer - Scan ThreadId=85
+00:30:41,063 - [81] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:30:41,064 - [82] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:30:41,064 - [84] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:30:41,066 - [85] - INFO  - Center.Server.CenterServer - Scan Consortiaboss award complete!
+00:30:41,066 - [85] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:30:41,076 - [80] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:30:41,076 - [80] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+00:31:41,073 - [87] - INFO  - Center.Server.CenterServer - Saving database...
+00:31:41,073 - [87] - DEBUG - Center.Server.CenterServer - Save ThreadId=87
+00:31:41,074 - [88] - INFO  - Center.Server.CenterServer - Saving Record...
+00:31:41,074 - [88] - DEBUG - Center.Server.CenterServer - Save ThreadId=88
+00:31:41,074 - [89] - INFO  - Center.Server.CenterServer - Saving Record...
+00:31:41,075 - [89] - DEBUG - Center.Server.CenterServer - Save ThreadId=89
+00:31:41,075 - [90] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+00:31:41,075 - [90] - DEBUG - Center.Server.CenterServer - Scan ThreadId=90
+00:31:41,075 - [91] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+00:31:41,075 - [91] - DEBUG - Center.Server.CenterServer - Scan ThreadId=91
+00:31:41,077 - [88] - INFO  - Center.Server.CenterServer - Saving Record complete!
+00:31:41,078 - [89] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+00:31:41,078 - [90] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+00:31:41,078 - [91] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+00:31:41,090 - [87] - INFO  - Center.Server.CenterServer - Saving database complete!
+00:31:41,090 - [87] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+00:32:40,977 - [93] - INFO  - Center.Serve17:02:00,964 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+17:02:01,110 - [MAIN] - INFO  - Center.Server.CenterServer - Recompile Scripts: True
+17:02:01,128 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+17:02:01,128 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+17:02:01,128 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+17:02:01,132 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:9202: True
+17:02:01,279 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+17:02:01,279 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+17:02:01,296 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+17:02:01,296 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+17:02:01,326 - [MAIN] - INFO  - Center.Server.CenterServer - Init ConsortiaLevelMgr: True
+17:02:01,338 - [MAIN] - INFO  - Center.Server.CenterServer - Init MacroDropMgr: True
+17:02:01,364 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+17:02:01,378 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+17:02:01,404 - [MAIN] - INFO  - Center.Server.WorldMgr - Total 6 syterm notice loaded.
+17:02:01,411 - [MAIN] - INFO  - Center.Server.CenterServer - WorldMgr Init: True
+17:02:01,415 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+17:02:01,432 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+17:02:01,432 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+17:02:01,439 - [MAIN] - INFO  - Center.Server.CenterServer - GameServer is now open for connections!
+17:02:01,441 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+17:02:05,406 - [7] - INFO  - Game.Base.BaseServer - Incoming connection from 183.131.83.165:60118
+17:03:01,417 - [5] - INFO  - Center.Server.CenterServer - Saving database...
+17:03:01,418 - [5] - DEBUG - Center.Server.CenterServer - Save ThreadId=5
+17:03:01,418 - [8] - INFO  - Center.Server.CenterServer - Saving Record...
+17:03:01,418 - [8] - DEBUG - Center.Server.CenterServer - Save ThreadId=8
+17:03:01,418 - [9] - INFO  - Center.Server.CenterServer - Saving Record...
+17:03:01,418 - [9] - DEBUG - Center.Server.CenterServer - Save ThreadId=9
+17:03:01,418 - [10] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+17:03:01,418 - [10] - DEBUG - Center.Server.CenterServer - Scan ThreadId=10
+17:03:01,418 - [11] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+17:03:01,418 - [11] - DEBUG - Center.Server.CenterServer - Scan ThreadId=11
+17:03:01,434 - [8] - INFO  - Center.Server.CenterServer - Saving Record complete!
+17:03:01,434 - [10] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+17:03:01,434 - [11] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+17:03:01,434 - [5] - INFO  - Center.Server.CenterServer - Saving database complete!
+17:03:01,434 - [5] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+17:03:01,458 - [9] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+17:04:01,416 - [13] - INFO  - Center.Server.CenterServer - System Notice ...
+17:04:01,417 - [13] - DEBUG - Center.Server.CenterServer - Save ThreadId=13
+17:04:01,418 - [13] - INFO  - Center.Server.CenterServer - System Notice complete!
+17:04:01,434 - [13] - INFO  - Center.Server.CenterServer - Saving database...
+17:04:01,434 - [13] - DEBUG - Center.Server.CenterServer - Save ThreadId=13
+17:04:01,435 - [12] - INFO  - Center.Server.CenterServer - Saving Record...
+17:04:01,435 - [12] - DEBUG - Center.Server.CenterServer - Save ThreadId=12
+17:04:01,436 - [14] - INFO  - Center.Server.CenterServer - Saving Record...
+17:04:01,436 - [14] - DEBUG - Center.Server.CenterServer - Save ThreadId=14
+17:04:01,436 - [15] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+17:04:01,436 - [15] - DEBUG - Center.Server.CenterServer 17:10:54,480 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+17:10:54,586 - [MAIN] - INFO  - Center.Server.CenterServer - Recompile Scripts: True
+17:10:54,600 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+17:10:54,600 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+17:10:54,600 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+17:10:54,603 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:9202: True
+17:10:54,746 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+17:10:54,747 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+17:10:54,755 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+17:10:54,755 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+17:10:54,771 - [MAIN] - INFO  - Center.Server.CenterServer - Init ConsortiaLevelMgr: True
+17:10:54,771 - [MAIN] - INFO  - Center.Server.CenterServer - Init MacroDropMgr: True
+17:10:54,799 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+17:10:54,813 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+17:10:54,852 - [MAIN] - INFO  - Center.Server.WorldMgr - Total 6 syterm notice loaded.
+17:10:54,860 - [MAIN] - INFO  - Center.Server.CenterServer - WorldMgr Init: True
+17:10:54,864 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+17:10:54,882 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+17:10:54,883 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+17:10:54,889 - [MAIN] - INFO  - Center.Server.CenterServer - GameServer is now open for connections!
+17:10:54,890 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+17:10:58,101 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 183.131.83.165:60301
+17:11:54,878 - [6] - INFO  - Center.Server.CenterServer - Saving database...
+17:11:54,878 - [6] - DEBUG - Center.Server.CenterServer - Save ThreadId=6
+17:11:54,881 - [8] - INFO  - Center.Server.CenterServer - Saving Record...
+17:11:54,881 - [8] - DEBUG - Center.Server.CenterServer - Save ThreadId=8
+17:11:54,884 - [9] - INFO  - Center.Server.CenterServer - Saving Record...
+17:11:54,885 - [9] - DEBUG - Center.Server.CenterServer - Save ThreadId=9
+17:11:54,886 - [10] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+17:11:54,886 - [10] - DEBUG - Center.Server.CenterServer - Scan ThreadId=10
+17:11:54,889 - [11] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+17:11:54,889 - [11] - DEBUG - Center.Server.CenterServer - Scan ThreadId=11
+17:11:54,889 - [8] - INFO  - Center.Server.CenterServer - Saving Record complete!
+17:11:54,889 - [9] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+17:11:54,905 - [10] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+17:11:54,905 - [11] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+17:11:54,905 - [6] - INFO  - Center.Server.CenterServer - Saving database complete!
+17:11:54,905 - [6] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+17:12:54,876 - [13] - INFO  - Center.Server.CenterServer - System Notice ...
+17:12:54,876 - [13] - DEBUG - Center.Server.CenterServer - Save ThreadId=13
+17:12:54,880 - [13] - INFO  - Center.Server.CenterServer - System Notice complete!
+17:12:54,890 - [13] - INFO  - Center.Server.CenterServer - Saving database...
+17:12:54,890 - [13] - DEBUG - Center.Server.CenterServer - Save ThreadId=13
+17:12:54,890 - [12] - INFO  - Center.Server.CenterServer - Saving Record...
+17:12:54,891 - [12] - DEBUG - Center.Server.CenterServer - Save ThreadId=12
+17:12:54,891 - [14] - INFO  - Center.Server.CenterServer - Saving Record...
+17:12:54,891 - [14] - DEBUG - Center.Server.CenterServer - Save ThreadId=14
+17:12:54,892 - [15] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+17:12:54,892 - [15] - DEBUG - Center.Server.CenterServer 21:12:19,925 - [MAIN] - INFO  - Bussiness.GameProperties - Refreshing game properties!
+21:12:20,263 - [MAIN] - INFO  - Center.Server.CenterServer - Recompile Scripts: True
+21:12:20,302 - [MAIN] - INFO  - Center.Server.CenterServer - Registering global event handlers: true
+21:12:20,302 - [MAIN] - INFO  - Center.Server.CenterServer - Script components: True
+21:12:20,302 - [MAIN] - INFO  - Center.Server.CenterServer - Check Server Edition:5498628: True
+21:12:20,305 - [MAIN] - INFO  - Center.Server.CenterServer - InitSocket Port:9202: True
+21:12:21,916 - [MAIN] - INFO  - Center.Server.CenterService - Center Service started!
+21:12:21,917 - [MAIN] - INFO  - Center.Server.CenterServer - Center Service: True
+21:12:22,016 - [MAIN] - INFO  - Center.Server.ServerMgr - Load server list from db.
+21:12:22,016 - [MAIN] - INFO  - Center.Server.CenterServer - Load serverlist: True
+21:12:22,105 - [MAIN] - INFO  - Center.Server.CenterServer - Init ConsortiaLevelMgr: True
+21:12:22,115 - [MAIN] - INFO  - Center.Server.CenterServer - Init MacroDropMgr: True
+21:12:22,262 - [MAIN] - INFO  - Center.Server.CenterServer - WorldEventMgr Init: True
+21:12:22,303 - [MAIN] - INFO  - Center.Server.CenterServer - LanguageMgr Init: True
+21:12:22,397 - [MAIN] - INFO  - Center.Server.WorldMgr - Total 6 syterm notice loaded.
+21:12:22,404 - [MAIN] - INFO  - Center.Server.CenterServer - WorldMgr Init: True
+21:12:22,406 - [MAIN] - INFO  - Center.Server.CenterServer - Init Global Timers: True
+21:12:22,432 - [MAIN] - DEBUG - Game.Base.BaseServer - Server is now listening to incoming connections!
+21:12:22,433 - [MAIN] - INFO  - Center.Server.CenterServer - base.Start(): True
+21:12:22,438 - [MAIN] - INFO  - Center.Server.CenterServer - GameServer is now open for connections!
+21:12:22,438 - [MAIN] - INFO  - Bussiness.GameProperties - Saving game properties into db!
+21:12:43,282 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 183.131.83.165:49929
+21:13:22,413 - [8] - INFO  - Center.Server.CenterServer - Saving database...
+21:13:22,413 - [8] - DEBUG - Center.Server.CenterServer - Save ThreadId=8
+21:13:22,416 - [9] - INFO  - Center.Server.CenterServer - Saving Record...
+21:13:22,416 - [9] - DEBUG - Center.Server.CenterServer - Save ThreadId=9
+21:13:22,419 - [10] - INFO  - Center.Server.CenterServer - Saving Record...
+21:13:22,419 - [10] - DEBUG - Center.Server.CenterServer - Save ThreadId=10
+21:13:22,419 - [11] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:13:22,419 - [11] - DEBUG - Center.Server.CenterServer - Scan ThreadId=11
+21:13:22,419 - [12] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+21:13:22,419 - [12] - DEBUG - Center.Server.CenterServer - Scan ThreadId=12
+21:13:22,434 - [8] - INFO  - Center.Server.CenterServer - Saving database complete!
+21:13:22,434 - [8] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+21:13:22,434 - [11] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:13:22,451 - [12] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+21:13:22,464 - [10] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+21:13:22,474 - [9] - INFO  - Center.Server.CenterServer - Saving Record complete!
+21:14:22,412 - [13] - INFO  - Center.Server.CenterServer - System Notice ...
+21:14:22,412 - [13] - DEBUG - Center.Server.CenterServer - Save ThreadId=13
+21:14:22,413 - [13] - INFO  - Center.Server.CenterServer - System Notice complete!
+21:14:22,424 - [13] - INFO  - Center.Server.CenterServer - Saving database...
+21:14:22,424 - [13] - DEBUG - Center.Server.CenterServer - Save ThreadId=13
+21:14:22,425 - [15] - INFO  - Center.Server.CenterServer - Saving Record...
+21:14:22,425 - [15] - DEBUG - Center.Server.CenterServer - Save ThreadId=15
+21:14:22,425 - [16] - INFO  - Center.Server.CenterServer - Saving Record...
+21:14:22,426 - [16] - DEBUG - Center.Server.CenterServer - Save ThreadId=16
+21:14:22,426 - [17] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:14:22,426 - [17] - DEBUG - Center.Server.CenterServer - Scan ThreadId=17
+21:14:22,426 - [18] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+21:14:22,427 - [18] - DEBUG - Center.Server.CenterServer - Scan ThreadId=18
+21:14:22,428 - [15] - INFO  - Center.Server.CenterServer - Saving Record complete!
+21:14:22,429 - [16] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+21:14:22,430 - [17] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:14:22,430 - [18] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+21:14:22,436 - [13] - INFO  - Center.Server.CenterServer - Saving database complete!
+21:14:22,436 - [13] - INFO  - Center.Server.CenterServer - Saved all databases 0ms
+21:15:22,437 - [20] - INFO  - Center.Server.CenterServer - Saving database...
+21:15:22,438 - [20] - DEBUG - Center.Server.CenterServer - Save ThreadId=20
+21:15:22,438 - [19] - INFO  - Center.Server.CenterServer - Saving Record...
+21:15:22,438 - [19] - DEBUG - Center.Server.CenterServer - Save ThreadId=19
+21:15:22,438 - [24] - INFO  - Center.Server.CenterServer - Saving Record...
+21:15:22,439 - [24] - DEBUG - Center.Server.CenterServer - Save ThreadId=24
+21:15:22,439 - [25] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:15:22,439 - [25] - DEBUG - Center.Server.CenterServer - Scan ThreadId=25
+21:15:22,440 - [26] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+21:15:22,440 - [26] - DEBUG - Center.Server.CenterServer - Scan ThreadId=26
+21:15:22,441 - [19] - INFO  - Center.Server.CenterServer - Saving Record complete!
+21:15:22,442 - [24] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+21:15:22,443 - [25] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:15:22,444 - [26] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+21:15:22,455 - [20] - INFO  - Center.Server.CenterServer - Saving database complete!
+21:15:22,455 - [20] - INFO  - Center.Server.CenterServer - Saved all databases 15ms
+21:16:22,420 - [27] - INFO  - Center.Server.CenterServer - System Notice ...
+21:16:22,420 - [27] - DEBUG - Center.Server.CenterServer - Save ThreadId=27
+21:16:22,421 - [27] - INFO  - Center.Server.CenterServer - System Notice complete!
+21:16:22,450 - [27] - INFO  - Center.Server.CenterServer - Saving database...
+21:16:22,450 - [27] - DEBUG - Center.Server.CenterServer - Save ThreadId=27
+21:16:22,450 - [29] - INFO  - Center.Server.CenterServer - Saving Record...
+21:16:22,450 - [29] - DEBUG - Center.Server.CenterServer - Save ThreadId=29
+21:16:22,451 - [30] - INFO  - Center.Server.CenterServer - Saving Record...
+21:16:22,451 - [30] - DEBUG - Center.Server.CenterServer - Save ThreadId=30
+21:16:22,451 - [31] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:16:22,451 - [31] - DEBUG - Center.Server.CenterServer - Scan ThreadId=31
+21:16:22,452 - [32] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+21:16:22,452 - [32] - DEBUG - Center.Server.CenterServer - Scan ThreadId=32
+21:16:22,453 - [29] - INFO  - Center.Server.CenterServer - Saving Record complete!
+21:16:22,454 - [30] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+21:16:22,455 - [31] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:16:22,456 - [32] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+21:16:22,464 - [27] - INFO  - Center.Server.CenterServer - Saving database complete!
+21:16:22,465 - [27] - INFO  - Center.Server.CenterServer - Saved all databases 0ms
+21:17:22,464 - [34] - INFO  - Center.Server.CenterServer - Saving database...
+21:17:22,464 - [34] - DEBUG - Center.Server.CenterServer - Save ThreadId=34
+21:17:22,464 - [35] - INFO  - Center.Server.CenterServer - Saving Record...
+21:17:22,465 - [35] - DEBUG - Center.Server.CenterServer - Save ThreadId=35
+21:17:22,465 - [36] - INFO  - Center.Server.CenterServer - Saving Record...
+21:17:22,465 - [36] - DEBUG - Center.Server.CenterServer - Save ThreadId=36
+21:17:22,465 - [37] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:17:22,466 - [37] - DEBUG - Center.Server.CenterServer - Scan ThreadId=37
+21:17:22,466 - [38] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+21:17:22,466 - [38] - DEBUG - Center.Server.CenterServer - Scan ThreadId=38
+21:17:22,467 - [35] - INFO  - Center.Server.CenterServer - Saving Record complete!
+21:17:22,468 - [36] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+21:17:22,469 - [37] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:17:22,470 - [38] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+21:17:22,479 - [34] - INFO  - Center.Server.CenterServer - Saving database complete!
+21:17:22,479 - [34] - INFO  - Center.Server.CenterServer - Saved all databases 0ms
+21:18:22,431 - [40] - INFO  - Center.Server.CenterServer - System Notice ...
+21:18:22,431 - [40] - DEBUG - Center.Server.CenterServer - Save ThreadId=40
+21:18:22,432 - [40] - INFO  - Center.Server.CenterServer - System Notice complete!
+21:18:22,478 - [40] - INFO  - Center.Server.CenterServer - Saving database...
+21:18:22,478 - [40] - DEBUG - Center.Server.CenterServer - Save ThreadId=40
+21:18:22,478 - [41] - INFO  - Center.Server.CenterServer - Saving Record...
+21:18:22,479 - [41] - DEBUG - Center.Server.CenterServer - Save ThreadId=41
+21:18:22,479 - [42] - INFO  - Center.Server.CenterServer - Saving Record...
+21:18:22,479 - [42] - DEBUG - Center.Server.CenterServer - Save ThreadId=42
+21:18:22,479 - [43] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:18:22,479 - [43] - DEBUG - Center.Server.CenterServer - Scan ThreadId=43
+21:18:22,480 - [44] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+21:18:22,480 - [44] - DEBUG - Center.Server.CenterServer - Scan ThreadId=44
+21:18:22,481 - [41] - INFO  - Center.Server.CenterServer - Saving Record complete!
+21:18:22,482 - [42] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+21:18:22,483 - [43] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:18:22,487 - [44] - INFO  - Center.Server.CenterServer - Scan Consortiaboss award complete!
+21:18:22,487 - [44] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+21:18:22,520 - [40] - INFO  - Center.Server.CenterServer - Saving database complete!
+21:18:22,521 - [40] - INFO  - Center.Server.CenterServer - Saved all databases 32ms
+21:19:22,491 - [45] - INFO  - Center.Server.CenterServer - Saving database...
+21:19:22,491 - [45] - DEBUG - Center.Server.CenterServer - Save ThreadId=45
+21:19:22,492 - [47] - INFO  - Center.Server.CenterServer - Saving Record...
+21:19:22,492 - [47] - DEBUG - Center.Server.CenterServer - Save ThreadId=47
+21:19:22,492 - [48] - INFO  - Center.Server.CenterServer - Saving Record...
+21:19:22,492 - [48] - DEBUG - Center.Server.CenterServer - Save ThreadId=48
+21:19:22,493 - [49] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:19:22,493 - [49] - DEBUG - Center.Server.CenterServer - Scan ThreadId=49
+21:19:22,493 - [50] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+21:19:22,493 - [50] - DEBUG - Center.Server.CenterServer - Scan ThreadId=50
+21:19:22,495 - [47] - INFO  - Center.Server.CenterServer - Saving Record complete!
+21:19:22,495 - [48] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+21:19:22,497 - [49] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:19:22,497 - [50] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+21:19:22,506 - [45] - INFO  - Center.Server.CenterServer - Saving database complete!
+21:19:22,507 - [45] - INFO  - Center.Server.CenterServer - Saved all databases 0ms
+21:20:22,446 - [52] - INFO  - Center.Server.CenterServer - System Notice ...
+21:20:22,446 - [52] - DEBUG - Center.Server.CenterServer - Save ThreadId=52
+21:20:22,447 - [52] - INFO  - Center.Server.CenterServer - System Notice complete!
+21:20:22,505 - [52] - INFO  - Center.Server.CenterServer - Saving database...
+21:20:22,505 - [52] - DEBUG - Center.Server.CenterServer - Save ThreadId=52
+21:20:22,505 - [53] - INFO  - Center.Server.CenterServer - Saving Record...
+21:20:22,505 - [53] - DEBUG - Center.Server.CenterServer - Save ThreadId=53
+21:20:22,506 - [54] - INFO  - Center.Server.CenterServer - Saving Record...
+21:20:22,506 - [54] - DEBUG - Center.Server.CenterServer - Save ThreadId=54
+21:20:22,506 - [55] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:20:22,507 - [55] - DEBUG - Center.Server.CenterServer - Scan ThreadId=55
+21:20:22,507 - [56] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+21:20:22,507 - [56] - DEBUG - Center.Server.CenterServer - Scan ThreadId=56
+21:20:22,508 - [53] - INFO  - Center.Server.CenterServer - Saving Record complete!
+21:20:22,509 - [54] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+21:20:22,510 - [55] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:20:22,511 - [56] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+21:20:22,517 - [52] - INFO  - Center.Server.CenterServer - Saving database complete!
+21:20:22,517 - [52] - INFO  - Center.Server.CenterServer - Saved all databases 0ms
+21:21:22,519 - [58] - INFO  - Center.Server.CenterServer - Saving database...
+21:21:22,519 - [58] - DEBUG - Center.Server.CenterServer - Save ThreadId=58
+21:21:22,519 - [59] - INFO  - Center.Server.CenterServer - Saving Record...
+21:21:22,520 - [59] - DEBUG - Center.Server.CenterServer - Save ThreadId=59
+21:21:22,520 - [60] - INFO  - Center.Server.CenterServer - Saving Record...
+21:21:22,520 - [60] - DEBUG - Center.Server.CenterServer - Save ThreadId=60
+21:21:22,520 - [61] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:21:22,521 - [61] - DEBUG - Center.Server.CenterServer - Scan ThreadId=61
+21:21:22,521 - [62] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+21:21:22,521 - [62] - DEBUG - Center.Server.CenterServer - Scan ThreadId=62
+21:21:22,523 - [59] - INFO  - Center.Server.CenterServer - Saving Record complete!
+21:21:22,523 - [60] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+21:21:22,526 - [61] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:21:22,526 - [62] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+21:21:22,535 - [58] - INFO  - Center.Server.CenterServer - Saving database complete!
+21:21:22,535 - [58] - INFO  - Center.Server.CenterServer - Saved all databases 16ms
+21:22:22,456 - [64] - INFO  - Center.Server.CenterServer - System Notice ...
+21:22:22,456 - [64] - DEBUG - Center.Server.CenterServer - Save ThreadId=64
+21:22:22,457 - [64] - INFO  - Center.Server.CenterServer - System Notice complete!
+21:22:22,532 - [64] - INFO  - Center.Server.CenterServer - Saving database...
+21:22:22,532 - [64] - DEBUG - Center.Server.CenterServer - Save ThreadId=64
+21:22:22,533 - [65] - INFO  - Center.Server.CenterServer - Saving Record...
+21:22:22,533 - [65] - DEBUG - Center.Server.CenterServer - Save ThreadId=65
+21:22:22,533 - [66] - INFO  - Center.Server.CenterServer - Saving Record...
+21:22:22,533 - [66] - DEBUG - Center.Server.CenterServer - Save ThreadId=66
+21:22:22,534 - [67] - INFO  - Center.Server.CenterServer - Scan  WorldEvent ...
+21:22:22,534 - [67] - DEBUG - Center.Server.CenterServer - Scan ThreadId=67
+21:22:22,534 - [68] - INFO  - Center.Server.CenterServer - Scan Consortiaboss...
+21:22:22,534 - [68] - DEBUG - Center.Server.CenterServer - Scan ThreadId=68
+21:22:22,536 - [65] - INFO  - Center.Server.CenterServer - Saving Record complete!
+21:22:22,537 - [66] - INFO  - Center.Server.CenterServer - Scan Consortia complete!
+21:22:22,538 - [67] - INFO  - Center.Server.CenterServer - Scan WorldEvent complete!
+21:22:22,539 - [68] - INFO  - Center.Server.CenterServer - Scan Consortiaboss complete!
+21:22:22,545 - [64] - INFO  - Center.Server.CenterServer - Saving database complete!
+21:22:22,545 - [64] - INFO  - Center.Server.CenterServer - Saved all databases 0ms
+21:23:22,546 - [70] - INFO  - Center.Server.CenterServer - Saving database...
+21:23:22,546 - [70] - DEBUG - Center.Server.CenterServer - Save ThreadId=70
+21:23:22,547 - [71] -

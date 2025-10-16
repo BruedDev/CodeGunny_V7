@@ -1,0 +1,143 @@
+/* jLightBox (using jQuery library).
+*--------------------------------------------*
+*  @author : ukhome ( ukhome@gmail.com | ntkhoa_friends@yahoo.com )
+*--------------------------------------------*
+*  @released : 24-Mar-2009 : version 1.0
+*--------------------------------------------*
+*  @revision history : ( latest version : 1.0 )
+*--------------------------------------------*
+*      + 24-Mar-2009 : version 1.0
+*          - released
+*--------------------------------------------*
+*/
+
+/* Add Theme to Container Div: classname = Your theme classname */
+div.Theme_GP_Wrapper {/*Wrap all*/
+    width: 60px;
+    height: 26px;
+	margin: 6px 0 0 0; 
+    padding: 0;   
+    float: right;
+}
+#frmNewsSearch div.Theme_GP_Wrapper {
+	width: 194px;
+    height: 29px;
+	padding: 0;
+    background:url(../../images/province.gif) left top no-repeat;
+    float: left;	
+}
+    div.Theme_GP_List { /*Wrap UL*/
+		margin: 0;
+		padding: 0;
+        border: 1px solid #676767;
+        1width: 60px;
+    }
+	#frmNewsSearch div.Theme_GP_List { /*Wrap UL*/
+		margin: 0;
+		padding: 0;
+        border: 1px solid #676767;
+        width: 194px;
+		 cursor: pointer;
+    }
+	#frmNewsSearch div.Theme_GP_Wrapper p {
+            width: 100px;
+            color: #5C84A0;
+            font-size: 11px;
+            padding: 0 0px 0px 5px;
+            cursor: pointer;
+            overflow: hidden;
+            height: 18px;
+        }
+	.DropListUIContainerHome{
+		width:auto !important;
+	}
+        div.Theme_GP_Wrapper p {
+            width: 35px;
+            color: #5C84A0;
+            font-size: 11px;
+            padding: 0 20px 0px 5px;
+            cursor: pointer;
+            overflow: hidden;
+            height: 18px;
+        }
+
+    /* UL */
+    div.Theme_GP_List ul.SelectUI.Theme_GP {
+        width: 100px;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        background-color: #f3f3f3;
+    }
+	div.Theme_GP_List ul.SelectFrom.Theme_GP {
+        width: 100px;
+        padding: 0;
+        margin:0;
+        overflow: hidden;
+        background-color: #f3f3f3;		
+    }
+        div.Theme_GP_List ul.Theme_GP li {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            font-size: 1.1em;
+            border-top: 1px solid #e7e7e7;
+        }
+        div.Theme_GP_List ul.Theme_GP li.First {
+            border-top: none !important;
+        }
+        /*use for optgroup name*/
+        div.Theme_GP_List ul.Theme_GP li span {
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            display: block;
+            padding: 4px 0;
+            cursor: default;
+            padding: 3px 0 3px 4px;
+        }
+        /*Normal*/
+            div.Theme_GP_List ul.Theme_GP li a:link,
+            div.Theme_GP_List ul.Theme_GP li a:visited {
+                display: block;
+                width: 100%;
+                font-size: 1em;
+                color: #333333;
+                padding: 4px 0px 4px 5px;
+                overflow: hidden;
+                text-decoration: none;
+             }
+             /*Active*/
+            div.Theme_GP_List ul.Theme_GP li.Active a:link,
+            div.Theme_GP_List ul.Theme_GP li.Active a:visited {
+                text-decoration: none;
+                color: #e57007;
+            }
+            /*Hover*/
+            div.Theme_GP_List ul.Theme_GP li.Hover a:link,
+            div.Theme_GP_List ul.Theme_GP li.Hover a:visited {
+                text-decoration: none;
+                color: #e57007;
+                background: #fafafa;
+            }
+
+            /*level 2 - in case has optgroup*/
+            div.Theme_GP_List ul.Theme_GP li ul {
+                border: none;
+            }
+                div.Theme_GP_List ul.Theme_GP li ul li {
+                    font-size: 1em;
+                }
+                    div.Theme_GP_List ul.Theme_GP li ul li a:link,
+                    div.Theme_GP_List ul.Theme_GP li ul li a:visited {
+                        width: 147px;
+                        padding: 5px 0px 5px 5px;
+                        font-weight: normal;
+                    }
+
+/* Theme modified */
+div.Theme_GP_Modified_Wrapper {/*Wrap all*/
+    float: right;
+    margin: 0;
+}

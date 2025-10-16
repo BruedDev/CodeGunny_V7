@@ -1,0 +1,19 @@
+08:27:13,867 - [30] - WARN  - Fighting.Server.ServerClient - Room already exists:2
+09:07:38,087 - [30] - WARN  - Fighting.Server.ServerClient - Room already exists:8
+09:32:14,595 - [30] - WARN  - Fighting.Server.ServerClient - Room already exists:8
+11:17:56,187 - [30] - WARN  - Fighting.Server.ServerClient - Room already exists:17
+12:56:14,655 - [30] - WARN  - Fighting.Server.ServerClient - Room already exists:22
+17:58:33,799 - [30] - WARN  - Fighting.Server.ServerClient - Room already exists:35
+18:16:41,367 - [30] - WARN  - Fighting.Server.ServerClient - Room already exists:12
+18:31:36,730 - [30] - WARN  - Fighting.Server.ServerClient - Room already exists:15
+19:55:32,431 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Fighting.Server.ServerClient.SendPlayerConsortiaFight(Int32 playerId, Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth)
+   at Fighting.Server.GameObjects.ProxyPlayer.ConsortiaFight(Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth, Int32 count)
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 688
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 43
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+20:20:49,761 - [30] - WARN  - Fighting.Server.ServerClient - Room already exists:26
+22:27:39,281 - [30] - WARN  - Fighting.Server.ServerClient - Room already exists:10

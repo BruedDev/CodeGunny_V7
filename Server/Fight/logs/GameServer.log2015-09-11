@@ -1,0 +1,29 @@
+16:10:54,428 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+16:10:54,649 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+16:10:54,681 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+16:10:54,681 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+16:10:54,683 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+16:10:54,684 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+16:10:55,674 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+16:10:55,865 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+16:10:55,875 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+16:10:56,452 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+16:10:56,462 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+16:10:56,489 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+16:10:56,515 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+16:10:56,546 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+16:10:56,556 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+16:10:56,571 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+16:10:56,591 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+16:10:56,596 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+16:10:56,604 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+16:11:00,345 - [3] - INFO  - Game.Base.BaseServer - Incoming connection from 58.218.211.226:59686
+16:50:47,738 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:19
+20:54:05,119 - [3] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)
+21:47:55,341 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:26
+23:55:45,494 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:32

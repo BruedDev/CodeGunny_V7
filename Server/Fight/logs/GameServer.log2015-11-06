@@ -1,0 +1,48 @@
+10:30:46,880 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+10:30:47,006 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+10:30:47,033 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+10:30:47,033 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+10:30:47,035 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+10:30:47,036 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+10:30:47,205 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+10:30:47,357 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+10:30:47,365 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+10:30:47,458 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+10:30:47,466 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+10:30:47,504 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+10:30:47,526 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+10:30:47,548 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+10:30:47,556 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+10:30:47,567 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+10:30:47,582 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+10:30:47,586 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+10:30:47,593 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+10:30:50,878 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 222.187.227.159:52815
+18:55:18,478 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Fighting.Server.ServerClient.SendPlayerConsortiaFight(Int32 playerId, Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth)
+   at Fighting.Server.GameObjects.ProxyPlayer.ConsortiaFight(Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth, Int32 count)
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 688
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 43
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+19:50:35,044 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Fighting.Server.ServerClient.SendPlayerConsortiaFight(Int32 playerId, Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth)
+   at Fighting.Server.GameObjects.ProxyPlayer.ConsortiaFight(Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth, Int32 count)
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 688
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 43
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+21:05:33,607 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Fighting.Server.ServerClient.SendPlayerConsortiaFight(Int32 playerId, Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth)
+   at Fighting.Server.GameObjects.ProxyPlayer.ConsortiaFight(Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth, Int32 count)
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 688
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 43
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+22:49:07,428 - [10] - WARN  - Fighting.Server.ServerClient - Room already exists:7

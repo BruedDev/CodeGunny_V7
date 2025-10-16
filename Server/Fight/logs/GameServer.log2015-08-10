@@ -1,0 +1,42 @@
+00:38:15,395 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+00:38:15,637 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+00:38:15,701 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+00:38:15,701 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+00:38:15,717 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+00:38:15,717 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+00:38:16,101 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+00:38:16,519 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+00:38:16,535 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+00:38:17,160 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+00:38:17,193 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+00:38:17,311 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+00:38:17,421 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+00:38:17,525 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+00:38:17,570 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+00:38:17,586 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+00:38:17,619 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+00:38:17,619 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+00:38:17,691 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+00:38:23,084 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 60.172.246.6:53255
+08:19:17,754 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:17
+16:46:53,287 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:40
+17:14:10,601 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:26
+18:25:59,999 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 681
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 42
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 875
+18:26:17,926 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:28
+20:09:34,734 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:40
+21:32:08,803 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Fighting.Server.ServerClient.SendPlayerConsortiaFight(Int32 playerId, Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth)
+   at Fighting.Server.GameObjects.ProxyPlayer.ConsortiaFight(Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth, Int32 count)
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 688
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 43
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876
+21:49:11,476 - [15] - WARN  - Fighting.Server.ServerClient - Room already exists:34
+21:49:12,003 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:34

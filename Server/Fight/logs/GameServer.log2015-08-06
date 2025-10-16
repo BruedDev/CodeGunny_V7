@@ -1,0 +1,42 @@
+01:47:30,175 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:7
+10:24:52,495 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:23
+11:05:09,602 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+11:07:59,363 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+11:09:39,277 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+11:10:59,131 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+11:15:18,605 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+11:17:58,304 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+11:19:28,061 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+11:21:17,812 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+11:23:17,782 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+11:25:47,697 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+11:27:37,602 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+11:45:26,755 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+12:50:23,619 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+12:54:13,405 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+12:57:03,163 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+13:01:12,907 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+13:20:41,608 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+13:23:11,638 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+13:25:11,484 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+13:27:01,391 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+13:28:51,360 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+13:31:51,185 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+13:33:51,193 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+13:35:51,120 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+13:37:50,990 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+13:39:50,911 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+13:42:10,834 - [6] - WARN  - Fighting.Server.Games.GameMgr - CanUseBuff = false,  code:-121212
+16:47:10,540 - [22] - WARN  - Fighting.Server.ServerClient - Room already exists:20
+19:45:13,456 - [17] - WARN  - Fighting.Server.ServerClient - Room already exists:15
+20:18:05,006 - [33] - WARN  - Fighting.Server.ServerClient - Room already exists:36
+20:20:21,184 - [12] - WARN  - Fighting.Server.ServerClient - Room already exists:24
+20:39:02,666 - [28] - WARN  - Fighting.Server.ServerClient - Room already exists:33
+20:41:34,061 - [19] - WARN  - Fighting.Server.ServerClient - Room already exists:14
+20:45:35,866 - [20] - WARN  - Fighting.Server.ServerClient - Room already exists:9
+21:08:04,446 - [33] - WARN  - Fighting.Server.ServerClient - Room already exists:26
+21:17:41,448 - [14] - WARN  - Fighting.Server.ServerClient - Room already exists:34
+21:25:43,859 - [12] - WARN  - Fighting.Server.ServerClient - Room already exists:41
+21:26:58,698 - [35] - WARN  - Fighting.Server.ServerClient - Room already exists:13
+21:35:07,786 - [22] - WARN  - Fighting.Server.ServerClient - Room already exists:42
+21:43:19,397 - [3] - WARN  - Fighting.Server.ServerClient - Room already exists:45

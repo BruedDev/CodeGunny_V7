@@ -1,0 +1,186 @@
+<style name="wonderfulactivity" version="1.0.1" source="ui/vietnam/swf/wonderfulactivity.swf">
+<sets>
+	<set stylename="wonderfulactivityTF1"  args="Arial,16,0xf4d96b,true,,,,,left"  type="flash.text.TextFormat"/>
+	<set stylename="wonderfulactivityGF1" args="0x541e00,1,2,2,10"  type="flash.filters.GlowFilter"/>	
+	
+	<set stylename="wonderfulactivityTF2"  args="Arial,16,0xffffff,,,,,,left"  type="flash.text.TextFormat"/>
+	<set stylename="wonderfulactivityGF2" args="0x402615,1,2,2,10"  type="flash.filters.GlowFilter"/>
+	
+	<set stylename="wonderfulactivityTF3"  args="Arial,14,0xffea9c,,,,,,left"  type="flash.text.TextFormat"/>
+	<set stylename="wonderfulactivityGF3" args="0x4a3301,1,2,2,10"  type="flash.filters.GlowFilter"/>	
+	
+	<set stylename="wonderfulactivityTF4"  args="Arial,14,0xffffff,,,,,,left"  type="flash.text.TextFormat"/>
+	<set stylename="wonderfulactivityGF4" args="0x000000,1,2,2,10"  type="flash.filters.GlowFilter"/>	
+	
+	<set stylename="wonderfulactivityTF5"  args="Arial,14,0xffead9,true,,,,,left"  type="flash.text.TextFormat"/>
+	<set stylename="wonderfulactivityGF5" args="0x76251e,1,2,2,10"  type="flash.filters.GlowFilter"/>	
+	
+	<set stylename="wonderfulactivityTF6"  args="Arial,14,0xff0000,true,,,,,left"  type="flash.text.TextFormat"/>
+	<set stylename="wonderfulactivityGF6" args="0x000000,1,2,2,10"  type="flash.filters.GlowFilter"/>	
+	
+	<set stylename="wonderfulactivityTF7"  args="Arial,16,0xffffff,true,,,,,left"  type="flash.text.TextFormat"/>
+	<set stylename="wonderfulactivityGF7" args="0x000000,1,2,2,10"  type="flash.filters.GlowFilter"/>	
+	
+	<set stylename="wonderfulactivityGF10" args="0x532100,2,4,4,30" type="flash.filters.GlowFilter"/>
+	<set stylename="wonderful.ActivityState.AwardFieldTF" args="Arial,14,0x942d05" leading="2" type="flash.text.TextFormat"/>
+	<set stylename="wonderful.ActivityState.StateContentFieldTF" args="Arial,14,0x6a3a17" type="flash.text.TextFormat" leading="4"/>
+	<set stylename="wonderful.ActivityState.InputFieldTF" args="Verdana,14,0xFFFFFF" type="flash.text.TextFormat"/>
+	<set stylename="wonderful.ActivityState.TimeFieldTF" args="Arial,14,0x942d05,true" type="flash.text.TextFormat"/>
+	<set stylename="wonderful.ActivityStateTitleFieldTF" args="Arial,16,0xffe981,true" letterSpacing="2" type="flash.text.TextFormat"/>
+	<set stylename="wonderful.ActivityStateTitleFieldGF" args="0x5c310e,1,4,4,30" type="flash.filters.GlowFilter"/>
+	<set stylename="wonderfulactivityTF9" args="Arial,12,0xffe38f" type="flash.text.TextFormat"/>
+	<set stylename="wonderfulactivity.activetimeGF" args="0x471e00,2,4,4,30" type="flash.filters.GlowFilter"/>
+	<set stylename="wonderfulactivityTF10" args="Arial,18,0xfff0bc" type="flash.text.TextFormat"/>
+	<set stylename="wonderfulactivityGF9" args="0x000000,2,4,4,30" type="flash.filters.GlowFilter"/>
+	<set stylename="wonderfulactivity.activetimeTF" args="Arial,14,0xfffaad" type="flash.text.TextFormat"/>
+	<!--  赛亚之神 临时属性  --> 
+  	<set stylename="wonderful.Activity.SyahView.validTF" args="Arial,14,0xfffaad,true" leading="2" type="flash.text.TextFormat" /> 
+  	<set stylename="wonderfulactivity.SyahView.validGF" args="0x471e00,2,4,4,30" type="flash.filters.GlowFilter" /> 
+  	<set stylename="wonderful.Activity.SyahView.descriptTF" args="Arial,13,0xffd878,true" leading="5" type="flash.text.TextFormat" /> 
+  	<set stylename="wonderfulactivity.SyahView.descriptGF" args="0x532100,2,4,4,30" type="flash.filters.GlowFilter" /> 
+  	<set stylename="SyahView_g1" args="0x471e00,1,2,2,10,1" type="flash.filters.GlowFilter" /> 
+  	<set stylename="GodSyah.syahView.abilityTF" args="Arial,11,0xff9933,true,,,,,right" type="flash.text.TextFormat" /> 
+  	<set stylename="GodSyah.syahView.abilityValueTF" args="Arial,11,0xfff000,true,,,,,left" type="flash.text.TextFormat" /> 
+  	<set stylename="GodSyah.syahview.tip.txtTF" args="Arial,13,0xffffff,,,,,,left" type="flash.text.TextFormat" /> 
+  	<set stylename="SyahView_g2" args="0x000000,1,2,2,10,1" type="flash.filters.GlowFilter" /> 
+</sets>
+<components>
+<component classname="wonderfulActivity.WonderfulFrame" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="com.wonderfulActivity.WonderfulFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" x="-160" y="-40"
+			closeInnerRectString="44,19,6,30,14" width="760" height="547" />
+<!--精彩活动 大背景 -->
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="wonderfulactivity.scale9cornerImageTree" width="725" height="488" x="17" y="42" parentStyle="core.bg6920"/>
+<!--精彩活动 小背景 -->
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="wonderfulactivity.recharge.scale9cornerImageTree" width="434" height="373" x="17" y="42" parentStyle="wonderfulactivity.libao.goldLine"/>
+<component classname="com.pickgliss.ui.controls.SelectedButton"
+			stylename="wonderfulactivity.left.seleBtn" unSelectedStyle="wonderfulactivity.noselected"
+			selectedStyle="wonderfulactivity.selected" filterString="null,lightFilter,null,grayFilter"
+			x="0" y="0" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="wonderfulactivity.left.seleBtnTxt" textFormatStyle="wonderfulactivityTF1" x="19"  y="15"
+			filterString="wonderfulactivityGF1" multiline="false" wordWrap="false" />
+			
+   <component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="wonderfulactivity.left.unseleBtnTxt" textFormatStyle="wonderfulactivityTF2" x="19"  y="14"
+			filterString="wonderfulactivityGF2" multiline="false" wordWrap="false" />
+			
+	<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="wonderfulactivity.left.nameTxt" textFormatStyle="wonderfulactivityTF3" x="19"  y="14"
+			filterString="wonderfulactivityGF3" multiline="true" wordWrap="true"  width="105"  leading="5" />	
+				
+	<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="wonderfulactivity.right.desTxt" textFormatStyle="wonderfulactivityTF4" x="262"  y="486"
+			filterString="wonderfulactivityGF4" multiline="false" wordWrap="false" />	
+			
+	<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="wonderfulactivity.right.btnTxt" textFormatStyle="wonderfulactivityTF5" x="49"  y="11"
+			filterString="wonderfulactivityGF5" multiline="false" wordWrap="false" />	
+			
+	<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="wonderfulactivity.right.timeTxt" textFormatStyle="wonderfulactivityTF6" x="647"  y="488"
+			filterString="wonderfulactivityGF6" multiline="false" wordWrap="false" />	
+			
+	<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="wonderfulactivity.right.farmetimeTxt" textFormatStyle="wonderfulactivityTF7" x="388"  y="492"
+			filterString="wonderfulactivityGF7" multiline="false" wordWrap="false" />	
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="wonderfulactivity.left.back" x="2"
+			resourceLink="wonderfulactivity.noselected,wonderfulactivity.selected" />
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="wonderfulactivity.rightBottomBgImg" parentStyle="asset.core.btmBimap" x="255" y="456" width="475" height="62"/>
+			
+			
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="wonderfulactivity.left.vBox" spacing="3" x="45" y="160"  />
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="wonderfulactivity.left.scrollpanel" parentStyle="core.ScrollPanel" width="210" height="472" hScrollProxy="2" vScrollProxy="0" x="0" y="6"/>
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="wonderfulactivity.right.scrollpanel" parentStyle="core.ScrollPanel" width="467" height="310" hScrollProxy="2" vScrollProxy="0" x="258" y="150"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wonderfulactivity.joinBtn" backStyle="wonderfulactivity.addBtn" x="250" y="6" />		
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wonderfulactivity.luckStoneBtn" backStyle="wonderfulactivity.luck.btn" x="257" y="403"/>		
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wonderfulactivity.farmeBtn" backStyle="wonderfulactivity.farme.btn"  x="257" y="403"/>		
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wonderfulactivity.luckpanBtn" backStyle="wonderfulactivity.luckpan" x="273" y="416"/>		
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wonderfulactivity.gotoRechargeBtn" backStyle="wonderfulactivity.gotoRecharge"  x="405" y="462"/>		
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wonderfulactivity.smallGetBtn" backStyle="wonderfulactivity.small.get"   x="333" y="17"/>		
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wonderfulactivity.bigGetBtn" backStyle="wonderfulactivity.big.get"  x="333" y="17"/>		
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wonderfulactivity.overBtn" backStyle="wonderfulactivity.getover" x="333" y="17"/>		
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="wonderful.ActivityStateBg" resourceLink="core.Scale9CornerImage.Scale9CornerImage18,core.Scale9CornerImage.weilipaper,core.ScaleBitmapImage2,asset.wonderful.ActivityStateTitleBg" imageRectString="0|490|0|420|13,7|476|7|405|13,7|470|10|405|13,61|360|21|36|13" width="492" height="422" x="243" y="47"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wonderful.ActivityState.TimeField" textFormatStyle="wonderful.ActivityState.TimeFieldTF" autoSize="none" x="135" y="117" width="236" height="40" multiline="true" wordWrap="true"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="wonderful.ActivityState.GetButtonBackBg" parentStyle="asset.core.btmBimap" width="432" height="58" x="10" y="399"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wonderful.ActivityState.PiccBtn" backStyle="wonderful.ActivityState.PiccButtonBg" x="401" y="470"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="wonderful.ActivityState.exchangeButtonBg" resourceLink="core.bg6899,asset.wonderful.ActivityState.exChangeButtonBg" imageRectString="0|153|0|49|13,34|85|6|35|13" width="153" height="49"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wonderful.ActivityState.TimeFieldTitle" textFormatStyle="wonderful.ActivityState.TimeFieldTF"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wonderful.ActivityState.GetButton" backStyle="wonderful.ActivityState.GetButtonBg" x="401" y="470"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wonderful.ActivityStateTitleField" textFormatStyle="wonderful.ActivityStateTitleFieldTF" filterString="wonderful.ActivityStateTitleFieldGF" autoSize="center" x="497" y="76" maxChars="19"/>
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="wonderful.ActivityState.InputField" textInnerRectString="8,8,5,2,0" textStyle="wonderful.ActivityState.TextInputField" backStyle="aaset.wonderful.ActivityState.InputBack" x="115" y="348" width="257" height="30"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wonderful.ActivityState.exchangeButton" backStyle="wonderful.ActivityState.exchangeButtonBg" x="401" y="470"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wonderful.ActivityState.AwardFieldTitle" textFormatStyle="wonderful.ActivityState.TimeFieldTF"/>
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="wonderful.ActivityDetailList" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="1" width="450" height="350" x="247" y="106" vUnitIncrement="10"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wonderfulactivity.right.activetimeTxt" textFormatStyle="wonderfulactivity.activetimeTF" x="424" y="187" filterString="wonderfulactivity.activetimeGF" multiline="false" wordWrap="false"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wonderfulactivity.right.newgameTxt" textFormatStyle="wonderfulactivityTF9" filterString="wonderfulactivityGF9" multiline="false" wordWrap="false"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wonderful.ActivityState.itemLightButton" backStyle="wonderfulactivity.newgamebenifit.itemlight"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="wonderfulactivity.helpImg" resourceLink="wonderfulactivity.helpIcon" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="488" y="481"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wonderful.ActivityState.itemButton" backStyle="wonderfulactivity.newgamebenifit.item"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wonderfulactivity.right.heroTxt" textFormatStyle="wonderfulactivityTF10" filterString="wonderfulactivityGF10" multiline="false" wordWrap="false"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wonderful.ActivityState.ContentFieldTitle" textFormatStyle="wonderful.ActivityState.TimeFieldTF"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wonderful.ActivityState.StateContentField" textFormatStyle="wonderful.ActivityState.StateContentFieldTF" autoSize="none" x="55" y="288" width="336" height="40" multiline="true" wordWrap="true"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="wonderful.ActivityState.PiccButtonBg" resourceLink="core.bg6899,asset.wonderful.RechargeBtn" imageRectString="0|184|0|50|13,34|118|6|35|13" width="184" height="50"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wonderful.ActivityState.TextInputField" textFormatStyle="wonderful.ActivityState.InputFieldTF" restrict="A-Z a-z 0-9" maxChars="36" autoSize="none" width="257" height="30"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wonderful.ActivityState.AwardField" textFormatStyle="wonderful.ActivityState.AwardFieldTF" autoSize="none" x="55" y="194" width="336" height="40" multiline="true" wordWrap="true"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="wonderful.ActivityState.GetButtonBg" resourceLink="core.bg6899,asset.wonderful.ActivityState.GetButtonBg" imageRectString="0|184|0|50|13,34|118|6|35|13" width="184" height="50"/>
+	<!--  赛亚之神 临时属性  --> 
+  	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wonderful.Activity.Syahview.validTxt" textFormatStyle="wonderful.Activity.SyahView.validTF" filterString="wonderfulactivity.SyahView.validGF" autoSize="none" x="435" y="176" width="200" height="40" multiline="true" wordWrap="true" /> 
+ 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wonderful.Activity.Syahview.descriptionTxt" textFormatStyle="wonderful.Activity.SyahView.descriptTF" filterString="wonderfulactivity.SyahView.descriptGF" autoSize="none" x="317" y="208" width="360" height="60" multiline="true" wordWrap="true" /> 
+  	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GodSyah.syahView.ability" filterString="SyahView_g1" textFormatStyle="GodSyah.syahView.abilityTF" multiline="true" wordWrap="true" width="80" x="160" y="11" /> 
+  	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GodSyah.syahView.abilityValue" filterString="SyahView_g1" textFormatStyle="GodSyah.syahView.abilityValueTF" multiline="true" wordWrap="true" width="175" x="208" y="11" /> 
+  	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="GodSyah.syahView.leftBtn" backStyle="wonderfulactivity.GodSyah.syahView.leftBtn" filterString="null,lightFilter,null,grayFilter" displacement="false" x="-31" y="6" /> 
+  	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="GodSyah.syahView.rightBtn" backStyle="wonderfulactivity.GodSyah.syahView.rightBtn" filterString="null,lightFilter,null,grayFilter" displacement="false" x="343" y="6" /> 
+  	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="godsyah.syahview.syahitemVbox" x="0" y="0" spacing="6" /> 
+  	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="godsyah.syahview.syahitemList" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="1" width="413" height="100" x="285" y="297" vUnitIncrement="10" /> 
+  	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GodSyah.syahview.tip.txt" filterString="SyahView_g2" textFormatStyle="GodSyah.syahview.tip.txtTF" multiline="true" wordWrap="true" width="220" x="8" y="95" /> 
+	
+</components>
+<!--  赛亚之神 临时属性   --> 
+<customDisplay>
+  <custom classname="GodSyah.SyahCell" stylename="godSyah.syahview.syahcell" tipDirctions="7,5,2,6,4,1" tipGapH="10" tipGapV="15" x="18" y="27" /> 
+  <custom classname="GodSyah.SyahSelfCell" stylename="godSyah.syahview.syahselfcell" tipDirctions="3,4,5,5,6,4" tipGapH="10" tipGapV="15" x="0" y="0" /> 
+  <custom classname="GodSyah.SyahItem" stylename="godsyah.syahview.syahitem" x="0" y="0" /> 
+  <custom classname="GodSyah.SyahItemContent" stylename="godsyah.syahview.syahitemcontent" x="321" y="438" /> 
+</customDisplay>
+
+<bitmaps>
+	<bitmapData resourceLink="wonderfulactivity.addBtn" x="10" y="109" />
+	<bitmapData resourceLink="wonderfulactivity.luckStone" x="0" y="0" />
+	<bitmapData resourceLink="wonderfulactivity.fstRecharge" x="0" y="0" />
+	<bitmapData resourceLink="wonderfulactivity.luckpan" x="0" y="0" />
+	<bitmapData resourceLink="wonderfulactivity.expenseReturn" x="0" y="0" />
+	<bitmapData resourceLink="wonderfulactivity.rechargeReturn" x="0" y="0" />
+	<bitmapData resourceLink="wonderfulactivity.farme" x="0" y="0" />
+	<bitmapData resourceLink="wonderfulactivity.listItem.back" x="0" y="0" />
+	<bitmapData resourceLink="wonderfulactivity.fame.back" x="252" y="110" />
+	<bitmapData resourceLink="wonderfulactivity.libao.gold" x="433" y="99"/>
+	<bitmapData resourceLink="wonderfulactivity.libao.goldLine" x="245" y="105"/>
+	<bitmapData resourceLink="wonderfulactivity.selected" x="0" y="0"/>
+	<bitmapData resourceLink="wonderfulactivity.noselected" x="0" y="0"/>
+	<bitmapData resourceLink="wonderfulactivity.rechargeTille1" x="271" y="43"/>
+	<bitmapData resourceLink="wonderfulactivity.rechargeTille2" x="271" y="43"/>
+	<bitmapData resourceLink="wonderfulactivity.rechargeTille3" x="271" y="43"/>
+	<bitmapData resourceLink="wonderfulactivity.right.back" x="254" y="475"/>
+	<bitmapData resourceLink="wonderfulactivity.limit" x="538" y="488"/>
+	<bitmapData resourceLink="wonderfulactivity.can.repeat" x="45" y="-13"/>
+	<bitmapData resourceLink="wonderfulactivity.luck.backgroud" x="244" y="47"/>
+	<bitmapData resourceLink="wonderfulactivity.farme.backgroud" x="244" y="47"/>
+	<bitmapData resourceLink="wonderfulactivity.luck.btn" x="0" y="0"/>
+	<bitmapData resourceLink="wonderfulactivity.farme.btn" x="0" y="0"/>
+	<bitmapData resourceLink="wonderfulactivity.fighter.back" x="255" y="108"/>
+	<bitmapData resourceLink="wonderfulactivity.zhuanpan.back" x="243" y="48"/>
+	<bitmapData resourceLink="wonderfulactivity.gotoRecharge" x="0" y="0"/>
+	
+	<bitmapData resourceLink="wonderfulactivity.newgamebenifit.progressbar" x="318" y="271"/>
+	<bitmapData resourceLink="wonderfulactivity.newgamebenifit.back" x="244" y="47"/>
+	<bitmapData resourceLink="wonderfulactivity.activetime" x="310" y="180"/>
+	<bitmapData resourceLink="wonderfulactivity.hero.back" x="244" y="47"/>
+	<bitmapData resourceLink="wonderfulactivity.newgamebenifit.progressframe" x="270" y="260"/>
+	<bitmapData resourceLink="wonderfulactivity.GodSyah.syahView.bg" x="243" y="47" />  
+	<bitmapData resourceLink="wonderfulactivity.GodSyah.syahView.itemcell" /> 
+	<bitmapData resourceLink="wonderfulactivity.GodSyah.syahView.cellShine" x="-8" y="-8" /> 
+	<bitmapData resourceLink="wonderfulactivity.GodSyah.syahView.0aphacell" x="-1" y="-1" /> 
+</bitmaps>
+</style>

@@ -1,0 +1,42 @@
+15:52:57,991 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+15:52:58,459 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+15:52:58,544 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+15:52:58,544 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+15:52:58,547 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+15:52:58,549 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+15:52:59,055 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+15:52:59,433 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+15:52:59,466 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+15:52:59,659 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+15:52:59,674 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+15:52:59,725 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+15:52:59,797 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+15:52:59,921 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+15:52:59,938 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+15:52:59,954 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+15:52:59,995 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+15:53:00,002 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+15:53:00,045 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+15:53:05,392 - [5] - INFO  - Game.Base.BaseServer - Incoming connection from 60.172.246.6:59602
+16:45:35,684 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:6
+19:56:56,445 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:21
+20:05:04,018 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:25
+20:24:43,647 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:24
+21:02:44,472 - [5] - ERROR - Game.Base.Packets.StreamProcessor - HandlePacket(pak)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 781
+   at Fighting.Server.ServerClient.HandlePlayerExit(GSPacketIn pkg)
+   at Fighting.Server.ServerClient.OnRecvPacket(GSPacketIn pkg)
+   at Game.Base.Packets.StreamProcessor.ReceiveBytes(Int32 numBytes)
+21:03:39,203 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:15
+21:49:38,138 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:9
+22:40:49,790 - [5] - WARN  - Fighting.Server.ServerClient - Room already exists:8
+23:11:36,412 - [7] - ERROR - Game.Logic.BaseGame - Map update error:
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Fighting.Server.ServerClient.SendPlayerConsortiaFight(Int32 playerId, Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth)
+   at Fighting.Server.GameObjects.ProxyPlayer.ConsortiaFight(Int32 consortiaWin, Int32 consortiaLose, Dictionary`2 players, eRoomType roomType, eGameType gameClass, Int32 totalKillHealth, Int32 count)
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 688
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\CheckPVPGameStateAction.cs:line 43
+   at Game.Logic.BaseGame.Update(Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\BaseGame.cs:line 876

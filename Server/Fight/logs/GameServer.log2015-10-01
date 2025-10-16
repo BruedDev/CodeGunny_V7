@@ -1,0 +1,87 @@
+09:44:15,914 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+09:44:16,025 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+09:44:16,042 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+09:44:16,042 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+09:44:16,042 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+09:44:16,042 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+09:44:16,226 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+09:44:16,370 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+09:44:16,372 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+09:44:16,462 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+09:44:16,470 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+09:44:16,492 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+09:44:16,513 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+09:44:16,532 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+09:44:16,539 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+09:44:16,549 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+09:44:16,565 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+09:44:16,568 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+09:44:16,575 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+09:44:19,773 - [6] - INFO  - Game.Base.BaseServer - Incoming connection from 222.187.227.159:57115
+10:59:09,766 - [6] - WARN  - Fighting.Server.ServerClient - Room already exists:28
+11:06:05,732 - [6] - WARN  - Fighting.Server.ServerClient - Room already exists:32
+11:14:10,554 - [8] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 1  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+11:28:43,342 - [6] - WARN  - Fighting.Server.ServerClient - Room already exists:5
+11:34:29,460 - [8] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 1  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+12:09:29,205 - [8] - ERROR - Game.Logic.BaseGame - Map update error:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.PVPGame.CalculateGuildMatchResult(List`1 players, Int32 winTeam) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 681
+   at Game.Logic.PVPGame.GameOver() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic\PVPGame.cs:line 440
+   at Game.Logic.Actions.CheckPVPGameStateAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Acti16:09:14,162 - [MAIN] - INFO  - Fighting.Server.FightServer - InitSocket Port:9208: True
+16:09:14,284 - [MAIN] - INFO  - Fighting.Server.FightServer - Recompile Scripts: True
+16:09:14,309 - [MAIN] - INFO  - Fighting.Server.FightServer - Registering global event handlers: true
+16:09:14,309 - [MAIN] - INFO  - Fighting.Server.FightServer - Script components: True
+16:09:14,310 - [MAIN] - INFO  - Fighting.Server.FightServer - RoomMgr.Setup: True
+16:09:14,311 - [MAIN] - INFO  - Fighting.Server.FightServer - GameMgr.Setup: True
+16:09:14,490 - [MAIN] - INFO  - Fighting.Server.FightServer - MapMgr Init: True
+16:09:14,661 - [MAIN] - INFO  - Fighting.Server.FightServer - ItemMgr Init: True
+16:09:14,671 - [MAIN] - INFO  - Fighting.Server.FightServer - PropItemMgr Init: True
+16:09:14,762 - [MAIN] - INFO  - Fighting.Server.FightServer - BallMgr Init: True
+16:09:14,770 - [MAIN] - INFO  - Fighting.Server.FightServer - BallConfigMgr Init: True
+16:09:14,793 - [MAIN] - INFO  - Fighting.Server.FightServer - DropMgr Init: True
+16:09:14,814 - [MAIN] - INFO  - Fighting.Server.FightServer - NPCInfoMgr Init: True
+16:09:14,822 - [MAIN] - INFO  - Fighting.Server.FightServer - WindMgr Init: True
+16:09:14,840 - [MAIN] - INFO  - Fighting.Server.FightServer - GoldEquipMgr Init: True
+16:09:14,849 - [MAIN] - INFO  - Fighting.Server.FightServer - LanguageMgr Init: True
+16:09:14,864 - [MAIN] - INFO  - Game.Logic.Spells.SpellMgr - SpellMgr: Loaded 15 spell handlers from GameServer Assembly!
+16:09:14,867 - [MAIN] - INFO  - Fighting.Server.FightServer - base.Start(): True
+16:09:14,872 - [MAIN] - INFO  - Fighting.Server.FightServer - GameServer is now open for connections!
+16:09:18,098 - [6] - INFO  - Game.Base.BaseServer - Incoming connection from 222.187.227.159:62199
+17:08:40,815 - [8] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 0  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+17:31:48,841 - [8] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 1  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+18:05:33,616 - [6] - WARN  - Fighting.Server.ServerClient - Room already exists:33
+19:19:53,867 - [6] - WARN  - Fighting.Server.ServerClient - Room already exists:10
+20:19:13,267 - [8] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 1  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+20:49:14,620 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:12
+21:01:55,425 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:4
+22:26:53,818 - [8] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 0  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29
+22:32:00,865 - [13] - WARN  - Fighting.Server.ServerClient - Room already exists:35
+22:37:36,441 - [8] - ERROR - Game.Logic.Actions.ProcessPacketAction - Player Id: 1  cmd:0x54
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Game.Logic.Phy.Object.Player.SetCurrentWeapon(ItemTemplateInfo item) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1086
+   at Game.Logic.Phy.Object.Player.UseSecondWeapon() in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Phy.Object\Player.cs:line 1534
+   at Game.Logic.Actions.ProcessPacketAction.Execute(BaseGame game, Int64 tick) in c:\Users\jay\Desktop\新建文件夹\新建文件夹\Game.Logic_Source\Game.Logic.Actions\ProcessPacketAction.cs:line 29

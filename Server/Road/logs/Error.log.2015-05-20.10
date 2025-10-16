@@ -1,0 +1,8 @@
+10:00:55,837 - [4] - ERROR - Game.Server.GameObjects.GamePlayer - Player exit Game Error!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Game.Logic.PVPGame.RemovePlayer(IGamePlayer gp, Boolean IsKick)
+   在 Game.Server.Rooms.BaseRoom.RemovePlayerUnsafe(GamePlayer player, Boolean isKick) 位置 e:\5.5源码\Game.Server\Game.Server.Rooms\BaseRoom.cs:行号 688
+   在 Game.Server.Rooms.BaseRoom.RemovePlayerUnsafe(GamePlayer player) 位置 e:\5.5源码\Game.Server\Game.Server.Rooms\BaseRoom.cs:行号 616
+   在 Game.Server.GameObjects.GamePlayer.Quit() 位置 e:\5.5源码\Game.Server\Game.Server.GameObjects\GamePlayer.cs:行号 3289
+10:01:09,002 - [4] - ERROR - Game.Server.GameServer - Center Server Disconnect! Stopping Server
+10:01:09,003 - [4] - ERROR - Game.Server.GameServer - Start the game server again after 1 second,and left try times:3
